@@ -1,2 +1,2 @@
-  * GettingStarted
-  * SystemRequirements
+  * [GettingStarted Getting Started]
+  * [SystemRequirements System Requirements]
