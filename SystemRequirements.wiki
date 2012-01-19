@@ -1,0 +1,13 @@
+#summary Show the system requirements
+
+= System Requirements =
+
+== Operating System ==
+  * Windows XP or 7
+  * Linux
+
+== Java ==
+  * Oracle Java SDK 7
+
+== DBMS ==
+  * MySQL Server 5.1
