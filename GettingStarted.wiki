@@ -1,0 +1,8 @@
+#summary A quick guide to install and use the JBioWH
+#sidebar TableOfContents
+<wiki:toc max_depth="1" />
+
+= Getting Started =
+== System requirements ==
+
+== Details ==
