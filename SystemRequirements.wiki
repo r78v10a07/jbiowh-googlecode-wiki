@@ -7,7 +7,7 @@
   * Linux
 
 == Java ==
-  * Oracle Java SDK 7
+  * [http://www.oracle.com/technetwork/java/javase/downloads/index.html Oracle Java SD 7 or later]
 
 == DBMS ==
-  * MySQL Server 5.1
+  * [http://www.mysql.com/ MySQL Server 5.1 or later]
