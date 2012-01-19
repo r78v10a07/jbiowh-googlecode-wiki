@@ -1,5 +1,2 @@
 
-
-= Table Of Contents =
-
   * GettingStarted
