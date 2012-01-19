@@ -2,12 +2,6 @@
 
 = System Requirements =
 
-== Operating System ==
-  * Windows XP or 7
-  * Linux
+The system can be used in any operating system which support [http://www.oracle.com/technetwork/java/javase/downloads/index.html Oracle Java SE 7 or later] and the [http://www.mysql.com/ MySQL Server 5.1 or later].
 
-== Java ==
-  * [http://www.oracle.com/technetwork/java/javase/downloads/index.html Oracle Java SD 7 or later]
-
-== DBMS ==
-  * [http://www.mysql.com/ MySQL Server 5.1 or later]
+The system has been tested with all its parts running on Windows 7 or Linux operating system. Also, mixed environments were tested with the database on a Linux server and the Desktop tool running on Windows. 
