@@ -1,0 +1,49 @@
+#summary Show the system installation guide
+<wiki:toc max_depth="1" />
+
+= Installation guide =
+ 
+Please, check the [SystemRequirements System requirements] before pass to the installation process.
+
+== Downloading the source code =
+
+=== Windows ===
+To download the *JBioWH* source code use [http:// TortoiseSVN]. If you are behind a proxy you have to configure the TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
+
+Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. Then, type the *JBioWH* svn project address _*https://jbiowh.googlecode.com/svn/trunk/*_ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
+
+=== Linux ===
+
+To download the *JBioWH* source code use the SVN command line. 
+
+{{{svn checkout https://jbiowh.googlecode.com/svn/trunk/ jbiowh}}}
+
+== Create tables on the MySQL DBMS ==
+
+Open the _*mysql*_ command line utility. Create the new schema with the command:
+
+<code language="sql">
+CREATE DATABASE biowh;
+</code>
+
+You can use other name than _*biowh*_, just remember it for further uses and replace the _*biowh*_ world in the above lines by your database name.
+
+Load the relational schema typing the following command:
+
+<code language="sql">
+use biowh;
+source <path-to-previously-create-jbiowh-folder>/schema/mysql/warehouse.sql;
+</code>
+  
+== Compile the source code ==
+
+Compile the source code to generate a java jar file.
+
+Remember to have in your CLASSPATH the libraries mentioned on the [SystemRequirements System requirements] before compile the source code.
+
+Use the command line tool in Windows or the terminal on Linux to navigate to the _*jbiowh*_ folder.
+
+Type the following command line: {{{ant jar}}}
+
+After the compilation process you will have a folder named _*dist*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh.jar*_ 
+ 
