@@ -1,8 +1,7 @@
 #summary A quick guide to install and use the JBioWH
-<wiki:toc max_depth="1" />
 
 = Getting Started =
 == [SystemRequirements System requirements] ==
-== [InstallationGuide Installation guide] ==
+== [InstallationGuide Installation Guide] ==
 
 

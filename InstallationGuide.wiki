@@ -1,5 +1,4 @@
 #summary Show the system installation guide
-<wiki:toc max_depth="2" />
 
 = Installation guide =
  
@@ -16,7 +15,9 @@ Create a folder named _*jbiowh*_, then right click on it and select the Tortoise
 
 To download the *JBioWH* source code use the SVN command line. 
 
-{{{svn checkout https://jbiowh.googlecode.com/svn/trunk/ jbiowh}}}
+<code language="bash">
+svn checkout https://jbiowh.googlecode.com/svn/trunk/ jbiowh
+</code>
 
 == Create tables on the MySQL DBMS ==
 
