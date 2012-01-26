@@ -7,9 +7,9 @@ Please, check the [SystemRequirements System requirements] before pass to the in
 == Downloading the source code =
 
 === Windows ===
-To download the *JBioWH* source code use [http:// TortoiseSVN]. If you are behind a proxy you have to configure the TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
+To download the *JBioWH* source code use [http://www.tortoisesvn.net/ TortoiseSVN]. If you are behind a proxy you have to configure the TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
 
-Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. Then, type the *JBioWH* svn project address https://jbiowh.googlecode.com/svn/trunk/ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
+Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. After that, type the *JBioWH* svn project address https://jbiowh.googlecode.com/svn/trunk/ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
 
 === Linux ===
 

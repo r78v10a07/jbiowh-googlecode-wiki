@@ -1,0 +1,33 @@
+#summary This wiki describe the Taxonomy dataset
+
+= Taxonomy =
+
+The *Taxonomy* dataset is based on the [http://ncbiwebsite NCBI Taxonomy] data source. The figure shows the Taxonomy dataset relational schema. 
+
+http://jbiowh.googlecode.com/wiki/img/Taxonomy.png
+
+The *Taxonomy* table is the principal table for this dataset. This table includes, in the field *DataSet_WID*, the dataset *WID* in the *DataSet* table as a foreign key. Also, this table includes the *TaxId* field that is used as link between other data sources and the *NCBI Taxonomy* data source. The hierarchical nature of the *NCBI Taxonomy* data source is represented by the *ParentTaxId* field where the Taxonomy’s parent *TaxId* is storage.  The *WID* field is not used to represent this hierarchical nature because the original data source uses the *TaxId* field which is an integer value that can be used as key at the same time that the *WID* field.
+
+There are some other three tables, *TaxonomyDivision*, *TaxonmyGenCode* and *TaxonomySynonymNameClass* which are used to organize the information to describe the taxonomies inserted the dataset. The *TaxonomyDivision* includes the *Division* information of the *NCBI Taxonomy* data source.  The *TaxonmyGenCode* includes the *GenCode* information of the *NCBI Taxonomy* data source.  Both tables are referenced as foreign key into the *Taxonomy* table in the fields *TaxonomyDivision_WID*, *TaxonmyGenCode_WID*, *TaxonmyMCGenCode_WID* respectively. The *TaxonomySynonymNameClass* includes the different synonym types into the *NCBI Taxonomy* data source. This synonym types are useful to differentiate the multiples Taxonomy’s names.
+ 
+The *TaxonomyPMID* table includes the available Taxonomy’s *PMID*. These *PMID* are parsed form the *citations.dmp* file of the *NCBI Taxonomy* data source. The citations which not provide the *PMID* are storage into the *TaxonomyUnParseCitation*. This includes web sites, images web address, books, etc. These unparsed citations are related with the *Taxonomy* through the many-to-many relationship table *Taxonomy_has_ TaxonomyUnParseCitation*.
+The rest of disconnected tables (*DivisionTemp*, *CitTax*, *GenCodeTemp*, *Names*, *Nodes* and *NCBCitationTemp*) are temporal tables which are used by the insertion and parser application. After the insertion and parse process these tables remains empty. 
+ 
+The nest figure shows the Taxonomy search windows on the Desktop tool. 
+
+http://jbiowh.googlecode.com/wiki/img/4.png
+
+This tool will include the ability to search by *TaxId* and *Synonym* (‘human’, ‘H.sapiens’, ’Homo*’) including the use of simple regular expressions too. The search windows will produce a new window, nest figure, with a list of the found taxonomies given the possibility of mouse click on the taxonomy to view its complete description. Also, this window gives the possibility to save in a TSV file format the selected taxonomies or pass it to the result interface for further uses.  
+
+http://jbiowh.googlecode.com/wiki/img/5.png
+
+The taxonomy complete description window
+
+http://jbiowh.googlecode.com/wiki/img/6.png
+
+This window gives access to a graphical representation of the hierarchical view of this taxonomy showing its parents in a tree like way. This tree, shows in the next figure, gives access to the taxonomy complete description window of each branch in this tree.     
+
+http://jbiowh.googlecode.com/wiki/img/7.png
+
+
+

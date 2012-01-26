@@ -1,4 +1,7 @@
   * [Summary]
-  * [GettingStarted Getting Started]
-  * [SystemRequirements System Requirements]
-  * [InstallationGuide Installation Guide]
+  * Getting Started
+    * [SystemRequirements System Requirements]
+    * [InstallationGuide Installation Guide]
+  * User Manual
+    * [Introduction Introduction]
+	* [Taxonomy Taxonomy]
