@@ -1,7 +1,0 @@
-#summary A quick guide to install and use the JBioWH
-
-= Getting Started =
-== [SystemRequirements System requirements] ==
-== [InstallationGuide Installation Guide] ==
-
-
