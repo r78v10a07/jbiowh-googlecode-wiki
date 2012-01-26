@@ -1,5 +1,5 @@
 #summary Show the system installation guide
-<wiki:toc max_depth="1" />
+<wiki:toc max_depth="2" />
 
 = Installation guide =
  
@@ -10,7 +10,7 @@ Please, check the [SystemRequirements System requirements] before pass to the in
 === Windows ===
 To download the *JBioWH* source code use [http:// TortoiseSVN]. If you are behind a proxy you have to configure the TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
 
-Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. Then, type the *JBioWH* svn project address _*https://jbiowh.googlecode.com/svn/trunk/*_ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
+Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. Then, type the *JBioWH* svn project address https://jbiowh.googlecode.com/svn/trunk/ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
 
 === Linux ===
 
@@ -43,7 +43,10 @@ Remember to have in your CLASSPATH the libraries mentioned on the [SystemRequire
 
 Use the command line tool in Windows or the terminal on Linux to navigate to the _*jbiowh*_ folder.
 
-Type the following command line: {{{ant jar}}}
+Type the following command line: 
+<code language="bash">
+ant jar
+</code>
 
 After the compilation process you will have a folder named _*dist*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh.jar*_ 
  
