@@ -15,19 +15,19 @@ The rest of disconnected tables (*DivisionTemp*, *CitTax*, *GenCodeTemp*, *Names
  
 The nest figure shows the Taxonomy search windows on the Desktop tool. 
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/4.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/4.jpg
 
 This tool will include the ability to search by *TaxId* and *Synonym* (human, H.sapiens, Homo%) including the use of simple regular expressions too. The search windows will produce a new window, nest figure, with a list of the found taxonomies given the possibility of mouse click on the taxonomy to view its complete description. Also, this window gives the possibility to save in a TSV file format the selected taxonomies or pass it to the result interface for further uses.  
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/5.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/5.jpg
 
 The taxonomy complete description window
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/6.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/6.jpg
 
 This window gives access to a graphical representation of the hierarchical view of this taxonomy showing its parents in a tree like way. This tree, shows in the next figure, gives access to the taxonomy complete description window of each branch in this tree.     
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/7.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/7.jpg
 
 
 

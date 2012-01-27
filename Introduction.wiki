@@ -22,11 +22,11 @@ The parser tool inserts the data source information into the DataSet table in th
 
 The figure shows the *DataSet* table to storage the biological data sources information. The *WID* field is the primary key used as foreign key in the tables who storage the different dataset types. The *WID* values for the dataset can take continuous integer values between 1 and 999999.The fields into the DataSet table are understandable by itself. 
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/DataSet.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/DataSet.PNG
 
 The other main table into the system is the *WIDTable* showed in the next figure. The last *WID* number, used as a primary key into the relational database, plus one is storage in the field *PreviousWID* of this table. This number can take integer values greater than 1000000 in a continuous way to be used as primary key for the data inserted into the datasets tables.  The kind of Id acts as a normalization key to establish the relationships between the tables into the relational schema due to the different id used by the original data sources.
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/WIDTable.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/WIDTable.PNG
 
 The next figure shows the main relational schema with the tables of the included datasets and the relationship between them. Each dataset type will be explained in next sessions. 
 
@@ -36,9 +36,9 @@ The relational schema for each dataset is designed to storage the complete data 
 
 The *JBioWH's* Desktop tool shows the list of datasets inserted into the relational. Also, the user is able to view the amount of data inserted in the tables of each dataset. The figures show the login dialog which connects the Desktop tool to the DBMS, MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/1.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/1.jpg
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/3.png
+http://code.google.com/p/jbiowh/source/browse/wiki/img/3.jpg
 
 The framework is available for Microsoft Windows and GNU/Linux operating system using Oracle Java SD 7 as programming language in a modular way. The classes and methods are designed following the Java Design Patterns to supply a standard codification for our system. The MySQL server is used as the Database Management System to storage the relational database. The tables are modeled using the MySQL Workbench tool.
 
