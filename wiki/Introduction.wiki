@@ -6,15 +6,15 @@ This document show a brief description of the main topics used in the developmen
 
 It is convenient to start discussing the terminology that we will be using continually in our description.  In our approach, we use as *dataset* any biological data source inserted into our relational database. For example, the NCBI Taxonomy data source is, in our system, a *dataset*; at the same time, each of the Protein-Protein Interaction data sources as MINT, DIP, BioGrid are independent *datasets* even though they uses the same tables and parser. At this point, there are nine dataset types:
 
-# [Taxonomy]: based on the NCBI Taxonomy data source
-# [Ontology]: based on the Gene Ontology (GO) data source
-# [Gene: based on the Gene data source
-# [GenomesPTT]: based on the Genomes PTT files in Gene data source
-# [Protein]: based on the Uniprot data source
-# [MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
-# [ProteinFamilies Protein Families]: based on the UniRef data source
-# [Drugs]: based on the DrugBank data source
-# [Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
+ # [Taxonomy]: based on the NCBI Taxonomy data source
+ # [Ontology]: based on the Gene Ontology (GO) data source
+ # [Gene: based on the Gene data source
+ # [GenomesPTT]: based on the Genomes PTT files in Gene data source
+ # [Protein]: based on the Uniprot data source
+ # [MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
+ # [ProteinFamilies Protein Families]: based on the UniRef data source
+ # [Drugs]: based on the DrugBank data source
+ # [Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
 
 The *JBioWH* contain a parser tool which is able to insert into the database all these data sources.  The parser tool uses a java interface class choosing the correct parser class to process the data source. View the [ParserDescription Parser Description] for more detail on how to insert a data source into the database.
 
