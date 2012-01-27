@@ -20,7 +20,7 @@ The *JBioWH* contain a parser tool which is able to insert into the database all
 
 The parser tool inserts the data source information into the DataSet table in the relational database.
 
-The figure shows the *DataSet* table to storage the biological data sources information. The *WID** field is the primary key used as foreign key in the tables who storage the different dataset types. The *WID* values for the dataset can take continuous integer values between 1 and 999999.The fields into the DataSet table are understandable by itself. 
+The figure shows the *DataSet* table to storage the biological data sources information. The *WID* field is the primary key used as foreign key in the tables who storage the different dataset types. The *WID* values for the dataset can take continuous integer values between 1 and 999999.The fields into the DataSet table are understandable by itself. 
 
 http://code.google.com/p/jbiowh/source/browse/wiki/img/DataSet.png
 
