@@ -2,7 +2,7 @@
 
 = Taxonomy =
 
-The *Taxonomy* dataset is based on the [http://ncbiwebsite NCBI Taxonomy] data source. The figure shows the Taxonomy dataset relational schema. 
+The *Taxonomy* dataset is based on the [http://www.ncbi.nlm.nih.gov/Taxonomy/ NCBI Taxonomy] data source. The figure shows the Taxonomy dataset relational schema. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Taxonomy.png
 
