@@ -4,7 +4,7 @@
 
 The *Taxonomy* dataset is based on the [http://ncbiwebsite NCBI Taxonomy] data source. The figure shows the Taxonomy dataset relational schema. 
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/Taxonomy.png
+http://jbiowh.googlecode.com/svn/wiki/images/Taxonomy.png
 
 The *Taxonomy* table is the principal table for this dataset. This table includes, in the field *DataSet_WID*, the dataset *WID* in the *DataSet* table as a foreign key. Also, this table includes the *TaxId* field that is used as link between other data sources and the *NCBI Taxonomy* data source. The hierarchical nature of the *NCBI Taxonomy* data source is represented by the *ParentTaxId* field where the Taxonomy’s parent *TaxId* is storage.  The *WID* field is not used to represent this hierarchical nature because the original data source uses the *TaxId* field which is an integer value that can be used as key at the same time that the *WID* field.
 
@@ -15,19 +15,19 @@ The rest of disconnected tables (*DivisionTemp*, *CitTax*, *GenCodeTemp*, *Names
  
 The nest figure shows the Taxonomy search windows on the Desktop tool. 
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/4.jpg
+http://jbiowh.googlecode.com/svn/wiki/images/4.jpg
 
 This tool will include the ability to search by *TaxId* and *Synonym* (human, H.sapiens, Homo%) including the use of simple regular expressions too. The search windows will produce a new window, nest figure, with a list of the found taxonomies given the possibility of mouse click on the taxonomy to view its complete description. Also, this window gives the possibility to save in a TSV file format the selected taxonomies or pass it to the result interface for further uses.  
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/5.jpg
+http://jbiowh.googlecode.com/svn/wiki/images/5.jpg
 
 The taxonomy complete description window
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/6.jpg
+http://jbiowh.googlecode.com/svn/wiki/images/6.jpg
 
 This window gives access to a graphical representation of the hierarchical view of this taxonomy showing its parents in a tree like way. This tree, shows in the next figure, gives access to the taxonomy complete description window of each branch in this tree.     
 
-http://code.google.com/p/jbiowh/source/browse/wiki/img/7.jpg
+http://jbiowh.googlecode.com/svn/wiki/images/7.jpg
 
 
 
