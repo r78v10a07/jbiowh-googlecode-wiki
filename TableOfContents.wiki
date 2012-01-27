@@ -4,4 +4,4 @@
     * [InstallationGuide Installation Guide]
   * User Manual
     * [Introduction Introduction]
-	* [Taxonomy Taxonomy]
+    * [Taxonomy Taxonomy]
