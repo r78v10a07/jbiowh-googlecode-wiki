@@ -4,4 +4,7 @@
     * [InstallationGuide Installation Guide]
   * User Manual
     * [Introduction Introduction]
-    * [Taxonomy Taxonomy]
+    * DataSets 
+        * [Taxonomy Taxonomy]
+        * [Ontology Ontology]
+		
