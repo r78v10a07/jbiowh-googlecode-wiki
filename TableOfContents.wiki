@@ -10,10 +10,10 @@
             * [OntologyRS Ontology]
             * [GeneRS Gene]
             * [ProteinRS Protein]
-         * Java APIs
+        * Java APIs
             * [IntroductionJA Introduction]
             * [SearchInterfaceJA Search Interface]
-         * Desktop Tool
+        * Desktop Tool
             * [IntroductionDT Introduction]
             * [TaxonomyDT Taxonomy]
 
