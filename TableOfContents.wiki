@@ -4,17 +4,14 @@
         * [InstallationGuide Installation Guide]
     * User Manual    
         * [Introduction Introduction]
-        * Relational Schema    
-            * [IntroductionRS Introduction]
+        * [RelationalSchema Relational Schema] 
             * [TaxonomyRS Taxonomy]
             * [OntologyRS Ontology]
             * [GeneRS Gene]
             * [ProteinRS Protein]
-        * Java APIs
-            * [IntroductionJA Introduction]
+        * [JavaAPI Java API]
             * [SearchInterfaceJA Search Interface]
-        * Desktop Tool
-            * [IntroductionDT Introduction]
+        * [DesktopTool Desktop Tool]
             * [TaxonomyDT Taxonomy]
 
         
