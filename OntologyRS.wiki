@@ -6,8 +6,8 @@ The *Ontology* dataset is based in the [http://www.geneontology.org/ GeneOntolog
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ontology.png
 
-The *Ontology* table is the main tale on this module. The primary key on this table is the *WID* and it includes, in the field *DataSet_WID*, the dataset *WID* in the *DataSet* table as a foreign key. The *GO id*, which has the syntax *GO:000000* is storage on the *Id* field on this table. The rest of the tables included on this module storage all data provide by *GeneOntology*. 
+The *Ontology* table is the main tale on this module. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. The *GO id*, which has the syntax *!GO:000000* is storage on the *Id* field on this table. The rest of the tables included on this module storage all data provide by *!GeneOntology*. 
 
 The relationship between the ontology objects are build it on using the *WID* identifier in order to have a common integer identifier more easily to use and more efficient to index by the *DBMS* engine.
 
-The *Ontology* search tool included on the *JBioWH API* will perform the search process over the *GO Id* field and the *Name* field on the main table. Also, the search tool uses the ontology *Synonyms* field on the *OntologySynonym* table. There is no possibility to use other biological objects as constrains on the *Ontology* search tool due to the *Ontology* module is the basement of the relational schema and it is used to organize the rest of the inserted data. 
+The *Ontology* search tool included on the *!JBioWH API* will perform the search process over the *GO Id* field and the *Name* field on the main table. Also, the search tool uses the ontology *Synonyms* field on the *!OntologySynonym* table. There is no possibility to use other biological objects as constrains on the *Ontology* search tool due to the *Ontology* module is the basement of the relational schema and it is used to organize the rest of the inserted data. 
