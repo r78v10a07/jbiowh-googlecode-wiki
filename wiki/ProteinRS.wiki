@@ -10,7 +10,7 @@ This schema is a relational representation of the Uniprot's XML file. The relati
 
 The main table is the *Protein* table. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. 
 
-All the relationships between proteins and other biological objects included on this relational schema are made using the *WID* field of the *Protein* table. A protein object has a relationship with the *Taxonomy* table through the *Protein_has_Taxonomy* and the *Protein_has_!TaxonomyHost*. The last table is used on virus's proteins showing the host organism for this virus. These tables are recreated after an update of the Protein dataset or the Taxonomy dataset.   
+All the relationships between proteins and other biological objects included on this relational schema are made using the *WID* field of the *Protein* table. A protein object has a relationship with the *Taxonomy* table through the *Protein_has_Taxonomy* and the *{{{Protein_has_TaxonomyHost}}}*. The last table is used on virus's proteins showing the host organism for this virus. These tables are recreated after an update of the Protein dataset or the Taxonomy dataset.   
 
 The relationship with he Ontology dataset is storage on the *Protein_has_Ontology* table giving the possibility to link protein with the ontology terms. This table uses as ontology's primary key the *WID* field on the *Ontology* table. The *Protein_has_Ontology* table is recreated after an update of the Protein dataset or the Ontology dataset. 
   
