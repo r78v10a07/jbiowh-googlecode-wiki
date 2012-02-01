@@ -9,4 +9,4 @@ http://jbiowh.googlecode.com/svn/wiki/images/1.jpg
 http://jbiowh.googlecode.com/svn/wiki/images/3.jpg
 
 Follow the next links to explore the Desktop tool documents:
-* [TaxonomyDT Taxonomy]
+  * [TaxonomyDT Taxonomy]
