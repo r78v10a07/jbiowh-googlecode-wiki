@@ -1,4 +1,5 @@
 #summary Summary description about the JBioWH framework
+
 The _*Java Biological Warehouse*_ (*JBioWH*) is a mature computational system which provides a framework for biological data integration and management. The system is based in a relational schema to integrate the most important public biological data sources into a *DBMS* and a *Java API* to support rapid bioinformatics application development. Also, we developed a desktop application which contains an extended search interface and a SQL Editor to interact with the database. 
 
 *JBioWH* provides a framework for biological data integration and management which contains a relational schema for biological data integration, a java *Application Programming Interface* (*API*) and a powerful Desktop tool. 

@@ -1,4 +1,4 @@
-#summary This wiki describe the Taxonomy dataset
+#summary This wiki describe the Taxonomy dataset on the Relational Schema
 
 = Taxonomy =
 
@@ -13,21 +13,7 @@ There are some other three tables, *TaxonomyDivision*, *TaxonmyGenCode* and *Tax
 The *TaxonomyPMID* table includes the available Taxonomy’s *PMID*. These *PMID* are parsed form the *citations.dmp* file of the *NCBI Taxonomy* data source. The citations which not provide the *PMID* are storage into the *TaxonomyUnParseCitation*. This includes web sites, images web address, books, etc. These unparsed citations are related with the *Taxonomy* through the many-to-many relationship table *Taxonomy_has_ TaxonomyUnParseCitation*.
 The rest of disconnected tables (*DivisionTemp*, *CitTax*, *GenCodeTemp*, *Names*, *Nodes* and *NCBCitationTemp*) are temporal tables which are used by the insertion and parser application. After the insertion and parser process these tables remains empty. 
  
-The nest figure shows the Taxonomy search windows on the Desktop tool. 
 
-http://jbiowh.googlecode.com/svn/wiki/images/4.jpg
-
-This tool will include the ability to search by *TaxId* and *Synonym* (human, H.sapiens, Homo%) including the use of simple regular expressions too. There is no possibility to use other biological objects as constrains on the *Taxonomy* search tool due to the *Taxonomy* module is the basement of the relational schema and it is used to organize the rest of the inserted data. The search windows will produce a new window, nest figure, with a list of the found taxonomies given the possibility of mouse click on the taxonomy to view its complete description. Also, this window gives the possibility to save in a TSV file format the selected taxonomies or pass it to the result interface for further uses.  
-
-http://jbiowh.googlecode.com/svn/wiki/images/5.jpg
-
-The taxonomy complete description window
-
-http://jbiowh.googlecode.com/svn/wiki/images/6.jpg
-
-This window gives access to a graphical representation of the hierarchical view of this taxonomy showing its parents in a tree like way. This tree, shows in the next figure, gives access to the taxonomy complete description window of each branch in this tree.     
-
-http://jbiowh.googlecode.com/svn/wiki/images/7.jpg
 
 
 

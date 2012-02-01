@@ -1,0 +1,9 @@
+#summary This the introduction on the Desktop Tool
+
+= Introduction = 
+
+The *JBioWH's* Desktop tool shows the list of datasets inserted into the relational. Also, the user is able to view the amount of data inserted in the tables of each dataset. The figures show the login dialog which connects the Desktop tool to the DBMS, MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
+
+http://jbiowh.googlecode.com/svn/wiki/images/1.jpg
+
+http://jbiowh.googlecode.com/svn/wiki/images/3.jpg

@@ -1,10 +1,20 @@
-  * [Summary]
-  * Getting Started
-    * [SystemRequirements System Requirements]
-    * [InstallationGuide Installation Guide]
-  * User Manual
-    * [Introduction Introduction]
-    * DataSets 
-        * [Taxonomy Taxonomy]
-        * [Ontology Ontology]
-		
+    * [Summary]
+    * Getting Started
+        * [SystemRequirements System Requirements]
+        * [InstallationGuide Installation Guide]
+    * User Manual    
+        * [Introduction Introduction]
+        * Relational Schema    
+            * [IntroductionRS Introduction]
+            * [TaxonomyRS Taxonomy]
+            * [OntologyRS Ontology]
+            * [GeneRS Gene]
+            * [ProteinRS Protein]
+         * Java APIs
+            * [IntroductionJA Introduction]
+            * [SearchInterfaceJA Search Interface]
+         * Desktop Tool
+            * [IntroductionDT Introduction]
+            * [TaxonomyDT Taxonomy]
+
+        
