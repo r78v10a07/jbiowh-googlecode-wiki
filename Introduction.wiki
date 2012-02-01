@@ -4,40 +4,21 @@
 
 This document show a brief description of the main topics used in the development process of the JBioWH framework.  
 
+The main feature of the *JBioWH* framework reside on the possibility to have a complete system which provides the relational schema for biological data integration and a java API to handle the integrated data as a single system. Additionally, the framework contains a powerful desktop tool to retrieve information from a Database Management System (DBMS). 
+
 It is convenient to start discussing the terminology that we will be using continually in our description.  In our approach, we use as *dataset* any biological data source inserted into our relational database. For example, the NCBI Taxonomy data source is, in our system, a *dataset*; at the same time, each of the Protein-Protein Interaction data sources as MINT, DIP, BioGrid are independent *datasets* even though they uses the same tables and parser. At this point, there are nine dataset types:
 
- # [Taxonomy]: based on the NCBI Taxonomy data source
- # [Ontology]: based on the Gene Ontology (GO) data source
- # [Gene: based on the Gene data source
- # [GenomesPTT]: based on the Genomes PTT files in Gene data source
- # [Protein]: based on the Uniprot data source
- # [MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
- # [ProteinFamilies Protein Families]: based on the UniRef data source
- # [Drugs]: based on the DrugBank data source
- # [Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
+ # [TaxonomyRS Taxonomy]: based on the NCBI Taxonomy data source
+ # [OntologyRS Ontology]: based on the Gene Ontology (GO) data source
+ # [GeneRS Gene]: based on the Gene data source
+ # [ProteinRS Protein]: based on the Uniprot data source
+ # [MIF25RS MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
+ # [ProteinFamiliesRS Protein Families]: based on the UniRef data source
+ # [DrugsRS Drugs]: based on the DrugBank data source
+ # [PathwayRS Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
 
 The *JBioWH* contain a parser tool which is able to insert into the database all these data sources.  The parser tool uses a java interface class choosing the correct parser class to process the data source. View the [ParserDescription Parser Description] for more detail on how to insert a data source into the database.
 
 The parser tool inserts the data source information into the DataSet table in the relational database.
-
-The figure shows the *DataSet* table to storage the biological data sources information. The *WID* field is the primary key used as foreign key in the tables who storage the different dataset types. The *WID* values for the dataset can take continuous integer values between 1 and 999999.The fields into the DataSet table are understandable by itself. 
-
-http://jbiowh.googlecode.com/svn/wiki/images/DataSet.png 
-
-The other main table into the system is the *WIDTable* showed in the next figure. The last *WID* number, used as a primary key into the relational database, plus one is storage in the field *PreviousWID* of this table. This number can take integer values greater than 1000000 in a continuous way to be used as primary key for the data inserted into the datasets tables.  The kind of Id acts as a normalization key to establish the relationships between the tables into the relational schema due to the different id used by the original data sources.
-
-http://jbiowh.googlecode.com/svn/wiki/images/WIDTable.png
-
-The next figure shows the main relational schema with the tables of the included datasets and the relationship between them. Each dataset type will be explained in next sessions. 
-
-http://jbiowh.googlecode.com/svn/wiki/images/General.png
-
-The relational schema for each dataset is designed to storage the complete data source. So, the relational schema is just a reorganization and representation of the original data source. The inserted data does not have any modification in this first stage; therefore, data is transformed and storage into the relational schema entirely. Further data representations and modification to be used in particular problems will be executed as database views of this main database.
-
-The *JBioWH's* Desktop tool shows the list of datasets inserted into the relational. Also, the user is able to view the amount of data inserted in the tables of each dataset. The figures show the login dialog which connects the Desktop tool to the DBMS, MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
-
-http://jbiowh.googlecode.com/svn/wiki/images/1.jpg
-
-http://jbiowh.googlecode.com/svn/wiki/images/3.jpg
 
 The framework is available for Microsoft Windows and GNU/Linux operating system using Oracle Java SD 7 as programming language in a modular way. The classes and methods are designed following the Java Design Patterns to supply a standard codification for our system. The MySQL server is used as the Database Management System to storage the relational database. The tables are modeled using the MySQL Workbench tool.
