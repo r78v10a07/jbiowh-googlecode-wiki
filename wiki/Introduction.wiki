@@ -2,9 +2,9 @@
 
 = Introduction =
 
-This document show a brief description of the main topics used in the development process of the *!JBioWH* framework.  
+This document show a brief description of the main topics used in the development process of the *JBioWH* framework.  
 
-The main feature of the *!JBioWH* framework reside on the possibility to have a complete system which provides the relational schema for biological data integration and a java API to handle the integrated data as a single system. Additionally, the framework contains a powerful desktop tool to retrieve information from a Database Management System (DBMS). 
+The main feature of the *JBioWH* framework reside on the possibility to have a complete system which provides the relational schema for biological data integration and a java API to handle the integrated data as a single system. Additionally, the framework contains a powerful desktop tool to retrieve information from a Database Management System (DBMS). 
 
 It is convenient to start discussing the terminology that we will be using continually in our description.  In our approach, we use as *dataset* any biological data source inserted into our relational database. For example, the NCBI Taxonomy data source is, in our system, a *dataset*; at the same time, each of the !Protein-Protein Interaction data sources as MINT, DIP, !BioGrid are independent *datasets* even though they uses the same tables and parser. At this point, there are nine dataset types:
 
@@ -12,13 +12,13 @@ It is convenient to start discussing the terminology that we will be using conti
  # [OntologyRS Ontology]: based on the Gene Ontology (GO) data source
  # [GeneRS Gene]: based on the Gene data source
  # [ProteinRS Protein]: based on the Uniprot data source
- # [MIF25RS MIF25]: based on the MIF25 file format for !Protein-Protein Interactions data sources
+ # [MIF25RS MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
  # [ProteinFamiliesRS Protein Families]: based on the !UniRef data source
  # [DrugsRS Drugs]: based on the !DrugBank data source
  # [PathwayRS Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
 
-The *!JBioWH* contain a parser tool which is able to insert into the database all these data sources.  The parser tool uses a java interface class choosing the correct parser class to process the data source. View the [ParserDescription Parser Description] for more detail on how to insert a data source into the database.
+The *JBioWH* contain a parser tool which is able to insert into the database all these data sources.  The parser tool uses a java interface class choosing the correct parser class to process the data source. View the [ParserDescription Parser Description] for more detail on how to insert a data source into the database.
 
-The parser tool inserts the data source information into the DataSet table in the relational database.
+The parser tool inserts the data source information into the !DataSet table in the relational database.
 
 The framework is available for Microsoft Windows and GNU/Linux operating system using Oracle Java SD 7 as programming language in a modular way. The classes and methods are designed following the Java Design Patterns to supply a standard codification for our system. The MySQL server is used as the Database Management System to storage the relational database. The tables are modeled using the MySQL Workbench tool.

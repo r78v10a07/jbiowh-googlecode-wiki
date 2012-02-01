@@ -10,6 +10,7 @@
             * [GeneRS Gene]
             * [ProteinRS Protein]
         * [JavaAPI Java API]
+            * [ParserDescription Parser Description]
             * [SearchInterfaceJA Search Interface]
         * [DesktopTool Desktop Tool]
             * [TaxonomyDT Taxonomy]

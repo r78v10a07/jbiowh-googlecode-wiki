@@ -1,14 +1,14 @@
 #summary Summary description about the JBioWH framework
 
-The _*Java Biological Warehouse*_ (*!JBioWH*) is a mature computational system which provides a framework for biological data integration and management. The system is based in a relational schema to integrate the most important public biological data sources into a [RelationalSchema relational schema] and a [JavaAPI Java API] to support rapid bioinformatics application development. Also, we developed a desktop application which contains an extended search interface and a SQL Editor to interact with the database. 
+The _*Java Biological Warehouse*_ (*JBioWH*) is a mature computational system which provides a framework for biological data integration and management. The system is based in a relational schema to integrate the most important public biological data sources into a [RelationalSchema relational schema] and a [JavaAPI Java API] to support rapid bioinformatics application development. Also, we developed a desktop application which contains an extended search interface and a SQL Editor to interact with the database. 
 
-*!JBioWH* provides a framework for biological data integration and management which contains a relational schema for biological data integration, a java *Application Programming Interface* (*API*) and a powerful Desktop tool. 
+*JBioWH* provides a framework for biological data integration and management which contains a relational schema for biological data integration, a java *Application Programming Interface* (*API*) and a powerful Desktop tool. 
 This framework is designed to provide 
   # data warehouse capabilities to integrate and normalize non heterogeneous biological data
   # an extensive desktop tool for a scientist with no programming experience including an advanced SQL editor for scientist with this programming skill, and, 
   # a java API to handle the integrated biological data for further development of Bioinformatics tools.
  
-The [RelationalSchema relational database schema] includes the following data sources types: *Taxonomy*, *Ontology*, *Gene*, *Protein*, *Enzymes*, *Metabolites* (compound and glycan), *Reactions*, *!Protein-Protein Interactions*, *Protein families*, *!Drug-Target* interactions and *Pathways* provided by public available biological data sources. 
+The [RelationalSchema relational database schema] includes the following data sources types: *Taxonomy*, *Ontology*, *Gene*, *Protein*, *Enzymes*, *Metabolites* (compound and glycan), *Reactions*, *Protein-Protein Interactions*, *Protein families*, *Drug-Target* interactions and *Pathways* provided by public available biological data sources. 
 
 The [JavaAPI Java API] includes the parser to extract and insert the biological data from its original data sources file format into the relational database schema. Also, includes the entities and controller classes to use the inserted information on Java programs.
 
