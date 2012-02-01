@@ -10,4 +10,4 @@ Finally, the java API was designed using the Java Pattern Design concepts (Gamma
 Gamma,E. et al. (1995) Design Patterns: Elements of Reusable Object-Oriented Software Addison-Wesley.
 
 Follow the next links to explore the Java API documents:
-* [SearchInterfaceJA Search Interface]
+  * [SearchInterfaceJA Search Interface]
