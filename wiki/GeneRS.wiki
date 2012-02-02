@@ -2,7 +2,7 @@
 
 = Gene = 
 
-The *Gene* dataset is base on the [ttp://www.ncbi.nlm.nih.gov/gene/ Gene] data source. The next figure shows the relational schema for the *Gene* dataset. The non-connected tables handle the additional information provide by the Entrez Gene data source.
+The *Gene* dataset is base on the [http://www.ncbi.nlm.nih.gov/gene/ Gene] data source. The next figure shows the relational schema for the *Gene* dataset. The non-connected tables handle the additional information provide by the Entrez Gene data source.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Gene.png
 
