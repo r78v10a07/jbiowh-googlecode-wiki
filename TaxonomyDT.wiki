@@ -2,18 +2,14 @@
 
 = Taxonomy = 
 
-The figure shows the Taxonomy search windows on the Desktop tool. 
+The figure shows [SearchTab Search Tab] using the Taxonomy as main dataset. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/4.jpg
 
-This tool will include the ability to search by *!TaxId* and *Synonym* (human, H.sapiens, Homo%) including the use of simple regular expressions too. There is no possibility to use other biological objects as constrains on the *Taxonomy* search tool due to the *Taxonomy* module is the basement of the relational schema and it is used to organize the rest of the inserted data. The search windows will produce a new window, nest figure, with a list of the found taxonomies given the possibility of mouse click on the taxonomy to view its complete description. Also, this window gives the possibility to save in a TSV file format the selected taxonomies or pass it to the result interface for further uses.  
+In this dataset the search will be performed over the *!TaxId* and *Synonym* (human, H.sapiens, Homo%) fields including the use of simple regular expressions too. There is no possibility to use other biological objects as [Constrains Constrains] on the *Taxonomy* search tab due to the *Taxonomy* module is the basement of the relational schema and it is used to organize the rest of the inserted data. The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the result taxonomies.
 
 http://jbiowh.googlecode.com/svn/wiki/images/5.jpg
 
 The taxonomy complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/6.jpg
-
-This window gives access to a graphical representation of the hierarchical view of this taxonomy showing its parents in a tree like way. This tree, shows in the next figure, gives access to the taxonomy complete description window of each branch in this tree.     
-
-http://jbiowh.googlecode.com/svn/wiki/images/7.jpg

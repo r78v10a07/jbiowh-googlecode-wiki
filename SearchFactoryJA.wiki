@@ -1,0 +1,4 @@
+#summary This wiki describe the Search Factory on the Java API
+
+= Search Factory =
+

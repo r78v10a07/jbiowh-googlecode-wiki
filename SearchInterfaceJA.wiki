@@ -1,4 +1,0 @@
-#summary This wiki describe the Search interface on the Java API
-
-= Search Interface =
-
