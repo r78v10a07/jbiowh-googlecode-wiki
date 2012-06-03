@@ -10,8 +10,6 @@ Put in your CLASSPATH the following java libraries:
   * [http://dev.mysql.com/downloads/connector/j/ MySQL Connector 5.1.13] or later
   * [http://www.eclipse.org/eclipselink/downloads/  EclipseLink 2.2.0] or later
   * [http://jbiowh.googlecode.com/files/AbsoluteLayout.jar Absolute Layout]
-  * [http://jbiowh.googlecode.com/files/appframework-1.0.3.jar Appframework]
-  * [http://jbiowh.googlecode.com/files/swing-worker-1.1.jar Swing-worker]
   
  
    

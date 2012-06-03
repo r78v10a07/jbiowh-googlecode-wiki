@@ -1,3 +1,0 @@
-#summary This Wiki is the parser description 
-
-= Parser Description =
