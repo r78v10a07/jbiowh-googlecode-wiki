@@ -111,6 +111,6 @@ public class FoundGenefromDrug {
 }
 </code>
 
-The obtained proteins number is the same that in the others methods.
+The obtained gene number is the same that in the others methods.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex4_10.jpg
