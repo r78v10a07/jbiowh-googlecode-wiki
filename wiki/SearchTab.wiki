@@ -2,11 +2,11 @@
 
 = The Search Tab =
 
-The *Search Tab* is the graphical interface to perform queries over the relational database. In this interface the user have to select, in the first *ComboBox*, the main dataset to be queried. 
+The *Search Tab* is the GUI to perform queries over the relational database. In this GUI the user have to select, in the first *ComboBox*, the main dataset to be queried. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/8.jpg
 
-The text field on the *ComboBox* side gives a quick search on the principal parameters of the selected dataset. The *Other parameters* table gives the option to choose other fields to perform the query. In this table the columns shows the query parameters that have to be specified to perform the query. The first column: *External Op* specified the link logical operation between parameters. If only one parameter is added this field remain empty. The *Field* column specified the dataset field to be used to perform the query. This parameter depends of the selected main dataset to be queried.
+The text field on the *!ComboBox* side gives a quick search on the principal parameters of the selected dataset. The *Other parameters* table gives the option to choose other fields to perform the query. In this table the columns shows the query parameters that have to be specified to perform the query. The first column: *External Op* specified the logical operation between parameters. If only one parameter is added this field remain empty. The *Field* column specified the dataset field to be used to perform the query. This parameter depends of the selected main dataset to be queried.
 
 http://jbiowh.googlecode.com/svn/wiki/images/9.jpg
 
@@ -14,8 +14,9 @@ The next column *Operation* gives the possibility to choose the desired operatio
 
 http://jbiowh.googlecode.com/svn/wiki/images/10.jpg
 
-The last column *User Search Parameter* is used to specified the user search parameter to be used on the query. 
-The other table shows the *[Constrains Constrains]* to be used on this query. On this table *Right Click* on a selected constrain gives the available operation over this constrain.
+The last column *User Search Parameter* is used to specified the user search parameter to be used in the query. 
+
+The other table shows the Constrains to be used on this query. On this table *Right Click* on a selected constrain gives the available operation over this constrain.
 
 http://jbiowh.googlecode.com/svn/wiki/images/11.jpg
 

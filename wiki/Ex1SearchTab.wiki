@@ -1,0 +1,29 @@
+#summary This is the Example 1 using the Search Tab
+
+= Search all human proteins using the Search Tab =
+
+The first step is to find the Human Taxonomy Object.
+
+Click on the New Search menu item on the Tabs menu. After that, type *human* on the quick search text field and then click on the *Search* button.
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_1.jpg
+ 
+Now, a [ListTab List Tab] will be created with the search result. Then, check the Homo Sapiens check box and select on the right click popup the *Save Selected* option. 
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_2.jpg
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_3.jpg
+ 
+On the *Result Tab* select on the right click popup the *Add to New Search* option. This click will create a new [SearchTab Search Tab] with the Homo Sapiens taxonomy as a constrain.
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_4.jpg
+ 
+On the new [SearchTab Search Tab] select the Protein on the !ComboBox and view in the Constrain Table the Taxonomy constrain added.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_5.jpg
+
+Finally, click on the *Search* button and wait until the creation of the new [ListTab List Tab] with all human proteins.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_6.jpg
+
+Note that the system found 20282 human proteins. This example was executed just over the Uniprot SWISSPROT branch. 

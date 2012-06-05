@@ -1,0 +1,31 @@
+#summary This is the Example 3 using the Search Tab
+
+= Search all human proteins which are linked to all elements on the Ontology list using the Search Tab =
+
+The first step is to obtain the Human Taxonomy Object as in the [Ex1SearchTab Example 1]. After this, the ontology list should be saved as in the [Ex2SearchTab Example 2].
+
+Then, right click on the first Ontology and click on the *Add to New Constrain* option. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_1.jpg
+
+A new [ConstrainsTab Constrain Tab] will be created with the ontology added. Then, do the same procedure with the second ontology but clicking on the *Add selected on Constrain --> Constrain #*.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_2.jpg
+
+At this point, the *External Operation* on the Constrain table is changed to the *OR* operator and saved it to the *Result Tab*.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_3.jpg
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_4.jpg
+
+Now, create a new *Search Tab* with the *Protein* !DataSet clicking on the *Add to New Search* option on the right click popup over the Taxonomy object. Then, add the Constrain to the created *Search Tab*.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_5.jpg
+
+Click on the *Search* button to perform the query. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_6.jpg
+
+Finally, the *Empty Search* dialog shows that there is not proteins which belongs the all elements of the Ontology List.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex3_7.jpg

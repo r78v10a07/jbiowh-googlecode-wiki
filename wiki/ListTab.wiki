@@ -1,0 +1,15 @@
+#summary This is the List Tab Wiki
+
+= List Tab = 
+
+The *List Tab* is the GUI to show the result from a search operation executed on the [SearchTab Search Tab].
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/18.jpg
+
+The filter text bar allows to users execute a filter operation over the showed results on the table elements by a quick filter. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/19.jpg
+
+The first column is a check box to select the objects that will be used on further operations. *Right Click* on a selected or checked object gives its available operations. The *View* option on the *Right Click Popup* shows the selected object data. The checked objects can be saved in the *Result Tab* for further uses. Also, the checked objects can be included as a *Constrain* in a new [SearchTab Search Tab] or [ConstrainsTab Constrain Tab], or added to an available [SearchTab Search Tab] or [ConstrainsTab Constrain Tab].
+ 
+http://jbiowh.googlecode.com/svn/wiki/images/20.jpg
