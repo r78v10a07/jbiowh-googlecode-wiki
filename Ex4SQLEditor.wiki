@@ -1,0 +1,19 @@
+#summary This is the Example 4 using the SQL Editor Tab
+
+= Search all human genes which are linked to asthma drugs using the SQL Editor Tab =
+
+Go to the SQL Editor as in the [Ex1SQLEditor SQL Example 1] and type the following SQL sentence:
+
+<code language="sql">
+select g.GeneId from GeneInfo g 
+inner join Protein_has_GeneInfo pg on pg.GeneInfo_WID = g.WID
+inner join Protein_has_DrugBank pd on pd.Protein_WID = pg.Protein_WID
+inner join DrugBank d on d.WID = pd.DrugBank_WID
+where d.Indication like '% asthma %' group by g.GeneId;
+</code>
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex4_8.jpg
+
+Execute the sentence as in the [Ex1SQLEditor SQL Example 1]. The [SQLListTab SQL List Tab] will show the same result that in the previous [Ex4SearchTab example]. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex4_9.jpg

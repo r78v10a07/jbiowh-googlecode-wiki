@@ -38,5 +38,9 @@
                 * [Ex3SearchTab Search Tab]
                 * [Ex3SQLEditor SQL Editor Tab]
                 * [Ex3JavaAPI Java API]
+            * [Example4 Search all human genes which are linked to asthma drugs]
+                * [Ex4SearchTab Search Tab]
+                * [Ex4SQLEditor SQL Editor Tab]
+                * [Ex4JavaAPI Java API]
 
         
