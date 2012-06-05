@@ -1,0 +1,31 @@
+#summary This is the Example 2 using the SQL Editor Tab
+
+= Search all human proteins which are linked to one of the Ontologies in the Ontology List using the SQL Editor Tab =
+
+Go to the SQL Editor as in the [Ex1SQLEditor SQL Example 1] and type the following SQL sentence:
+
+<code language="sql">
+select p.Name from ProteinName p
+inner join Protein_has_Taxonomy pt on pt.Protein_WID = p.Protein_WID
+inner join Taxonomy t on t.WID = pt.Taxonomy_WID 
+inner join TaxonomySynonym ts on ts.Taxonomy_WID = t.WID
+inner join Protein_has_Ontology po on po.Protein_WID = p.Protein_WID
+inner join Ontology o1 on o1.WID = po.Ontology_WID
+where ts.Synonym = 'human' and 
+o1.Id = 'GO:0009100'
+union
+select p.Name from ProteinName p
+inner join Protein_has_Taxonomy pt on pt.Protein_WID = p.Protein_WID
+inner join Taxonomy t on t.WID = pt.Taxonomy_WID 
+inner join TaxonomySynonym ts on ts.Taxonomy_WID = t.WID
+inner join Protein_has_Ontology po on po.Protein_WID = p.Protein_WID
+inner join Ontology o1 on o1.WID = po.Ontology_WID
+where ts.Synonym = 'human' and 
+o1.Id = 'GO:0009101'
+</code>
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex2_8.jpg
+
+Execute the sentence as in the [Ex1SQLEditor SQL Example 1]. The [SQLListTab SQL List Tab] will show the same result that in the previous [Ex2SearchTab example]. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex2_9.jpg

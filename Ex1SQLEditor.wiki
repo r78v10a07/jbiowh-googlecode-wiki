@@ -1,0 +1,25 @@
+#summary This is the Example 1 using the SQL Editor Tab
+
+= Search all human proteins using the SQL Editor Tab =
+
+Click on the *New Query* option on the Tabs menu.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_7.jpg
+
+Type this SQL sentence on the editor:
+
+<code language="sql">
+select p.Name from ProteinName p
+inner join Protein_has_Taxonomy pt on pt.Protein_WID = p.Protein_WID
+inner join Taxonomy t on t.WID = pt.Taxonomy_WID 
+inner join TaxonomySynonym ts on ts.Taxonomy_WID = t.WID
+where ts.Synonym = 'human';
+</code>
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_8.jpg
+
+Put the cursor into the SQL sentence and click on the *Execute Current Statement* on the Query menu. A new [SQLListTab SQL List Tab] will be created with the result. Note that the default number of rows in this list is 1000. To change this limit insert the *LIMIT* condition on the SQL sentence with a desire number. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_9.jpg
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_10.jpg

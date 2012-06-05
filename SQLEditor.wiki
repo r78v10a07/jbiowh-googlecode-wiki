@@ -1,0 +1,7 @@
+#summary This is the SQL Editor Tab Wiki
+
+= SQL Editor Tab =
+
+The *SQLEditor Tab* is the GUI to establish a direct interaction with the DBMS. The SQL sentences can be executed all, selected or the current line using the Query Menu or the Accelerators of each operation. The results are showed on an extra [SQLListTab SQL List Tab] limit it to 1000 of rows.
+
+http://jbiowh.googlecode.com/svn/wiki/images/17.jpg

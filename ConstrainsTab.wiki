@@ -1,0 +1,19 @@
+#summary This is the Constrain Tab Wiki
+
+= Constrains Tab = 
+
+The *Constrains Tab* is the GUI to setup several conditions in a single constrain to be used in the query. The Constrains list can be saved on the *Result Tab* for other uses.
+
+This approach is useful if the query includes several logical *AND* or *OR* operators. For example, a query to return all human and rat proteins which belongs to an ontology list should uses a Constrain which includes the two Taxonomies objects linked with a *AND* operator to the ontology list. 
+
+The *Constrains* table shows the inserted biological objects list by its object types. On this table *Right Click* on a selected constrain gives the available operation over this constrain.
+
+http://jbiowh.googlecode.com/svn/wiki/images/14.jpg
+
+The first table column shows the Constrain type. It could be *Single* type which refers to a single object, *Multiple* type which refers to an object list or *Constrain* type which refers to another constrain. The *Operation* column gives the possibility to choose the operation to be used. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/15.jpg
+ 
+The last column, *External Operation* specified the logical operation between the inserted constrains.
+
+http://jbiowh.googlecode.com/svn/wiki/images/16.jpg

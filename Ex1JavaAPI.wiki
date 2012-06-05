@@ -1,0 +1,110 @@
+#summary This is the Example 1 using the Java API
+
+= Search all human proteins using the Java API =
+
+Create a text file called FindALLHumProt.java
+
+<code language="java">
+import java.util.ArrayList;
+import java.util.List;
+import org.jbiowh.core.datasets.dataset.DataSetFactory;
+import org.jbiowh.core.datasets.protein.entities.Protein;
+import org.jbiowh.core.datasets.protein.search.SearchProtein;
+import org.jbiowh.core.datasets.taxonomy.entities.Taxonomy;
+import org.jbiowh.core.datasets.taxonomy.search.SearchTaxonomy;
+import org.jbiowh.core.dbms.WHDBMS;
+import org.jbiowh.core.dbms.WHDBMSFactory;
+import org.jbiowh.core.dbms.mysql.WHMySQL;
+import org.jbiowh.core.dbms.sql.exception.SQLConstrainException;
+import org.jbiowh.core.utility.constrains.JPLConstrains;
+
+/**
+ * This class is to use the jbiowh Java API to search all human protein
+ *
+ * @author rvera
+ */
+public class FindALLHumProt {
+
+    /**
+     * This is the Main method
+     *
+     * @param args the command line arguments
+     * @throws SQLConstrainException
+     */
+    public static void main(String[] args) throws SQLConstrainException {
+        /*
+         * This static method set the DBMS type (MySQL) option to setup a
+         * connection
+         */
+        WHDBMS.setWhdbmsFactory(new WHMySQL("com.mysql.jdbc.Driver",
+                "jdbc:mysql://localhost:3306/biowh", "biowh", "mypass"));
+
+        /*
+         * This method return the DBMS Factory
+         */
+        WHDBMSFactory whdbmsFactory = WHDBMS.getWhdbmsFactory();
+
+        /*
+         * This method return open the conection with the DBMS returns 1 if the
+         * conection is opened successfully
+         */
+        if (whdbmsFactory.openConnection() == 1) {
+            /*
+             * This line set the Persistence EntityManagerFactory
+             */
+            DataSetFactory.setWHEntityManager();
+
+            /*
+             * Create the SearchTaxonomy factory
+             */
+            SearchTaxonomy searchTaxonomy = new SearchTaxonomy();
+            SearchProtein searchProtein = new SearchProtein();
+
+            /*
+             * This method search the human taxonomy
+             * This sentence return a list with only one member: The human taxonomy object
+             */
+            List<Taxonomy> taxonomies = searchTaxonomy.search("human", null);
+            if (!taxonomies.isEmpty()){
+                System.out.println("Using the taxonomy: " + taxonomies.get(0).getTaxonomySynonym("scientific name"));
+                
+                /*
+                 * Here we create the list needed to create a JPLConstrains object
+                 */
+                List constrains = new ArrayList();
+                List operations = new ArrayList();
+                constrains.add(taxonomies);
+                operations.add("IN");
+                JPLConstrains taxAsConstrain = new JPLConstrains(constrains, operations, null);
+                
+                /*
+                 * Return all proteins under the taxAsConstrain condition
+                 */
+                List<Protein> proteins = searchProtein.search("", taxAsConstrain);
+                System.out.println("We found " + proteins.size() + " human proteins");
+            }
+            
+        }
+    }
+}
+</code>
+
+Go to a CMD Windows console or a linux console to compile the java code:
+
+<code language="bash">
+javac -cp <path-to the-jbiowh-jar-file> FindALLHumProt.java
+</code>
+
+To execute the FindALLHumProt class type this:
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> FindALLHumProt
+</code>
+
+The obtained proteins number is the same that the obtained with the others methods.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex1_11.jpg
+
+
+
+

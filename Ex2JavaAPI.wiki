@@ -1,0 +1,115 @@
+#summary This is the Example 2 using the Java API
+
+= Search all human proteins which are linked to one of the Ontologies in the Ontology List using the  Java API =
+
+Create a text file called FindALLHumProtinGO.java
+
+<code language="java">
+import java.util.ArrayList;
+import java.util.List;
+import org.jbiowh.core.datasets.dataset.DataSetFactory;
+import org.jbiowh.core.datasets.ontology.entities.Ontology;
+import org.jbiowh.core.datasets.ontology.search.SearchOntology;
+import org.jbiowh.core.datasets.protein.entities.Protein;
+import org.jbiowh.core.datasets.protein.search.SearchProtein;
+import org.jbiowh.core.datasets.taxonomy.entities.Taxonomy;
+import org.jbiowh.core.datasets.taxonomy.search.SearchTaxonomy;
+import org.jbiowh.core.dbms.WHDBMS;
+import org.jbiowh.core.dbms.WHDBMSFactory;
+import org.jbiowh.core.dbms.mysql.WHMySQL;
+import org.jbiowh.core.dbms.sql.exception.SQLConstrainException;
+import org.jbiowh.core.logger.VerbLogger;
+import org.jbiowh.core.utility.constrains.JPLConstrains;
+
+/**
+ * This class is to use the jbiowh Java API to search all human protein in a GO list
+ * @author rvera
+ */
+public class FindALLHumProtinGO {
+
+    /**
+     * This is the Main method
+     *
+     * @param args the command line arguments
+     * @throws SQLConstrainException
+     */
+    public static void main(String[] args) throws SQLConstrainException {
+        /*
+         * Set the verbose level to Info
+         */
+        VerbLogger.setLevel(VerbLogger.INFO);
+        /*
+         * This static method set the DBMS type (MySQL) option to setup a
+         * connection
+         */
+        WHDBMS.setWhdbmsFactory(new WHMySQL("com.mysql.jdbc.Driver",
+                "jdbc:mysql://localhost:3306/biowh", "biowh", "mypass"));
+
+        /*
+         * This method return the DBMS Factory
+         */
+        WHDBMSFactory whdbmsFactory = WHDBMS.getWhdbmsFactory();
+
+        /*
+         * This method return open the conection with the DBMS returns 1 if the
+         * conection is opened successfully
+         */
+        if (whdbmsFactory.openConnection() == 1) {
+            /*
+             * This line set the Persistence EntityManagerFactory
+             */
+            DataSetFactory.setWHEntityManager();
+
+            /*
+             * Create the SearchTaxonomy factory
+             */
+            SearchTaxonomy searchTaxonomy = new SearchTaxonomy();
+            SearchOntology searchOntology = new SearchOntology();
+            SearchProtein searchProtein = new SearchProtein();
+
+            /*
+             * This method search the human taxonomy
+             * This sentence return a list with only one member: The human taxonomy object
+             */
+            List<Taxonomy> taxonomies = searchTaxonomy.search("human", null);
+            if (!taxonomies.isEmpty()){
+                System.out.println("Using the taxonomy: " + taxonomies.get(0).getTaxonomySynonym("scientific name"));
+                
+                /*
+                 * Searching the Ontologies 
+                 */
+                List<Ontology> ontologies = searchOntology.search("GO:0009100", null);
+                ontologies.addAll(searchOntology.search("GO:0009101", null));
+                
+                for(Ontology o : ontologies){
+                    System.out.println("Using the ontology: " + o.getId());
+                }
+                
+                /*
+                 * Here we create the list needed to create a JPLConstrains object
+                 */
+                List constrains = new ArrayList();
+                List operations = new ArrayList();
+                List extOperations = new ArrayList();
+                constrains.add(taxonomies);
+                constrains.add(ontologies);
+                operations.add("IN");
+                operations.add("IN");
+                extOperations.add("AND");
+                JPLConstrains taxAndOntAsConstrain = new JPLConstrains(constrains, operations, extOperations);
+                
+                /*
+                 * Return all proteins under the taxAsConstrain condition
+                 */
+                List<Protein> proteins = searchProtein.search("", taxAndOntAsConstrain);
+                System.out.println("We found " + proteins.size() + " human proteins");
+            }
+            
+        }
+    }
+}
+</code>
+
+The obtained proteins number is the same that the obtained with the others methods.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex2_10.jpg

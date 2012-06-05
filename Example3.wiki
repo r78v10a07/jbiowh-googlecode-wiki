@@ -1,0 +1,13 @@
+#summary This is the Example 3
+
+= Search all human proteins are linked to all elements on the Ontology list =
+
+On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to search the all human proteins which are linked to all elements on the Ontology list.
+
+The ontology list will be integrated by the glycoprotein metabolic process (GO:0009100) and the glycoprotein biosynthetic process (GO:0009101).
+
+Follow the next links to view the solution to this question:
+
+ * [Ex3SearchTab Search Tab]
+ * [Ex3SQLEditor SQL Editor Tab]
+ * [Ex3JavaAPI Java API]
