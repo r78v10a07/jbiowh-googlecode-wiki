@@ -1,0 +1,91 @@
+#summary This is the Example 4 using the Java API
+
+= Search all human genes which are linked to asthma drugs using the Java API =
+
+Create a text file called .java
+
+<code language="java">
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import org.jbiowh.core.datasets.dataset.DataSetFactory;
+import org.jbiowh.core.datasets.drug.drugbank.entities.DrugBank;
+import org.jbiowh.core.datasets.drug.drugbank.search.SearchDrugBank;
+import org.jbiowh.core.datasets.gene.entities.GeneInfo;
+import org.jbiowh.core.datasets.protein.entities.Protein;
+import org.jbiowh.core.dbms.WHDBMS;
+import org.jbiowh.core.dbms.WHDBMSFactory;
+import org.jbiowh.core.dbms.mysql.WHMySQL;
+import org.jbiowh.core.dbms.sql.exception.SQLConstrainException;
+import org.jbiowh.core.logger.VerbLogger;
+
+/**
+ * This class is to use the jbiowh Java API to search all gene linked to asthma
+ * Drugs list
+ *
+ * @author rvera
+ */
+public class FoundGenefromDrug {
+
+    /**
+     * This is the Main method
+     *
+     * @param args the command line arguments
+     * @throws SQLConstrainException
+     */
+    public static void main(String[] args) throws SQLConstrainException {
+        /*
+         * Set the verbose level to Info
+         */
+        VerbLogger.setLevel(VerbLogger.INFO);
+        /*
+         * This static method set the DBMS type (MySQL) option to setup a
+         * connection
+         */
+        WHDBMS.setWhdbmsFactory(new WHMySQL("com.mysql.jdbc.Driver",
+                "jdbc:mysql://localhost:3306/biowh", "biowh", "mypass"));
+
+        /*
+         * This method return the DBMS Factory
+         */
+        WHDBMSFactory whdbmsFactory = WHDBMS.getWhdbmsFactory();
+
+        /*
+         * This method return open the conection with the DBMS returns 1 if the
+         * conection is opened successfully
+         */
+        if (whdbmsFactory.openConnection() == 1) {
+            /*
+             * This line set the Persistence EntityManagerFactory
+             */
+            DataSetFactory.setWHEntityManager();
+
+            /*
+             * Create the SearchFactory
+             */
+            SearchDrugBank searchDrugBank = new SearchDrugBank();
+
+            Set<GeneInfo> genes = new HashSet<>();
+            List<DrugBank> drugs = searchDrugBank.search("% asthma %", null);
+
+            if (!drugs.isEmpty()) {
+                for (DrugBank d : drugs) {
+                    if (!d.getProtein().isEmpty()) {
+                        for (Protein p : d.getProtein()) {
+                            genes.addAll(p.getGeneInfo());
+                        }
+                    }
+                }
+            }
+
+            System.out.println("We found " + genes.size() + " genes linked with asthma drugs");
+
+        }
+    }
+}
+}
+</code>
+
+The obtained proteins number is the same that in the others methods.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex4_10.jpg
