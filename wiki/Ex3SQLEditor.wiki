@@ -22,3 +22,5 @@ http://jbiowh.googlecode.com/svn/wiki/images/Ex3_8.jpg
 Execute the sentence as in the [Ex1SQLEditor SQL Example 1]. The empty [SQLListTab SQL List Tab] will show the same result that in the previous [Ex3SearchTab example]. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex3_9.jpg
+
+*Note:* use the GO Id GO:0019904 and GO:0051220 with the same procedure and the result shows that the 1433B_HUMAN protein is linked to these GO terms. 

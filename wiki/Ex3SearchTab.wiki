@@ -29,3 +29,5 @@ http://jbiowh.googlecode.com/svn/wiki/images/Ex3_6.jpg
 Finally, the *Empty Search* dialog shows that there is not proteins which belongs the all elements of the Ontology List.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex3_7.jpg
+
+*Note:* use the GO Id GO:0019904 and GO:0051220 with the same procedure and the result shows that the 1433B_HUMAN protein is linked to these GO terms. 
