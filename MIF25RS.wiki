@@ -2,6 +2,6 @@
 
 = MIF25 = 
 
-The *!MIF25* !DataSet includes all *Protein-Protein Interaction* data sourc
+The *MIF25* !DataSet includes all *Protein-Protein Interaction* data source
 
 http://jbiowh.googlecode.com/svn/wiki/images/MIF25.png
