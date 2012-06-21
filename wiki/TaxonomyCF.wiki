@@ -1,0 +1,26 @@
+#summary This is the Taxonomy config description
+
+= Taxonomy =
+
+This is an example of a Taxonomy !DataSet config file 
+ 
+<code language="xml">
+<warehouse>
+    <name>Taxonomy</name>
+    <type>Taxonomy</type>
+    <version>1.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov/taxonomy</homeurl>
+    <releaseDate>08/26/2011</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\ncbi</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+</code>
