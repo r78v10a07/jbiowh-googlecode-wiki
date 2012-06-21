@@ -1,3 +1,15 @@
 #summary This wiki describe the Ontolgy dataset on the Desktop Tool
 
 = Ontology =
+
+The figure shows [SearchTab Search Tab] using the Ontology as main dataset. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/23.jpg
+
+In this dataset the quick search will be performed over the *!Id*, *Name*, Definition and Synonym fields including the use of simple regular expressions too.Also, Alternative Id and Comment fields are available for search. There is no possibility to use other biological objects as [Constrains Constrains] on the *Ontology* search tab due to the *Ontology* module is the basement of the relational schema and it is used to organize the rest of the inserted data. The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the result taxonomies.
+
+http://jbiowh.googlecode.com/svn/wiki/images/24.jpg
+
+The ontology complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/25.jpg
