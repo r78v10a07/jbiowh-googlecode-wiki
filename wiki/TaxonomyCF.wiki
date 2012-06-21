@@ -4,8 +4,8 @@
 
 This is an example of a Taxonomy !DataSet config file 
  
-<code language="bash">
-<warehouse><BR>
+<code language="java">
+<warehouse>
     <name>Taxonomy</name>
     <type>Taxonomy</type>
     <version>1.0</version>
