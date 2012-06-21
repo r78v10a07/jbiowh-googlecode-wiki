@@ -5,7 +5,7 @@
 This is an example of a Taxonomy !DataSet config file 
  
 <code language="bash">
-<warehouse>
+<warehouse><BR>
     <name>Taxonomy</name>
     <type>Taxonomy</type>
     <version>1.0</version>
