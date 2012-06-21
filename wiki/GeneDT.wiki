@@ -10,6 +10,10 @@ In this dataset the quick search will be performed over the *!GeneId*, *Symbol*
 and !LocusTag fields including the use of simple regular expressions 
 too. Also, Description and Synonym fields are available for search. 
 
+On this !DataSet you are able to use other biological objects as [Constrains Constrains].
+The available !DataSet to be used as constrains are: Taxonomy,
+Ontology, Protein and KEGG Gene.
+
 The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
 with the result taxonomies.
 
@@ -18,3 +22,9 @@ http://jbiowh.googlecode.com/svn/wiki/images/27.jpg
 The Gene complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/28.jpg
+
+If the ComboBox shows the *Protein* option the table will show the proteins 
+linked with this gene. Click on the protein's name will open the [ProteinDT Protein]
+Tab.
+
+http://jbiowh.googlecode.com/svn/wiki/images/29.jpg
