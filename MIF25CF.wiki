@@ -25,4 +25,4 @@ This is an example of a MIF25 !DataSet config file
 </warehouse>
 }}}
 
-Note that each data source have its own config file. The first !DataSet to be loaded will have the *droptables* option in *true*, the rest of the !DataSets should disable this option.  
+Note that each MIF25 data source have its own config file. The first MIF25 !DataSet to be loaded will have the *droptables* option in *true*, the rest of the !DataSets should disable this option.  
