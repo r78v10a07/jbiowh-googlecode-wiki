@@ -20,7 +20,7 @@
             * [GeneCF Gene]
             * [GenomesPTTCF Genomes PTT]
             * [ProteinCF Protein]
-            * [MIF25CF Protein]
+            * [MIF25CF MIF25]
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
@@ -33,7 +33,7 @@
                 * [OntologyDT Ontology]
                 * [GeneDT Gene]
                 * [ProteinDT Protein]
-                * [MIF25DT Protein]
+                * [MIF25DT MIF25]
         * Examples
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]
