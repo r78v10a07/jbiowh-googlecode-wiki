@@ -9,6 +9,7 @@
             * [OntologyRS Ontology]
             * [GeneRS Gene]
             * [ProteinRS Protein]
+            * [MIF25RS MIF25]
         * [JavaAPI Java API]
             * [ParserFactory Parser Factory]
             * [SearchFactoryJA Search Factory]
@@ -18,7 +19,8 @@
             * [OntologyCF Ontology]
             * [GeneCF Gene]
             * [GenomesPTTCF Genomes PTT]
-            * [ProteinCF Protein]            
+            * [ProteinCF Protein]
+            * [MIF25CF Protein]
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
@@ -31,6 +33,7 @@
                 * [OntologyDT Ontology]
                 * [GeneDT Gene]
                 * [ProteinDT Protein]
+                * [MIF25DT Protein]
         * Examples
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]

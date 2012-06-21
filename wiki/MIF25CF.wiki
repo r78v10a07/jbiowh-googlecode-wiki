@@ -1,0 +1,28 @@
+#summary This is the MIF25 config description
+
+= MIF25 =
+
+This is an example of a MIF25 !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>BioGrid</name>
+    <type>MIF25</type>
+    <version>1.2</version>
+    <homeurl>http://www.biogrid.org/</homeurl>
+    <releaseDate>02/23/2010</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\biogrid</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+Note that each data source have its own config file. The first !DataSet to be loaded will have the *droptables* option in *true*, the rest of the !DataSets should disable this option.  
