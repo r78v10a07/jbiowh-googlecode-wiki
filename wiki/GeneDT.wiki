@@ -15,7 +15,7 @@ The available !DataSet to be used as constrains are: Taxonomy,
 Ontology, Protein and KEGG Gene.
 
 The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
-with the result taxonomies.
+with the obtained results.
 
 http://jbiowh.googlecode.com/svn/wiki/images/27.jpg
 
@@ -23,7 +23,7 @@ The Gene complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/28.jpg
 
-If the ComboBox shows the *Protein* option the table will show the proteins 
+If the !ComboBox shows the *Protein* option the table will show the proteins 
 linked with this gene. Click on the protein's name will open the [ProteinDT Protein]
 Tab.
 
