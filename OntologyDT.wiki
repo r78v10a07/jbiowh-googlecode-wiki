@@ -14,7 +14,7 @@ the *Ontology* search tab due to the *Ontology* module is the basement of the
 relational schema and it is used to organize the rest of the inserted data. 
 
 The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
-with the result taxonomies.
+with the obtained result.
 
 http://jbiowh.googlecode.com/svn/wiki/images/24.jpg
 
