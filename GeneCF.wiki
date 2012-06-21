@@ -1,0 +1,26 @@
+#summary This is the Gene config description
+
+= Gene =
+
+This is an example of a Gene !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>Gene</name>
+    <type>Gene</type>
+    <version>1.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov</homeurl>
+    <releaseDate>07/19/2010</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\gene</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}

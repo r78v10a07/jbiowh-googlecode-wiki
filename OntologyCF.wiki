@@ -1,0 +1,27 @@
+#summary This is the Ontology config description
+
+= Ontology =
+
+This is an example of a Ontology !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>GO Ontolgy</name>
+    <type>Ontology</type>
+    <version>1.0</version>
+    <homeurl>http://www.goontology.org/</homeurl>
+    <releaseDate>08/26/2011</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\go</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+

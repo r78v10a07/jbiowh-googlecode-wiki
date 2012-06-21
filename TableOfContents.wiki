@@ -13,10 +13,12 @@
             * [ParserFactory Parser Factory]
             * [SearchFactoryJA Search Factory]
         * [ParserTool Parser Tool]
+            * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
             * [OntologyCF Ontology]
             * [GeneCF Gene]
-            * [ProteinCF Protein]
+            * [GenomesPTTCF Genomes PTT]
+            * [ProteinCF Protein]            
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
