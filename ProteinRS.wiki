@@ -2,7 +2,7 @@
 
 = Protein = 
 
-The *Protein* data set includes the [http://www.uniprot.org Uniprot] data source, both the *SWISSPROT* and *TREMBL* branch. The next figure shows the relational schema for the Protein dataset.
+The *Protein* !DataSet includes the [http://www.uniprot.org Uniprot] data source, both the *SWISSPROT* and *TREMBL* branch. The next figure shows the relational schema for the Protein dataset.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Protein.png
 

@@ -1,0 +1,7 @@
+#summary This wiki describe the MIF25 dataset
+
+= MIF25 = 
+
+The *!MIF25* !DataSet includes all *Protein-Protein Interaction* data sourc
+
+http://jbiowh.googlecode.com/svn/wiki/images/MIF25.png

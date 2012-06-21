@@ -19,9 +19,3 @@ The next figure shows the main relational schema with the tables of the included
 http://jbiowh.googlecode.com/svn/wiki/images/General.png
 
 The relational schema for each dataset is designed to storage the complete data source. So, the relational schema is just a reorganization and representation of the original data source. The inserted data does not have any modification in this first stage; therefore, data is transformed and storage into the relational schema entirely. Further data representations and modification to be used in particular problems will be executed as database views of this main database.
-
-Follow the next links to explore the relatinal schema documents:
-  * [TaxonomyRS Taxonomy]
-  * [OntologyRS Ontology]
-  * [GeneRS Gene]
-  * [ProteinRS Protein] 
