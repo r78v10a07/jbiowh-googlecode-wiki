@@ -1,3 +1,20 @@
 #summary This wiki describe the Gene dataset on the Desktop Tool
 
 = Gene =
+
+The figure shows [SearchTab Search Tab] using the Gene as main dataset. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/26.jpg
+
+In this dataset the quick search will be performed over the *!GeneId*, *Symbol* 
+and !LocusTag fields including the use of simple regular expressions 
+too. Also, Description and Synonym fields are available for search. 
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
+with the result taxonomies.
+
+http://jbiowh.googlecode.com/svn/wiki/images/27.jpg
+
+The Gene complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/28.jpg
