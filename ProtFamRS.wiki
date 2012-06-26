@@ -2,12 +2,13 @@
 
 = Protein Families = 
 
-The *ProtFam* !DataSet includes the [http://www.uniprot.org/uniref/ UniRef] data source providing a relational schema for all identity percents (50%, 90% and 100%). The next figure shows the relational schema for the ProtFam dataset.
+The *!ProtFam* !DataSet includes the [http://www.uniprot.org/uniref/ UniRef] data source providing a relational schema for all identity percents (50%, 90% and 100%). The next figure shows the relational schema for the !ProtFam dataset.
 
 http://jbiowh.googlecode.com/svn/wiki/images/ProtFam.png
 
-This schema is a relational representation of the UniRef's XML file. The relational schema storages all information provided by this data source converting the non-relational file to a relational non-redundant schema. 
+This schema is a relational representation of the !UniRef's XML file. The relational schema storages all information provided by this data source converting the non-relational file to a relational non-redundant schema. 
 
-The main table is the *UniRefEntry* table. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. 
+The main table is the *!UniRefEntry* table. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. 
 
-The *UniRefEntry* table links the *Taxonomy* table through the *TaxId* field. Each *UniRef* entry is linked to its proteins through the *UniRefMember* table. 
+The *!UniRefEntry* table links the *Taxonomy* table through the *!TaxId* field. Each *!UniRef* entry is linked to its proteins through the *!UniRefMember* table. 
+ 
