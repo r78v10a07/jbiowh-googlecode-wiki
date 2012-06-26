@@ -1,0 +1,22 @@
+#summary This wiki describe the ProtFam dataset on the Desktop Tool
+
+= Protein Families =
+
+The figure shows [SearchTab Search Tab] using the ProtFam as main dataset. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/34.jpg
+
+In this dataset the quick search will be performed over the *UniRef ID* (UniRef50_Q6VAB6) and *Name* fields including the use of simple [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions]. 
+
+There is no possibility to use other biological objects as [Constrains Constrains] on the *ProtFam* search tab.
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
+with the obtained results.
+
+http://jbiowh.googlecode.com/svn/wiki/images/35.jpg
+
+The UniRef complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/36.jpg
+
+

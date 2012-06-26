@@ -6,15 +6,9 @@ The figure shows [SearchTab Search Tab] using the Ontology as main dataset.
 
 http://jbiowh.googlecode.com/svn/wiki/images/23.jpg
 
-In this dataset the quick search will be performed over the *!Id*, *Name*, 
-Definition and Synonym fields including the use of simple regular expressions 
-too. Also, Alternative Id and Comment fields are available for search. There is 
-no possibility to use other biological objects as [Constrains Constrains] on 
-the *Ontology* search tab due to the *Ontology* module is the basement of the 
-relational schema and it is used to organize the rest of the inserted data. 
+In this dataset the quick search will be performed over the *!Id*, *Name*, Definition and Synonym fields including the use of simple [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions]. Also, Alternative Id and Comment fields are available for search. There is no possibility to use other biological objects as [Constrains Constrains] on the *Ontology* search tab due to the *Ontology* module is the basement of the relational schema and it is used to organize the rest of the inserted data. 
 
-The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
-with the obtained result.
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained result.
 
 http://jbiowh.googlecode.com/svn/wiki/images/24.jpg
 

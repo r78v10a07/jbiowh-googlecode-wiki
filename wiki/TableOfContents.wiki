@@ -10,6 +10,7 @@
             * [GeneRS Gene]
             * [ProteinRS Protein]
             * [MIF25RS MIF25]
+            * [ProtFamRS Protein Families]
         * [JavaAPI Java API]
             * [ParserFactory Parser Factory]
             * [SearchFactoryJA Search Factory]
@@ -21,6 +22,7 @@
             * [GenomesPTTCF Genomes PTT]
             * [ProteinCF Protein]
             * [MIF25CF MIF25]
+            * [ProtFamCF Protein Families]
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
@@ -34,6 +36,7 @@
                 * [GeneDT Gene]
                 * [ProteinDT Protein]
                 * [MIF25DT MIF25]
+                * [ProtFamDT Protein Families]
         * Examples
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]
