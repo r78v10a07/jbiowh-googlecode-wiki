@@ -1,0 +1,38 @@
+#summary This is the DrugBank config description
+
+= !DrugBank =
+
+This is an example of a DrugBank !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>DrugBank</name>
+    <type>DrugBank</type>
+    <version>3.0</version>
+    <homeurl>http://drugbank.ca</homeurl>
+    <releaseDate>09/09/2011</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\drugbank</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *!DrugBank* data files should be downloaded from [http://www.drugbank.ca/system/downloads/current/drugbank.xml.zip drugbank.xml.zip] in the !DrugBank Web Site. The file should be transformed from the ZIP file format to the GZ file format or leave it uncompressed. Our parser is able to work with compressed XML files.
+
+On GNU/Linux:
+{{{    
+    mkdir drugbank
+    cd drugbank
+    wget http://www.drugbank.ca/system/downloads/current/drugbank.xml.zip
+    unzip -d ./ drugbank.xml.zip
+    gzip -v drugbank.xml
+    rm drugbank.xml.zip 
+}}}

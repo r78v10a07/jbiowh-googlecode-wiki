@@ -24,6 +24,7 @@
             * [ProteinCF Protein]
             * [MIF25CF MIF25]
             * [ProtFamCF Protein Families]
+            * [DrugBankCF DrugBank]
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
@@ -38,6 +39,7 @@
                 * [ProteinDT Protein]
                 * [MIF25DT MIF25]
                 * [ProtFamDT Protein Families]
+                * [DrugBankDT DrugBank]
         * Examples
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]
