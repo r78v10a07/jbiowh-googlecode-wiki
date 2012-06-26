@@ -24,3 +24,12 @@ This is an example of a Genomes PTT !DataSet config file
     <runlinks>true</runlinks>
 </warehouse>
 }}}
+
+The *GenomesPTT* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/Bacteria/ Bacteria] directory in the NCBI FTP Site. Only the *.ptt file have be downloaded in this directory.  
+
+On GNU/Linux:
+<code language="bash">    
+    mkdir genomesptt
+    cd genomesptt
+    wget -r -np -nH --cut-dirs=2 -A *.ptt ftp://ftp.ncbi.nih.gov/genomes/Bacteria/
+</code>

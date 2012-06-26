@@ -24,3 +24,13 @@ This is an example of a Protein !DataSet config file
     <runlinks>true</runlinks>
 </warehouse>
 }}}
+
+The *Protein* data files should be downloaded from [ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz uniprot_sprot.xml.gz] and [ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.xml.gz uniprot_trembl.xml.gz] in the !UniProt FTP Site. Our parser is able to work with compressed XML files.
+
+On GNU/Linux:
+<code language="bash">    
+    mkdir uniprot
+    cd uniprot
+    wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz
+    wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.xml.gz
+</code>
