@@ -25,7 +25,7 @@ This is an example of a Genomes PTT !DataSet config file
 </warehouse>
 }}}
 
-The *GenomesPTT* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/Bacteria/ Bacteria] directory in the NCBI FTP Site. Only the *.ptt file have be downloaded in this directory.  
+The *GenomesPTT* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/Bacteria/ Bacteria] directory in the NCBI FTP Site. Only the \*.ptt file have be downloaded in this directory.  
 
 On GNU/Linux:
 {{{    

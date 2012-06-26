@@ -25,7 +25,7 @@ This is an example of a Ontology !DataSet config file
 </warehouse>
 }}}
 
-The *Ontology* data files should be downloaded from [ftp://ftp.geneontology.org/pub/go/godatabase/archive/latest-full/ latest-full] directory in the Gene Ontology FTP Site. The file to download is the go_201206-termdb.obo-xml.gz where the number *201206* is the current month date. Our parser is able to work with compressed XML files.
+The *Ontology* data files should be downloaded from [ftp://ftp.geneontology.org/pub/go/godatabase/archive/latest-full/ latest-full] directory in the Gene Ontology FTP Site. The file to download is the go_XXXXXX-termdb.obo-xml.gz where the numbers *XXXXXX* are the current date. Our parser is able to work with compressed XML files.
 
 On GNU/Linux:
 {{{   
