@@ -28,9 +28,9 @@ This is an example of a Taxonomy !DataSet config file
 The *Taxonomy* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz taxdump.tar.gz] in the NCBI FTP Site. This file have to be uncompressed and expanded into a directory.
 
 On GNU/Linux:
-<code language="bash">    
+{{{    
     mkdir taxonomy
     cd taxonomy
     wget ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
     tar xzfv taxdump.tar.gz
-</code>
+}}}
