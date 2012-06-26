@@ -12,6 +12,7 @@
             * [MIF25RS MIF25]
             * [ProtFamRS Protein Families]
             * [DrugBankRS DrugBank]
+            * [PathwayRS KEGG Pathway]
         * [JavaAPI Java API]
             * [ParserFactory Parser Factory]
             * [SearchFactoryJA Search Factory]
