@@ -2,7 +2,7 @@
 
 = !DrugBank =
 
-This is an example of a DrugBank !DataSet config file 
+This is an example of a !DrugBank !DataSet config file 
  
 {{{
 <warehouse>

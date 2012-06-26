@@ -18,6 +18,6 @@ The !DrugBank complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/39.jpg
 
-In the !ComboBox the *DrugBank's* linked !DataSets will be showed as in the next figure.
+In the !ComboBox the *!DrugBank's* linked !DataSets will be showed as in the next figure.
 
 http://jbiowh.googlecode.com/svn/wiki/images/40.jpg
