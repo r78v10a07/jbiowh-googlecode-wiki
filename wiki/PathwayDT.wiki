@@ -1,0 +1,23 @@
+#summary This wiki describe the KEGG Pathway dataset on the Desktop Tool
+
+= KEGG Pathway =
+
+The figure shows [SearchTab Search Tab] using the KEGG Pathway as main dataset. Any of the KEGG data type can be selected to perform a search. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/41.jpg
+
+A search over the KEGG Pathway data type is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/42.jpg
+
+In this dataset the quick search will be performed over the *Id* (ec00601), *Number* (00601) and *Title* fields including the use of [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions].
+
+On this !DataSet you are able to use other biological objects as [Constrains Constrains]. The available !DataSet to be used as constrains are: Taxonomy, KEGG Compound, KEGG Enzymes, KEGG Genes and KEGG Reactions.
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
+
+http://jbiowh.googlecode.com/svn/wiki/images/43.jpg
+
+The KEGG Pathway complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/44.jpg
