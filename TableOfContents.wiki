@@ -26,6 +26,7 @@
             * [MIF25CF MIF25]
             * [ProtFamCF Protein Families]
             * [DrugBankCF DrugBank]
+            * [PathwayCF KEGG Pathway]
         * [DesktopTool Desktop Tool]
             * Tabs
                 * [SearchTab Search Tab]
@@ -41,6 +42,7 @@
                 * [MIF25DT MIF25]
                 * [ProtFamDT Protein Families]
                 * [DrugBankDT DrugBank]
+                * [PathwayDT KEGG Pathway]
         * Examples
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]

@@ -1,0 +1,28 @@
+#summary This is the KEGG Pathway config description
+
+= KEGG Pathway =
+
+This is an example of a KEGG Pathway !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>KEGG</name>
+    <type>KEGG</type>
+    <version>1.0</version>
+    <homeurl>http://www.kegg.org</homeurl>
+    <releaseDate>10/30/2011</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\kegg</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The KEGG database is not longer free for academic use. Go to [http://www.bioinformatics.jp/en/keggftp.html KEGG FTP Academic Subscription] for further information.
