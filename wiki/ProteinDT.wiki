@@ -18,6 +18,6 @@ The Protein complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/32.jpg
 
-In the !ComboBox the *Protein's* linked !DataSets will be showed as in the next figure.
+In the !ComboBox the *Protein's* linked !DataSets will be showed.
 
 http://jbiowh.googlecode.com/svn/wiki/images/33.jpg
