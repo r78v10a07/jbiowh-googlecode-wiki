@@ -1,0 +1,11 @@
+#summary This wiki describe the KEGG Pathway dataset
+
+= KEGG Pathway = 
+
+The *KEGG* !DataSet includes the [http://www.genome.jp/kegg/ KEGG] data source. This !DataSet includes the KEGG's Pathways, Compounds, Enzymes, Reactions, Glycans and Genes data. The next figure shows the main relational schema for the KEGG !DataSet dataset.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Pathway.png
+
+The main table is the *KEGGPathway*. The figure shows the relationship between all KEGG data types. The next figure shows the relational schema for each kind of KEGG data type.
+
+http://jbiowh.googlecode.com/svn/wiki/images/Pathway2.png
