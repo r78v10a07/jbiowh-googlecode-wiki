@@ -6,17 +6,11 @@ The figure shows [SearchTab Search Tab] using the Protein as main dataset.
 
 http://jbiowh.googlecode.com/svn/wiki/images/30.jpg
 
-In this dataset the quick search will be performed over the *Protein Name* 
-(AAPK2_PIG), *Accession NUmber* (Q28948), *EC* (2.7.11.1) and *Long  Name* 
-fields including the use of simple regular expressions 
-too. 
+In this dataset the quick search will be performed over the *Protein Name* (AAPK2_PIG), *Accession NUmber* (Q28948), *EC* (2.7.11.1) and *Long  Name* fields including the use of [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions].
 
-On this !DataSet you are able to use other biological objects as [Constrains Constrains].
-The available !DataSet to be used as constrains are: Taxonomy,
-Ontology, Gene, !UniRef Entry, !DrugBank and KEGG Enzymes.
+On this !DataSet you are able to use other biological objects as [Constrains Constrains]. The available !DataSet to be used as constrains are: Taxonomy, Ontology, Gene, !UniRef Entry, !DrugBank and KEGG Enzymes.
 
-The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, 
-with the obtained results.
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
 
 http://jbiowh.googlecode.com/svn/wiki/images/31.jpg
 

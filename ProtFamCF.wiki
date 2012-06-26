@@ -1,0 +1,41 @@
+#summary This is the ProtFam config description
+
+= Protein Families =
+
+This is an example of a ProtFam !DataSet config file for the *UniRef50*  
+
+{{{
+<warehouse>
+    <name>UniRef50</name>
+    <type>UniRef</type>
+    <version>2011_05</version>
+    <homeurl>http://uniprot.org/uniref</homeurl>
+    <releaseDate>03/05/2011</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\uniref\uniref50</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>false</runlinks>
+</warehouse>
+}}}
+
+Note that if the tree *UniRef* *!DataSets* will be loaded the first one should have this options:
+
+{{{
+<droptables>true</droptables>
+<runlinks>false</runlinks>
+}}}
+
+The second one should have in *false* both of them and the last one should have:
+
+{{{
+<droptables>false</droptables>
+<runlinks>true</runlinks>
+}}}
+

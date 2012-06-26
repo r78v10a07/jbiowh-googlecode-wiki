@@ -6,13 +6,7 @@ The figure shows [SearchTab Search Tab] using the Taxonomy as main dataset.
 
 http://jbiowh.googlecode.com/svn/wiki/images/4.jpg
 
-In this dataset the quick search will be performed over the *!TaxId* and 
-*Synonym* (human, H.sapiens, Homo%) fields including the use of simple 
-regular expressions too. There is no possibility to use other biological 
-objects as [Constrains Constrains] on the *Taxonomy* search tab due to the 
-*Taxonomy* module is the basement of the relational schema and it is used 
-to organize the rest of the inserted data. The [SearchTab Search Tab] will 
-produce a new [ListTab List Tab], next figure, with the obtained results.
+In this dataset the quick search will be performed over the *!TaxId* and *Synonym* (human, H.sapiens, Homo%) fields including the use of simple [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions]. There is no possibility to use other biological objects as [Constrains Constrains] on the *Taxonomy* search tab due to the *Taxonomy* module is the basement of the relational schema and it is used to organize the rest of the inserted data. The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
 
 http://jbiowh.googlecode.com/svn/wiki/images/5.jpg
 
