@@ -11,6 +11,7 @@
             * [ProteinRS Protein]
             * [MIF25RS MIF25]
             * [ProtFamRS Protein Families]
+            * [DrugBankRS DrugBank]
         * [JavaAPI Java API]
             * [ParserFactory Parser Factory]
             * [SearchFactoryJA Search Factory]
