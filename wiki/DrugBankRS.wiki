@@ -10,6 +10,6 @@ This schema is a relational representation of the !DrugBank's XML file. The rela
 
 The main table is the *!DrugBank* table. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. 
 
-The *!DrugBank* !DataSet is linked with the proteins through the tables *Protein_has_DrugBank*, *{{{Protein_has_DrugBankAsEnzyme}}}*, *{{{Protein_has_DrugBankAsTransporters}}}* and *{{{Protein_has_DrugBankAsCarriers}}}*. These tables link the drugs with the proteins. The main link table is the *Protein_has_!DrugBank* which shows the drugs with its targets.
+The *!DrugBank* !DataSet is linked with the proteins through the tables *{{{Protein_has_DrugBank}}}*, *{{{Protein_has_DrugBankAsEnzyme}}}*, *{{{Protein_has_DrugBankAsTransporters}}}* and *{{{Protein_has_DrugBankAsCarriers}}}*. These tables link the drugs with the proteins. The main link table is the *Protein_has_!DrugBank* which shows the drugs with its targets.
 
 Also, the *!DrugBank* !DataSet is linked with the *KEGGCompound* through the table *{{{KEGGCompound_has_DrugBank}}}* providing the relation ship between KEGG compounds and !DrugBank drugs.
