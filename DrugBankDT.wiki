@@ -1,0 +1,23 @@
+#summary This wiki describe the DrugBank dataset on the Desktop Tool
+
+= !DrugBank =
+
+The figure shows [SearchTab Search Tab] using the !DrugBank as main dataset. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/37.jpg
+
+In this dataset the quick search will be performed over the *!DrugBank Id* (DB00043), *Name* (Omalizumab), *CAS* (242138-07-4) and *Indication* fields including the use of [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions].
+
+There is no possibility to use other biological objects as [Constrains Constrains] on the *!DrugBank* search tab.
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
+
+http://jbiowh.googlecode.com/svn/wiki/images/38.jpg
+
+The !DrugBank complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/39.jpg
+
+In the !ComboBox the *DrugBank's* linked !DataSets will be showed as in the next figure.
+
+http://jbiowh.googlecode.com/svn/wiki/images/40.jpg
