@@ -28,9 +28,9 @@ This is an example of a Gene !DataSet config file
 The *Gene* data files should be downloaded from [ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/ DATA] directory in the NCBI FTP Site. All files on this directory have to be downloaded except the folders. The files have to be uncompressed on the working directory 
 
 On GNU/Linux:
-<code language="bash">    
+{{{    
     mkdir gene
     cd gene
     wget -np -nH --cut-dirs=2 -r -R ASN_*,GENE_INFO,misc ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/
     gunzip -v *.gz
-</code>
+}}}
