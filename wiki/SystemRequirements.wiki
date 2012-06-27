@@ -1,4 +1,5 @@
 #summary Show the system requirements
+#labels Featured
 
 = System Requirements =
 
