@@ -14,7 +14,6 @@
             * [DrugBankRS DrugBank]
             * [PathwayRS KEGG Pathway]
         * [JavaAPI Java API]
-            * [JavaDoc JavaDoc]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
