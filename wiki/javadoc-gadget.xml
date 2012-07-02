@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
   <ModulePrefs title="JavaDoc Gadget" />
-  <Content type="http" href="http://jbiowh.googlecode.com/svn/javadoc/index.html" />
+  <Content type="url" href="http://jbiowh.googlecode.com/svn/javadoc/index.html" />
 </Module>
