@@ -1,1 +1,0 @@
-<wiki:gadget url="http://jbiowh.googlecode.com/svn/wiki/javadoc-gadget.xml" height="200" border="0" />
