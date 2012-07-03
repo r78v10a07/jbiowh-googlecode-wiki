@@ -14,7 +14,7 @@
             * [DrugBankRS DrugBank]
             * [PathwayRS KEGG Pathway]
         * [JavaAPI Java API]
-            * [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc]
+            * [http://code.google.com/p/jbiowh/wiki/javadoc/index.html JavaDoc]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
