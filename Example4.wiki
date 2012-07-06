@@ -4,7 +4,7 @@
 
 On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to search all human genes which are linked to asthma drugs.
 
-The [RelationalSchema Relational Schema] shows that there is not a direct link between !DrugBank !DataSet and Gene !Dataset. Then, to answer this question we should reach the genes through the proteins available in the Protein !DataSet because there is a direct link between !DrugBank !DataSet and Protein !DataSet. 
+The [RelationalSchema Relational Schema] shows that there is not a direct link between !DrugBank !DataSet and Gene !DataSet. Then, to answer this question we should reach the genes through the proteins available in the Protein !DataSet because there is a direct link between !DrugBank !DataSet and Protein !DataSet. 
 
 Follow the next links to view the solution to this question:
 
