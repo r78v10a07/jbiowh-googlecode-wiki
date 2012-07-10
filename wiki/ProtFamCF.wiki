@@ -39,3 +39,29 @@ The second one should have in *false* both of them and the last one should have:
 <runlinks>true</runlinks>
 }}}
 
+The !UniRef data files should be downloaded from [http://www.uniprot.org/help/uniref UniRef Web Site]. The files to download are:
+
+  * [ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.xml.gz uniref100.xml.gz]
+  * [ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.xml.gz uniref90.xml.gz]
+  * [ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.xml.gz uniref50.xml.gz]
+  
+On GNU/Linux:
+{{{
+  mkdir uniref
+  cd uniref
+  mkdir uniref100
+  
+  cd uniref100
+  wget ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref100/uniref100.xml.gz
+  cd ..
+  
+  mkdir uniref90
+  cd uniref90
+  wget ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.xml.gz
+  cd ..
+  
+  mkdir uniref50
+  cd uniref50
+  wget ftp://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50/uniref50.xml.gz
+  cd ..
+}}}

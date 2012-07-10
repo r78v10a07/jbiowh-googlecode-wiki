@@ -26,7 +26,7 @@ http://jbiowh.googlecode.com/svn/wiki/images/12.jpg
 
 The *External Operation* specified the link logical operation between constrains.
 
-The tool allows to users search over a file which should contain the Id for the desired !DataSet. The file should has one Id per line. In the case of the Protein !DataSet the file format can be fasta but the system will use only the protein Id.
+The tool allows to search over a file which should contain the Id for the desired !DataSet. The file should has one Id per line. In the case of the Protein !DataSet the file format can be fasta but the system will use only the protein Id.
 
 http://jbiowh.googlecode.com/svn/wiki/images/13.1.jpg
 

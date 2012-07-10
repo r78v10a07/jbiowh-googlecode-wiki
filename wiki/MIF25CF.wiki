@@ -26,3 +26,47 @@ This is an example of a MIF25 !DataSet config file
 }}}
 
 Note that each MIF25 data source have its own config file. The first MIF25 !DataSet to be loaded will have the *droptables* option in *true*, the rest of the !DataSets should disable this option.  
+
+Our system has been tested with the !DataSets: !IntAct, MINT, DIP and !BioGrid.
+
+The !IntAct's data files should be downloaded from [ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip pmidMIF25.zip] directory in the !EBI FTP Site. This file should be uncompressed in a directory. The *_negative.xml files should be removed. The XML files can be compressed using the gzip utility to save hard disk space. 
+
+On GNU/Linux:
+{{{   
+    mkdir intact
+    cd intact
+    wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip
+    unzip -d ./ pmidMIF25.zip
+    rm -rf *_negative.xml pmidMIF25.zip
+    gzip -v *.xml
+}}}
+
+
+The DIP's data files should be manually downloaded from [http://dip.doe-mbi.ucla.edu/dip/Download.cgi?SM=1 DIP Web Site]. Click on the FULL link and then download the last compressed (.mif25) XML file. The name of the file should be modify to add the XML extension.
+
+On GNU/Linux:
+{{{
+   mv dip20120518.mif25.gz dip20120518.mif25.xml.gz
+}}}
+
+The MINT's data files should be downloaded from [ftp://mint.bio.uniroma2.it/pub/release/psi/current/psi25/pmids/ pmids] directory in through the [http://mint.bio.uniroma2.it/mint/Welcome.do MINT Web Site]. The files should be uncompressed into a directory. The XML files can be compressed using the gzip utility to save hard disk space.
+
+On GNU/Linux:
+{{{
+   mkdir mint
+   cd mint
+   rm * -rf
+   wget -r -np -nH --cut-dirs=6 ftp://mint.bio.uniroma2.it/pub/release/psi/current/psi25/pmids/
+   for a in *.zip
+   do
+     unzip -d ./ $a
+   done
+   rm *.zip
+}}}
+
+The !BioGrid's data files should be downloaded manually from [http://thebiogrid.org/ BioGrid Web Site]. Click on the *Download* session, then click on *Current Release* and download the file *BIOGRID-ALL-xxxx.psi25.zip*. The *xxxx* will be the database version. This file should be uncompressed in a directory. 
+
+On GNU/Linux:
+{{{
+   unzip -d ./ BIOGRID-ALL-3.1.90.psi25.zip 
+}}}
