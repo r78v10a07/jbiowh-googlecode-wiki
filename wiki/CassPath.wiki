@@ -1,0 +1,23 @@
+#summary This Wiki is the JAVA CLASSPATH variable description
+
+= JAVA CLASSPATH variable = 
+
+Classpath is a parameter—set either on the command-line, or through an environment variable—that tells the Java Virtual Machine or the compiler where to look for user-defined classes and packages.
+
+To compile and execute our source code you should download the [http://jbiowh.googlecode.com/files/JBioWH%20-%20Subversion.zip JBioWH required libraries] from our project web site.
+
+== Windows ==
+
+You could copy the _*lib*_ and the _*jbiowh*_ folder on the _*C:*_ directory. Then, you CLASSPATH variable will be:
+
+{{{
+C:\lib\AbsoluteLayout.jar;C:\lib\javax.persistence-2.0.3.jar;C:\lib\eclipselink-2.3.2.jar;C:\lib\mysql-connector-java-5.1.18-bin.jar;C:\jbiowh\dist\jbiowh.jar
+}}} 
+
+== Linux ==
+
+You could copy the _*lib*_ and the _*jbiowh*_ folder on your home directory. Then, you CLASSPATH variable will be:
+
+{{{
+/home/user/libs/AbsoluteLayout.jar:/home/user/libs/mysql-connector-java-5.1.18-bin.jar:/home/user/libs/eclipselink-2.3.2.jar:/home/user/libs/javax.persistence-2.0.3.jar:/home/user/jbiowh/dist/jbiowh.jar
+}}}

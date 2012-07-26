@@ -7,10 +7,8 @@ The system can be used in any operating system which support [http://www.oracle.
 
 It has been tested with all its parts running on Windows 7 or Linux operating system. Also, mixed environments were tested with the database on a Linux server and the Desktop tool running on Windows. 
 
-Put in your CLASSPATH the following java libraries:
-  * [http://dev.mysql.com/downloads/connector/j/ MySQL Connector 5.1.13] or later
-  * [http://www.eclipse.org/eclipselink/downloads/  EclipseLink 2.2.0] or later
-  * [http://jbiowh.googlecode.com/files/AbsoluteLayout.jar Absolute Layout]
+Put in your [ClassPath $CLASSPATH] the libraries included on this ZIP file:
+  * [http://jbiowh.googlecode.com/files/JBioWH%20-%20Subversion.zip JBioWH required libraries] or later
   
  
    

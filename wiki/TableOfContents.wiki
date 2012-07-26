@@ -2,6 +2,7 @@
     * Getting Started
         * [SystemRequirements System Requirements]
         * [InstallationGuide Installation Guide]
+        * [ClassPath JAVA CLASSPATH variable]
     * User Manual    
         * [Introduction Introduction]
         * [RelationalSchema Relational Schema] 
@@ -25,7 +26,7 @@
             * [ProtFamCF Protein Families]
             * [DrugBankCF DrugBank]
             * [PathwayCF KEGG Pathway]
-        * [DesktopTool Desktop Tool]
+        * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
                 * [ConstrainsTab Constrain Tab]
