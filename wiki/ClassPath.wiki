@@ -4,7 +4,7 @@
 
 Classpath is a parameter, set either on the command-line, or through an environment variable, that tells the Java Virtual Machine or the compiler where to look for user-defined classes and packages.
 
-To compile and execute our source code you should download the [http://jbiowh.googlecode.com/files/JBioWH%20-%20Subversion.zip JBioWH required libraries] from our project web site.
+To compile and execute our source code you should download the [http://jbiowh.googlecode.com/files/JBioWH-Subversion-Libraries.zip JBioWH required libraries] from our project web site.
 
 == Windows ==
 
