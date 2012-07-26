@@ -1,16 +1,22 @@
-#summary This the introduction on the Desktop Tool
+#summary This the introduction on the Desktop Client
 
 = Introduction = 
 
-The *JBioWH's* Desktop tool shows the dataset list inserted into the relational database. Also, the user is able to view the amount of data inserted in the tables belonged to each dataset. The figures show the login dialog which connects the Desktop tool to the DBMS, !MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
+To execute the Desctop Client you should type in a Windows Command Line tool or in a Linux terminal.
+
+<code language="bash">
+java -classpath [ClassPath $CLASSPATH] org.jbiowh.gui.JBioWH
+</code>
+
+The *JBioWH's* Desktop Client shows the dataset list inserted into the relational database. Also, the user is able to view the amount of data inserted in the tables belonged to each dataset. The figures show the login dialog which connects the Desktop Client to the DBMS, !MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
 
 http://jbiowh.googlecode.com/svn/wiki/images/1.jpg
 
 http://jbiowh.googlecode.com/svn/wiki/images/3.jpg
 
-The *JBioWH's* Desktop tool has a Tab view based GUI. This GUI allow to users have an instantaneous control over its searches and results. 
+The *JBioWH's* Desktop Client has a Tab view based GUI. This GUI allow to users have an instantaneous control over its searches and results. 
  
-The *Tabs Menu* gives access to the operation that could be performed over a selected Tab. Also, this menu can be used to open the main available Tabs in the Desktop Tool. This Tabs are Home Tab, [SearchTab Search Tab], [ConstrainsTab Constrain Tab] and the [SQLEditor SQL Editor Tab].
+The *Tabs Menu* gives access to the operation that could be performed over a selected Tab. Also, this menu can be used to open the main available Tabs in the Desktop Client. This Tabs are Home Tab, [SearchTab Search Tab], [ConstrainsTab Constrain Tab] and the [SQLEditor SQL Editor Tab].
 
 http://jbiowh.googlecode.com/svn/wiki/images/3.2.jpg
 
