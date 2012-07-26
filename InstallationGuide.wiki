@@ -44,7 +44,7 @@ Remember to have in your CLASSPATH the libraries mentioned on the [SystemRequire
 
 === Windows ===
 
-You should unzip the [http://jbiowh.googlecode.com/files/JBioWH%20-%20Subversion.zip JBioWH required libraries] in a folder. It could be the _*C:*_ directory. This process will create a folder called _*C:\lib*_ with the libraries inside. 
+You should unzip the [http://jbiowh.googlecode.com/files/JBioWH-Subversion-Libraries.zip JBioWH required libraries] in a folder. It could be the _*C:*_ directory. This process will create a folder called _*C:\lib*_ with the libraries inside. 
 
 Use the command line tool in Windows to navigate to the _*jbiowh*_ folder. If you copy the _*jbiowh*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
 
