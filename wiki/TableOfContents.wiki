@@ -41,7 +41,7 @@
                 * [ProtFamDT Protein Families]
                 * [DrugBankDT DrugBank]
                 * [PathwayDT KEGG Pathway]
-        * Examples
+        * [Examples]
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]
                 * [Ex1SQLEditor SQL Editor Tab]
