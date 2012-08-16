@@ -4,9 +4,32 @@
  
 Please, check the [SystemRequirements System requirements] before pass to the installation process.
 
+== Executing the JBioWH JAR file ==
+
+To execute the [http://jbiowh.googlecode.com/files/jbiowh-2.0.0-SNAPSHOT.jar JBioWH JAR] file:
+
+=== Windows ===
+
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://jbiowh.googlecode.com/files/jbiowh-2.0.0-SNAPSHOT.jar JBioWH JAR]
+
+{{{
+java -jar jbiowh-2.0.0-SNAPSHOT.jar
+}}}
+
+=== Linux ===
+
+Use the Linux terminal and type the following sentence to execute the *JBioWH Desktop Client*
+
+{{{
+java -jar jbiowh-2.0.0-SNAPSHOT.jar
+}}}
+
+Remember change the *user* for your real linux user!!
+
 == Downloading the source code =
 
 === Windows ===
+
 To download the *JBioWH* source code use [http://www.tortoisesvn.net/ TortoiseSVN]. If you are behind a proxy you have to configure the !TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
 
 Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. After that, type the *JBioWH* svn project address https://jbiowh.googlecode.com/svn/trunk/ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
@@ -40,28 +63,24 @@ source <path-to-previously-create-jbiowh-folder>/schema/mysql/warehouse.sql;
 
 Compile the source code to generate a java jar file.
 
-Remember to have in your CLASSPATH the libraries mentioned on the [SystemRequirements System requirements] before compile the source code.
-
 === Windows ===
 
-You should unzip the [http://jbiowh.googlecode.com/files/JBioWH-Subversion-Libraries.zip JBioWH required libraries] in a folder. It could be the _*C:*_ directory. This process will create a folder called _*C:\lib*_ with the libraries inside. 
-
-Use the command line tool in Windows to navigate to the _*jbiowh*_ folder. If you copy the _*jbiowh*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
+Use the CMD to navigate to the _*jbiowh*_ folder. If you copy the _*jbiowh*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
 
 {{{
 C:
 cd jbiowh
-ant -lib C:/lib jar
+mvn clean package
 }}}
 
 === Linux ===
 
-Use the the terminal on Linux to navigate to the _*jbiowh*_ folder. If you save the _*lib*_ and the _*jbiowh*_ folder on your home directory type this to compile the source code: 
+Use the the terminal on Linux to navigate to the _*jbiowh*_ folder. 
 
 Type the following command line: 
 <code language="bash">
 cd ~/jbiowh
-ant -lib ~/lib jar
+mvn clean package
 </code>
 
-After the compilation process you will have a folder named _*dist*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh.jar*_. Copy the _*jbiowh.jar*_ file to the _*lib*_ directory to have all JAR files together. 
+After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh-2.0.0-SNAPSHOT.jar*_.

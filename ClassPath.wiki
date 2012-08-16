@@ -4,14 +4,14 @@
 
 Classpath is a parameter, set either on the command-line, or through an environment variable, that tells the Java Virtual Machine or the compiler where to look for user-defined classes and packages.
 
-To compile and execute our source code you should download the [http://jbiowh.googlecode.com/files/JBioWH-Subversion-Libraries.zip JBioWH required libraries] from our project web site.
+To execute our source code you should download the [http://jbiowh.googlecode.com/files/JBioWH-libraries-2.0.0.zip JBioWH required libraries] from our project web site.
 
 == Windows ==
 
-You could copy the _*lib*_ and the _*jbiowh*_ folder on the _*C:*_ directory. Then, you CLASSPATH variable will be:
+You could copy the _*libs*_ and the _*jbiowh*_ folder on the _*C:*_ directory. Then, you CLASSPATH variable will be:
 
 {{{
-C:\lib\AbsoluteLayout.jar;C:\lib\javax.persistence-2.0.3.jar;C:\lib\eclipselink-2.3.2.jar;C:\lib\org.eclipse.persistence.jpa.jpql_1.0.1.jar;C:\lib\mysql-connector-java-5.1.18-bin.jar;C:\jbiowh\dist\jbiowh.jar
+C:\libs\mysql-connector-java-5.1.21.jar;C:\libs\eclipselink-2.3.2-SNAPSHOT.jar;C:\libs\javax.persistence-2.0.3-SNAPSHOT.jar;C:\libs\org.eclipse.persistence.jpa.jpql_1.0.1-SNAPSHOT.jar;C:\libs\jbiowh-2.0.0-SNAPSHOT.jar
 }}} 
 
 == Linux ==
@@ -19,5 +19,5 @@ C:\lib\AbsoluteLayout.jar;C:\lib\javax.persistence-2.0.3.jar;C:\lib\eclipselink-
 You could copy the _*lib*_ and the _*jbiowh*_ folder on your home directory. Then, you CLASSPATH variable will be:
 
 {{{
-/home/user/lib/AbsoluteLayout.jar:/home/user/lib/mysql-connector-java-5.1.18-bin.jar:/home/user/lib/eclipselink-2.3.2.jar:/home/user/lib/javax.persistence-2.0.3.jar:/home/user/lib/org.eclipse.persistence.jpa.jpql_1.0.1.jar:/home/user/jbiowh/dist/jbiowh.jar
+/home/user/libs/mysql-connector-java-5.1.21.jar:/home/user/libs/eclipselink-2.3.2-SNAPSHOT.jar:/home/user/libs/javax.persistence-2.0.3-SNAPSHOT.jar:/home/user/libs/org.eclipse.persistence.jpa.jpql_1.0.1-SNAPSHOT.jar:/home/user/libs/jbiowh-2.0.0-SNAPSHOT.jar
 }}}
