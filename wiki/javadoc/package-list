@@ -1,6 +1,15 @@
 org.jbiowh.core.datasets.dataset
 org.jbiowh.core.datasets.dataset.controller
+org.jbiowh.core.datasets.dataset.controller.exceptions
 org.jbiowh.core.datasets.dataset.entities
+org.jbiowh.core.datasets.dataset.exceptions
+org.jbiowh.core.datasets.disease.omim
+org.jbiowh.core.datasets.disease.omim.controller
+org.jbiowh.core.datasets.disease.omim.entities
+org.jbiowh.core.datasets.disease.omim.exception
+org.jbiowh.core.datasets.disease.omim.files
+org.jbiowh.core.datasets.disease.omim.files.tags
+org.jbiowh.core.datasets.disease.omim.search
 org.jbiowh.core.datasets.drug.drugbank
 org.jbiowh.core.datasets.drug.drugbank.controller
 org.jbiowh.core.datasets.drug.drugbank.entities
@@ -68,6 +77,7 @@ org.jbiowh.core.utility.controller.exceptions
 org.jbiowh.gui
 org.jbiowh.gui.component.actionlistener
 org.jbiowh.gui.component.file
+org.jbiowh.gui.component.icons
 org.jbiowh.gui.component.panel
 org.jbiowh.gui.component.panel.list
 org.jbiowh.gui.component.panel.result
@@ -76,7 +86,10 @@ org.jbiowh.gui.component.panel.sql.syntax
 org.jbiowh.gui.component.panel.tabbedpanel
 org.jbiowh.gui.component.popup
 org.jbiowh.gui.component.table.model
+org.jbiowh.gui.component.table.model.data
+org.jbiowh.gui.component.tree
 org.jbiowh.gui.datasets
+org.jbiowh.gui.datasets.disease
 org.jbiowh.gui.datasets.drug
 org.jbiowh.gui.datasets.gene
 org.jbiowh.gui.datasets.ontology
@@ -89,3 +102,8 @@ org.jbiowh.gui.datasets.pathway.reaction
 org.jbiowh.gui.datasets.protein
 org.jbiowh.gui.datasets.protfam
 org.jbiowh.gui.datasets.taxonomy
+org.jbiowh.gui.progressbar
+org.jbiowh.gui.save
+org.jbiowh.gui.sqltables
+org.jbiowh.gui.sqltables.exception
+org.jbiowh.gui.sqltables.listener

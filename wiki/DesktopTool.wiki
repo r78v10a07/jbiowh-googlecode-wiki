@@ -2,11 +2,7 @@
 
 = Introduction = 
 
-To execute the Desctop Client you should type in a Windows Command Line tool or in a Linux terminal.
-
-<code language="bash">
-java -classpath CLASSPATH org.jbiowh.gui.JBioWH
-</code>
+To execute the Desctop Client view this [InstallationGuide page].
 
 The *JBioWH's* Desktop Client shows the dataset list inserted into the relational database. Also, the user is able to view the amount of data inserted in the tables belonged to each dataset. The figures show the login dialog which connects the Desktop Client to the DBMS, !MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
 
