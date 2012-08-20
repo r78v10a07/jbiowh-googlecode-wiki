@@ -1,7 +1,7 @@
-#summary This wiki describe the MIF25 dataset
+#summary This wiki describe the MIF25 module
 
 = MIF25 = 
 
-The *MIF25* !DataSet includes all *Protein-Protein Interaction* data source
+The *MIF25* module includes all *Protein-Protein Interaction* data source
 
 http://jbiowh.googlecode.com/svn/wiki/images/MIF25.png
