@@ -9,6 +9,7 @@ org.jbiowh.core.datasets.disease.omim.entities
 org.jbiowh.core.datasets.disease.omim.exception
 org.jbiowh.core.datasets.disease.omim.files
 org.jbiowh.core.datasets.disease.omim.files.tags
+org.jbiowh.core.datasets.disease.omim.links
 org.jbiowh.core.datasets.disease.omim.search
 org.jbiowh.core.datasets.drug.drugbank
 org.jbiowh.core.datasets.drug.drugbank.controller

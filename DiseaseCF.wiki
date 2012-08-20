@@ -1,0 +1,28 @@
+#summary This is the Disease config description
+
+= Disease =
+
+This is an example of a OMIM !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>OMIM</name>
+    <type>OMIM</type>
+    <version>1.0</version>
+    <homeurl>http://omim.org</homeurl>
+    <releaseDate>00/08/2010</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\omim</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *OMIM* data files have be manually download from [http://www.omim.org/downloads OMIM] web site. The five files provided by OMIM should reside in a same directory uncompressed.

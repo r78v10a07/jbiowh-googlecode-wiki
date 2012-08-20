@@ -14,7 +14,7 @@ The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, w
 
 http://jbiowh.googlecode.com/svn/wiki/images/31.jpg
 
-The Protein complete description window
+The Protein entry complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/32.jpg
 

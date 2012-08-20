@@ -13,6 +13,7 @@
             * [ProtFamRS Protein Families]
             * [DrugBankRS DrugBank]
             * [PathwayRS KEGG Pathway]
+            * [DiseaseRS Disease]
         * [JavaAPI Java API]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
@@ -25,6 +26,7 @@
             * [ProtFamCF Protein Families]
             * [DrugBankCF DrugBank]
             * [PathwayCF KEGG Pathway]
+            * [DiseaseCF Disease]
         * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
@@ -41,6 +43,7 @@
                 * [ProtFamDT Protein Families]
                 * [DrugBankDT DrugBank]
                 * [PathwayDT KEGG Pathway]
+                * [DiseaseDT Disease]
         * [Examples]
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]

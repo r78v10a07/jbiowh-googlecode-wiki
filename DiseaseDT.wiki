@@ -1,0 +1,21 @@
+#summary This wiki describe the Disease dataset on the Desktop Tool
+
+= Disease =
+
+The figure shows [SearchTab Search Tab] using the OMIM as main dataset. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/45.jpg
+
+In this dataset the quick search will be performed over the *OMIM ID* (100050) and *Title* (100050 AARSKOG SYNDROME, AUTOSOMAL DOMINANT) fields including the use of [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions].
+
+On this !DataSet you are able to use other biological objects as [Constrains Constrains]. The available !DataSet to be used as constrains are: Gene.
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
+
+http://jbiowh.googlecode.com/svn/wiki/images/46.jpg
+
+The OMIM entry complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/47.jpg
+
+In the !ComboBox the *OMIM's* linked Genes are be showed.

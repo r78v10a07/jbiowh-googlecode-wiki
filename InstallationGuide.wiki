@@ -6,14 +6,14 @@ Please, check the [SystemRequirements System requirements] before pass to the in
 
 == Executing the JBioWH JAR file ==
 
-To execute the [http://jbiowh.googlecode.com/files/jbiowh-2.0.0-SNAPSHOT.jar JBioWH JAR] file:
+To execute the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] last version file:
 
 === Windows ===
 
-Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://jbiowh.googlecode.com/files/jbiowh-2.0.0-SNAPSHOT.jar JBioWH JAR]
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] last version.
 
 {{{
-java -jar jbiowh-2.0.0-SNAPSHOT.jar
+java -jar jbiowh-<version>-SNAPSHOT.jar
 }}}
 
 === Linux ===
@@ -21,10 +21,8 @@ java -jar jbiowh-2.0.0-SNAPSHOT.jar
 Use the Linux terminal and type the following sentence to execute the *JBioWH Desktop Client*
 
 {{{
-java -jar jbiowh-2.0.0-SNAPSHOT.jar
+java -jar jbiowh-<version>-SNAPSHOT.jar
 }}}
-
-Remember change the *user* for your real linux user!!
 
 == Downloading the source code =
 
@@ -52,11 +50,19 @@ CREATE DATABASE biowh;
 
 You can use other name than _*biowh*_, just remember it for further uses and replace the _*biowh*_ world in the above lines by your database name.
 
+The SQL script with the relational schema can be extracted from the JAR file of from the source directory downloaded from the SVN server. 
+
+From the JAR file extract the JAR file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
+
+From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_
+
+Additionally, we provide the MySQL Workbench project file _*warehouse.mwb*_. 
+
 Load the relational schema typing the following command:
 
 <code language="sql">
 use biowh;
-source <path-to-previously-create-jbiowh-folder>/schema/mysql/warehouse.sql;
+source <path-to-sql-script>/warehouse.sql;
 </code>
   
 == Compile the source code ==
@@ -83,4 +89,4 @@ cd ~/jbiowh
 mvn clean package
 </code>
 
-After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh-2.0.0-SNAPSHOT.jar*_.
+After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar file _*jbiowh-<version>-SNAPSHOT.jar*_.
