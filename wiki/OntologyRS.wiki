@@ -1,8 +1,8 @@
-#summary This wiki describe the Ontology dataset
+#summary This wiki describe the Ontology module
 
 = Ontology =
 
-The *Ontology* dataset is based in the [http://www.geneontology.org/ GeneOntology] (GO) data source. The next figure shows the relational schema for the *Ontology* dataset. The non-connected tables are temporal tables which are used during the insertion process and remain empties after that.
+The *Ontology* module is based in the [http://www.geneontology.org/ GeneOntology] (GO) data source. The next figure shows the relational schema for the *Ontology* module. The non-connected tables are temporal tables which are used during the insertion process and remain empties after that.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ontology.png
 

@@ -1,13 +1,13 @@
-#summary This wiki describe the Disease dataset
+#summary This wiki describe the Disease module
 
 = Disease =
 
-The *Disease* dataset is based on the [http://www.omim.org/ OMIM] data source. The next figure shows the relational schema for the *OMIM* dataset. The non-connected tables are temporal tables which are used during the insertion process and remain empties after that.
+The *Disease* module is based on the [http://www.omim.org/ OMIM] data source. The next figure shows the relational schema for the *OMIM* dataset. The non-connected tables are temporal tables which are used during the insertion process and remain empties after that.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Omim.png
 
-The *OMIM* table is the main tale on this module. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. The *OMIM id* is storage on the *OMIM_ID* field on this table. The rest of the tables included on this module storage all data provide by *!OMIM*.
+The *OMIM* table is the main tale on this module. The primary key on this table is the *WID* and it includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key. The *OMIM id* is storage on the *OMIM_ID* field on this table. The rest of the tables included on this module storage all data provide by *OMIM*.
 
 The relationship between the omim objects are build it on using the *WID* identifier in order to have a common integer identifier more easily to use and more efficient to index by the *DBMS* engine. 
 
-The relationship with the Gene dataset is storage on the *{{{GeneInfo_has_OMIM}}}* table. This table is constructed using the *!Gene2MIM* table included on the Gene module. The *{{{GeneInfo_has_OMIM}}}* table is recreated after an update of the Gene dataset or the OMIM dataset.  This table uses as geneinfo's primary key the *WID* field on the !GeneInfo table and the omim's primary key the *WID* field on the OMIM table.
+The relationship with the Gene dataset is storage on the *{{{GeneInfo_has_OMIM}}}* table. This table is constructed using the *Gene2MIM* table included on the Gene module. The *{{{GeneInfo_has_OMIM}}}* table is recreated after an update of the Gene dataset or the OMIM dataset.  This table uses as geneinfo's primary key the *WID* field on the !GeneInfo table and the omim's primary key the *WID* field on the OMIM table.
