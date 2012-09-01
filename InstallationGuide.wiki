@@ -10,7 +10,7 @@ To execute the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] last 
 
 === Windows ===
 
-Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] last version.
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] latest version.
 
 {{{
 java -jar jbiowh-<version>-SNAPSHOT.jar
@@ -54,9 +54,9 @@ The SQL script with the relational schema can be extracted from the JAR file of 
 
 From the JAR file extract the JAR file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
 
-From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_
+From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_ or download from [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-Additionally, we provide the MySQL Workbench project file _*warehouse.mwb*_. 
+Additionally, we provide the [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench] project file]. 
 
 Load the relational schema typing the following command:
 
