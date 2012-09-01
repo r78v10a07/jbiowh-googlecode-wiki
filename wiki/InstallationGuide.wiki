@@ -10,7 +10,7 @@ Download the latest version from the [DownloadWiki download page].
 
 === Windows ===
 
-Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder wher you save the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] latest version.
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder where you have the JBioWH JAR downloaded version.
 
 {{{
 java -jar jbiowh-<version>-SNAPSHOT.jar
