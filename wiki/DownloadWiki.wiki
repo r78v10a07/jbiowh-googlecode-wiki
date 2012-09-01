@@ -1,0 +1,36 @@
+= Download =
+
+The latest [http://jbiowh.googlecode.com/files/jbiowh-2.0.3-SNAPSHOT.jar JBioWH] stable version. 
+
+Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
+
+The MySQL script to create the relational database is [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
+
+== JavaDoc ==
+
+The latest [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc] generated.
+
+== MySQL Workbench Project ==
+
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench Project] to visualize and modify the relational schema. 
+
+= Updates =
+
+== Update a relational schema from 2.0.2 to 2.0.3 ==
+
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.2-to-2.0.3.sql this] script to update an existing relational schema from version 2.0.2 to 2.0.3.
+
+From the MySQL database run:
+
+{{{
+   source <path-to-downloaded-sql-script>;
+}}} 
+
+
+
+
+
+
+
+
+ 
