@@ -6,7 +6,7 @@ Please, check the [SystemRequirements System requirements] before pass to the in
 
 == Executing the JBioWH JAR file ==
 
-To execute the [http://code.google.com/p/jbiowh/downloads/list JBioWH JAR] last version file:
+Download the latest version from the [DownloadWiki download page].
 
 === Windows ===
 
