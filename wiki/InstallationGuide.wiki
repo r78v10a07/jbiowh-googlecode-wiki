@@ -56,7 +56,7 @@ From the JAR file extract the JAR file to a folder using, on windows, WinRAR or 
 
 From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_ or download from [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-Additionally, we provide the [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench] project file]. 
+Additionally, we provide the [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench] project file. 
 
 Load the relational schema typing the following command:
 
