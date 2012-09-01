@@ -1,12 +1,12 @@
 = Download =
 
-The latest [http://jbiowh.googlecode.com/files/jbiowh-2.0.3-SNAPSHOT.jar JBioWH] stable version. 
+The latest [http://jbiowh.googlecode.com/files/jbiowh-2.0.3-SNAPSHOT.jar jbiowh-2.0.3-SNAPSHOT.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
 The MySQL script to create the relational database is [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-Older version [http://code.google.com/p/jbiowh/downloads/list here]. 
+Older versions [http://code.google.com/p/jbiowh/downloads/list here]. 
 
 == !JavaDoc ==
 
