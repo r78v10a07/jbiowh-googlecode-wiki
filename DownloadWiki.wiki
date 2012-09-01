@@ -6,7 +6,7 @@ Check the [SystemRequirements System requirements] and the [InstallationGuide In
 
 The MySQL script to create the relational database is [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-== JavaDoc ==
+== !JavaDoc ==
 
 The latest [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc] generated.
 
