@@ -1,4 +1,5 @@
 #summary Show the system installation guide
+#labels Featured
 
 = Installation guide =
  
