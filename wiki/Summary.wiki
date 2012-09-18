@@ -17,9 +17,11 @@ This project is supported by the [http://www.icgeb.trieste.it International Cent
 
 A free available MySQL database for testing is available.
 
-Server: hydrax.icgeb.trieste.it<br/>
-Port: 3307<br/>
-User: biowh<br/>
-Password: mypass<br/>
+{{{
+Server: hydrax.icgeb.trieste.it
+Port: 3307
+User: biowh
+Password: mypass
+}}}
 
 Please use the [http://groups.google.com/group/jbiowh-discuss JBioWH Google Group] to discuss, or to post questions. 
