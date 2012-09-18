@@ -26,6 +26,8 @@ Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql
 
 Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.2-to-2.0.3.sql this] script to update an existing relational schema from version 2.0.2 to 2.0.3.
 
+Note that the updates are NOT accumulative. Therefore, you have to execute them sequentially.
+
 From the MySQL client run:
 
 {{{
