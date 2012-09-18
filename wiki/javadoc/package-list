@@ -1,8 +1,6 @@
 org.jbiowh.core.datasets.dataset
 org.jbiowh.core.datasets.dataset.controller
-org.jbiowh.core.datasets.dataset.controller.exceptions
 org.jbiowh.core.datasets.dataset.entities
-org.jbiowh.core.datasets.dataset.exceptions
 org.jbiowh.core.datasets.disease.omim
 org.jbiowh.core.datasets.disease.omim.controller
 org.jbiowh.core.datasets.disease.omim.entities
@@ -25,7 +23,9 @@ org.jbiowh.core.datasets.gene.entities
 org.jbiowh.core.datasets.gene.files
 org.jbiowh.core.datasets.gene.links
 org.jbiowh.core.datasets.gene.search
+org.jbiowh.core.datasets.gene.tools
 org.jbiowh.core.datasets.mif25
+org.jbiowh.core.datasets.mif25.controller
 org.jbiowh.core.datasets.mif25.entities
 org.jbiowh.core.datasets.mif25.links
 org.jbiowh.core.datasets.mif25.xml
@@ -108,3 +108,7 @@ org.jbiowh.gui.save
 org.jbiowh.gui.sqltables
 org.jbiowh.gui.sqltables.exception
 org.jbiowh.gui.sqltables.listener
+org.jbiowh.tools.defaultTools
+org.jbiowh.tools.prototypes
+org.jbiowh.tools.prototypes.insert
+org.jbiowh.tools.prototypes.search
