@@ -5,8 +5,7 @@
 The *Parser Tool* is a console based application to load the !DataSet into the [RelationalSchema Relational Schema]. This application uses a *XML config* file to start. The parser is executed using the following command line in the CMD console on Windows OS or in the Linux terminal on the GNU/Linux OS. In order to obtain the better performance on the load process the *Parser Tool* should be executed on the same computer that host the DBMS server. This will reduce the delays produced by network during the data transfer process.
 
 <code language="bash">
-java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.dataset.DataSetLoader <path-to-the-dataset-config-file>
+java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.dataset.DataSetLoader -i <path-to-the-dataset-config-file>
 </code>
 
 The specific *XML config* file for each !DataSet will be showed on the !DataSet help Wiki.
-
