@@ -15,7 +15,7 @@ The [JavaAPI Java API] includes the parser to extract and insert the biological 
 
 This project is supported by the [http://www.icgeb.trieste.it International Centre for Genetic Engineering and Biotechnology (ICGEB)] under its "Sandwich" !PhD Programme.
 
-A free available MySQL database for testing is available.
+A free MySQL server is available for testing.
 
 {{{
 Server: hydrax.icgeb.trieste.it
