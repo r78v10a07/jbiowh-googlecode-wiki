@@ -1,6 +1,6 @@
 = Download =
 
-The latest [http://jbiowh.googlecode.com/files/jbiowh-2.0.5-SNAPSHOT.jar jbiowh-2.0.5-SNAPSHOT.jar] stable version. 
+The latest [http://jbiowh.googlecode.com/files/jbiowh-2.0.6-SNAPSHOT.jar jbiowh-2.0.6-SNAPSHOT.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
@@ -18,7 +18,7 @@ Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql
 
 = Updates =
 
-== Update a relational schema from 2.0.3 to 2.0.5 ==
+== Update a relational schema from 2.0.3 to 2.0.6 ==
 
 Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.3-to-2.0.5.sql this] script to update an existing relational schema from version 2.0.3 to 2.0.5.
 
