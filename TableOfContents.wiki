@@ -18,6 +18,7 @@
             * [PathwayRS KEGG Pathway]
             * [DiseaseRS Disease]
         * [JavaAPI Java API]
+            * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
@@ -47,6 +48,8 @@
                 * [DrugBankDT DrugBank]
                 * [PathwayDT KEGG Pathway]
                 * [DiseaseDT Disease]
+        * Command Line Tools
+                * [GeneTool Gene Tools]                
         * [Examples]
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]
