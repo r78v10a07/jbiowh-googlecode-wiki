@@ -16,6 +16,6 @@ The command line options are:
     *   -p set the position of the fields on the file. First the !ProteinGi Id and then gene type, for the second output (require argument, by default *"0" or "0,1"* for the second output)
     *   -d set the delimiter to extract the fields (require argument, by default uses *the space character*)
 
-View [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java JavaDoc] for this class.
+View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/prototypes/gene/FindGeneToGenomeTable.html JavaDoc] for this class.
 
 View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java Java file] for this class
