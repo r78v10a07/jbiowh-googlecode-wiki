@@ -10,10 +10,10 @@ There are two outputs using this main class. The first is obtained using the com
 
 The command line options are:
 
-*   --fasta Print the proteins in fasta format.
-*   -i set the file with the ProteinGi list (require argument).
-*   -n set the number of gene pair bases up and down to include in the gap (require argument, by default 10000).
-*   -p set the position of the fields on the file. First the ProteinGi Id and then gene type, for the second output (require argument, by default "0" or "0,1" for the second output)
-*   -d set the delimiter to extract the fields (require argument, by default uses the space character)
+    *   --fasta Print the proteins in fasta format.
+    *   -i set the file with the ProteinGi list (require argument).
+    *   -n set the number of gene pair bases up and down to include in the gap (require argument, by default 10000).
+    *   -p set the position of the fields on the file. First the ProteinGi Id and then gene type, for the second output (require argument, by default "0" or "0,1" for the second output)
+    *   -d set the delimiter to extract the fields (require argument, by default uses the space character)
 
 View [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java JavaDoc] for this class
