@@ -1,19 +1,21 @@
 #summary This is the Find Gene from ProteinGi Command Line Tools using the Java API
 
-= Find Gene from ProteinGi =
+= Find Gene from !ProteinGi =
 
 The class extends the [AbstractDefaultTool] to parse the command line options. 
 
-This Java Main class search for genes and, therefore the proteins encoded by each gene, using as ID the ProteinGi provided by the  [http://www.ncbi.nlm.nih.gov/gene/ Gene] data source. The program reads the ProteinGi IDs form a file provided by the option (-i). The file can have any text format with a constant field delimiter. The delimiter string is set by the option (-d), by default the class uses the space character as delimiter. Also, the position of the ProteinGi Id has to be passed to the class using the option (-p), by default the class uses the "0" as the position for the ProteinGi Id.      
+This Java Main class search for genes and, therefore the proteins encoded by each gene, using as ID the !ProteinGi provided by the  [http://www.ncbi.nlm.nih.gov/gene/ Gene] data source. The program reads the !ProteinGi IDs form a file provided by the option (-i). The file can have any text format with a constant field delimiter. The delimiter string is set by the option (-d), by default the class uses the space character as delimiter. Also, the position of the !ProteinGi Id has to be passed to the class using the option (-p), by default the class uses the "0" as the position for the !ProteinGi Id.      
 
-There are two outputs using this main class. The first is obtained using the command line option (--fasta). It will return the UniProt sequence, in fasta format, for each ProteinGi entered in the command line. The second output is obtained when the (--fasta) option is omitted. This output require a second column in the input file with the gene type and will return a table with the PTT information plus the UniProt protein sequence including the genes in the same chromosome in a gap of number of pair bases. The class uses the option (-n) to set the number of gene pair bases included in the gap, by default the class uses 10000 up and down the located gene of pair bases inside the gap. The second column (gene type) in the input file is used to mark the input gene in the chromosome table.
+There are two outputs using this main class. The first is obtained using the command line option (--fasta). It will return the !UniProt sequence, in fasta format, for each !ProteinGi entered in the command line. The second output is obtained when the (--fasta) option is omitted. This output require a second column in the input file with the gene type and will return a table with the PTT information plus the !UniProt protein sequence including the genes in the same chromosome in a gap of number of pair bases. The class uses the option (-n) to set the number of gene pair bases included in the gap, by default the class uses 10000 up and down the located gene of pair bases inside the gap. The second column (gene type) in the input file is used to mark the input gene in the chromosome table.
 
 The command line options are:
 
     *   --fasta Print the proteins in fasta format.
-    *   -i set the file with the ProteinGi list (require argument).
-    *   -n set the number of gene pair bases up and down to include in the gap (require argument, by default 10000).
-    *   -p set the position of the fields on the file. First the ProteinGi Id and then gene type, for the second output (require argument, by default "0" or "0,1" for the second output)
-    *   -d set the delimiter to extract the fields (require argument, by default uses the space character)
+    *   -i set the file with the !ProteinGi list (require argument).
+    *   -n set the number of gene pair bases up and down to include in the gap (require argument, by default *10000*).
+    *   -p set the position of the fields on the file. First the !ProteinGi Id and then gene type, for the second output (require argument, by default *"0" or "0,1"* for the second output)
+    *   -d set the delimiter to extract the fields (require argument, by default uses *the space character*)
 
-View [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java JavaDoc] for this class
+View [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java JavaDoc] for this class.
+
+View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java Java file] for this class
