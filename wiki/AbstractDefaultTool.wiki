@@ -4,16 +4,20 @@
 
 This is an abstract class that is used to parse the command line options in Java Main classes using the JBioWH API. The Java Main classes should *extends* this class *overriding* the abstracts methods.
 
-[http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/defaultTools/AbstractDefaultTool.html JavaDoc]
+
 
 This class includes some default options that will be available for the Java Main class:
 
     * -v to toggle on the verbose info during the execution (not require argument).
     * -h,--help to view the help message (not require argument).
-    * -f to create a file name used to print the results (require argument, by default the file name is result.txt)
-    * --driver set the Java MySQL driver (require argument, by default: com.mysql.jdbc.Driver)
-    * --url set the Database JDBC Url (require argument, by default: jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh, our free JBioWH database)
-    * --user set the JBioWH Database User (require argument, by default: biowh)
-    * --passwd set the JBioWH Database Password (require argument, default: mypass)
+    * -f to create a file name used to print the results (require argument, by default the file name is *result.txt*)
+    * --driver set the Java MySQL driver (require argument, by default: *com.mysql.jdbc.Driver*)
+    * --url set the Database JDBC Url (require argument, by default: *jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh*, our free JBioWH database)
+    * --user set the JBioWH Database User (require argument, by default: *biowh*)
+    * --passwd set the JBioWH Database Password (require argument, default: *mypass*)
 
 The class includes methods to open and close the connection with a JBioWH Database. Also, methods to print in the result file and in the standard output.  
+
+View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/defaultTools/AbstractDefaultTool.html JavaDoc] for this class.
+
+View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/defaultTools/AbstractDefaultTool.java Java file] for this class
