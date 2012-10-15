@@ -16,6 +16,37 @@ The command line options are:
     *   -p set the position of the fields on the file. First the !ProteinGi Id and then gene type, for the second output (require argument, by default *"0" or "0,1"* for the second output)
     *   -d set the delimiter to extract the fields (require argument, by default uses *the space character*)
 
-View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/prototypes/gene/FindGeneToGenomeTable.html JavaDoc] for this class.
+View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.html JavaDoc] for this class.
 
 View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java Java file] for this class
+
+= Example = 
+
+== Retrieve the !UniProt sequence in fasta format for a list of !ProteinGi ==
+
+Use this columns as input file to search the !UniProt Id for this genes using the !ProteinGi as input Id. 
+
+{{{
+| -      | 158333234 | COG1051F | NUDIX hydrolase           |
+| +      | 158333235 | NULL     | hypothetical protein      |
+| +      | 158333236 | COG1397O | ADP-ribosylglycohydrolase |
+| +      | 158333237 | COG4248R | hypothetical protein      |
+| +      | 158333238 | NULL     | hypothetical protein      |
+}}}
+
+The !ProteinGi in this table is the column 2, (the column count start on 0) using as delimiter the "|" character. This delimiter is a special character, therefore, it have to be double escaped.  
+
+The command line is:
+
+{{{
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input --fasta -p 2 -d "\\|"
+}}}
+
+The standard output is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex1.jpg
+
+The *result.txt* file contains the !UniProt sequences in fasta format:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex2.jpg
+
