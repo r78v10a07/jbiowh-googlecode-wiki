@@ -20,4 +20,4 @@ View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prot
 
 = Examples = 
 
-    * [FindProtein_ex1.wiki Find proteins from the command line with a SQL regular expression]
+    * [FindProtein_ex1 Find proteins from the command line with a SQL regular expression]
