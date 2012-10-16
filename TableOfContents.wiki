@@ -49,7 +49,11 @@
                 * [PathwayDT KEGG Pathway]
                 * [DiseaseDT Disease]
         * Command Line Tools
-                * [GeneTool Gene Tools]                
+            * [GeneTool Gene Tools]
+                * [GeneTool_ex1 Retrieve the UniProt sequence in fasta format for a list of ProteinGi]
+                * [GeneTool_ex2 Retrieve the chromosome information included in the PTT table plus the UniProt sequence]
+            * [ProteinTool Protein Tools]
+                * [FindProtein_ex1.wiki Find proteins from the command line with a SQL regular expression]
         * [Examples]
             * [Example1 Search all human proteins]
                 * [Ex1SearchTab Search Tab]

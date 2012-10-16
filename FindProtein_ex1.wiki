@@ -1,0 +1,28 @@
+
+= Find proteins from the command line with a SQL regular expression =
+
+This example shows how to retrieve the proteins using the FindProtein Command Line tool. First, we used the option (-u) to search directly from the command line. We are searching for proteins with !UniProt Id that finish with *_IIV3*, that's means all proteins for the organism *Invertebrate iridescent virus 3* with *Tax Id 345201*  
+
+{{{
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProtein -v -u "%_IIV3"
+}}}
+
+The standard output is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/prottool_ex1.jpg
+
+The *result.txt* file contains the found !UniProt Ids.
+
+If the option (--fasta) is used with a file name as an argument the !UniProt sequences in fasta format are printed in that file.
+
+{{{
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProtein -v -u "%_IIV3" --fasta iiv3.fasta
+}}}
+
+The standard output is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/prottool_ex2.jpg
+
+The file *iiv3.fasta* contains the sequences in fasta format.
+
+http://jbiowh.googlecode.com/svn/wiki/images/prottool_ex3.jpg

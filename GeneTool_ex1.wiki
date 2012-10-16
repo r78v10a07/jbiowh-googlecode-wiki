@@ -1,0 +1,28 @@
+
+= Retrieve the !UniProt sequence in fasta format for a list of !ProteinGi =
+
+Use this columns as input file to search the !UniProt Id for this genes using the !ProteinGi as input Id. 
+
+{{{
+| -      | 158333234 | COG1051F | NUDIX hydrolase           |
+| +      | 158333235 | NULL     | hypothetical protein      |
+| +      | 158333236 | COG1397O | ADP-ribosylglycohydrolase |
+| +      | 158333237 | COG4248R | hypothetical protein      |
+| +      | 158333238 | NULL     | hypothetical protein      |
+}}}
+
+The !ProteinGi in this table is the column 2, (the column count start on 0) using as delimiter the "|" character. This delimiter is a special character, therefore, it have to be double escaped.  
+
+The command line is:
+
+{{{
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt --fasta -p 2 -d "\\|"
+}}}
+
+The standard output is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex1.jpg
+
+The *result.txt* file contains the !UniProt sequences in fasta format:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex2.jpg
