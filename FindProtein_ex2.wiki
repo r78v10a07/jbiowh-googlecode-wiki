@@ -14,7 +14,7 @@ http://jbiowh.googlecode.com/svn/wiki/images/prottool_ex4.jpg
 If the option (--fasta) is used with a file name as an argument the !UniProt sequences in fasta format are printed in that file.
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar  org.jbiowh.tools.prototypes.protein.FindProteinFromTaxonomy -v -t "Invertebrate iridescent virus 3" --fasta iiv3.fasta
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.7-SNAPSHOT/jbiowh-2.0.7-SNAPSHOT.jar  org.jbiowh.tools.prototypes.protein.FindProteinFromTaxonomy -v -t "Invertebrate iridescent virus 3" --fasta iiv3.fasta
 }}}
 
 The standard output is:
