@@ -20,7 +20,7 @@ View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/prototypes/
 
 View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/gene/FindGenefromProteinGi.java Java file] for this class
 
-= Example = 
+= Examples = 
 
 == Retrieve the !UniProt sequence in fasta format for a list of !ProteinGi ==
 
@@ -39,7 +39,7 @@ The !ProteinGi in this table is the column 2, (the column count start on 0) usin
 The command line is:
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input --fasta -p 2 -d "\\|"
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt --fasta -p 2 -d "\\|"
 }}}
 
 The standard output is:
@@ -49,4 +49,20 @@ http://jbiowh.googlecode.com/svn/wiki/images/tool_ex1.jpg
 The *result.txt* file contains the !UniProt sequences in fasta format:
 
 http://jbiowh.googlecode.com/svn/wiki/images/tool_ex2.jpg
+
+== Retrieve the chromosome information included in the PTT table plus the !UniProt sequence ==
+
+Using the same input file, the third column has gene type and the same delimiter.
+
+{{{
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt  -p 2 -d "\\|" -n 5000
+}}}
+
+The standard output is:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex3.jpg
+
+The *result.txt* file contains the !UniProt sequences in fasta format:
+
+http://jbiowh.googlecode.com/svn/wiki/images/tool_ex4.jpg
 
