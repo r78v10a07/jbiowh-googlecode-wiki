@@ -1,10 +1,9 @@
-
 = Retrieve the proteome for a Taxonomy or a Taxonomy list =
 
 This example shows how to retrieve the proteome names or sequences in fasta format for a specific Taxonomy or for a taxonomies list. First, we used the option (-u) to search directly from the command line. We are searching all proteins for the organism *Invertebrate iridescent virus 3* with *Tax Id 345201*  
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProteinFromTaxonomy -v -t "Invertebrate iridescent virus 3"
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.7-SNAPSHOT/jbiowh-2.0.7-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProteinFromTaxonomy -v -t "Invertebrate iridescent virus 3"
 }}}
 
 The standard output is:
