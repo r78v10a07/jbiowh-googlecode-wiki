@@ -3,3 +3,5 @@
 = Protein Tools =
 
     * [FindProtein Find Protein]
+    * [FindProteinFromTaxonomy Find Protein from Taxonomy]
+    
