@@ -1,4 +1,3 @@
-
 = Retrieve the !UniProt sequence in fasta format for a list of !ProteinGi =
 
 Use this columns as input file to search the !UniProt Id for this genes using the !ProteinGi as input Id. 
@@ -16,7 +15,7 @@ The !ProteinGi in this table is the column 2, (the column count start on 0) usin
 The command line is:
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.6-SNAPSHOT/jbiowh-2.0.6-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt --fasta -p 2 -d "\\|"
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.7-SNAPSHOT/jbiowh-2.0.7-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt --fasta -p 2 -d "\\|"
 }}}
 
 The standard output is:
