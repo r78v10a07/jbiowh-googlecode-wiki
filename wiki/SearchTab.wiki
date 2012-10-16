@@ -2,7 +2,7 @@
 
 = The Search Tab =
 
-The *Search Tab* is the GUI to perform queries over the relational database. In this GUI the user have to select, in the first *ComboBox*, the main dataset to be queried. 
+The *Search Tab* is the GUI to perform queries over the relational database. In this GUI the user have to select, in the first *!ComboBox*, the main dataset to be queried. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/8.jpg
 

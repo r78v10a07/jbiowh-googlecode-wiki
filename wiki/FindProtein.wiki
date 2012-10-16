@@ -1,0 +1,23 @@
+#summary This is the Find Protein Command Line Tools using the Java API
+
+= Find Protein =
+
+The class extends the [AbstractDefaultTool] to parse the command line options.
+
+This Java Main class search for the protein using as keyword the !UniProt Id or the accession number provided by the [http://www.uniprot.org UniProt] data source. The program reads the keywords from a file provided by the option (-i). The file should have one keyword per line. Also, for one keyword the (-u) option can be used with the !UniProt Id or accession number as argument. The keyword can include SQL regular expression.
+
+There are two outputs using this main class. If the option (--fasta) is present with a file name as an argument the !UniProt sequences will printed in the file in fasta format. If this option is not present the protein name is printed in the standard output.
+
+The command line options are:
+
+    *   -i set the file with the !UniProt Id or accession number list (require argument).
+    *   -u set the keywords to search (!UniProt ID or Accession Number, including SQL regular expression).  
+    *   --fasta set the file to write the protein sequence in fasta format (Optional argument).
+    
+View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/prototypes/protein/FindProtein.html JavaDoc] for this class.
+
+View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/protein/FindProtein.java Java file] for this class
+
+= Examples = 
+
+    * [FindProtein_ex1.wiki Find proteins from the command line with a SQL regular expression]
