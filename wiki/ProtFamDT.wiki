@@ -15,6 +15,6 @@ with the obtained results.
 
 http://jbiowh.googlecode.com/svn/wiki/images/35.jpg
 
-The UniRef complete description window
+The !UniRef complete description window
 
 http://jbiowh.googlecode.com/svn/wiki/images/36.jpg
