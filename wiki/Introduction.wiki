@@ -14,7 +14,7 @@ It is convenient to start discussing the terminology that we will be using conti
  # [GeneRS Gene]: based on the Gene data source
  # [ProteinRS Protein]: based on the Uniprot data source
  # [MIF25RS MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
- # [ProtFamRS Protein Families]: based on the !UniRef data source
+ # [ProtFamRS Protein Cluster]: based on the !UniRef data source
  # [DrugBankRS Drugs]: based on the !DrugBank data source
  # [PathwayRS Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
  # [DiseaseRS Disease]: based on OMIM data source
