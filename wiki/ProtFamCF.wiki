@@ -1,8 +1,8 @@
-#summary This is the ProtFam config description
+#summary This is the ProtClust config description
 
 = Protein Families =
 
-This is an example of a !ProtFam !DataSet config file for the *!UniRef50*  
+This is an example of a !ProtClust !DataSet config file for the *!UniRef50*  
 
 {{{
 <warehouse>
