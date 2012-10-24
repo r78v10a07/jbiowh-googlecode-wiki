@@ -2,7 +2,7 @@
 
 = Protein Families = 
 
-The *!ProtFam* module includes the [http://www.uniprot.org/uniref/ UniRef] data source providing a relational schema for all identity percents (50%, 90% and 100%). The next figure shows the relational schema for the !ProtFam module.
+The *!ProtClust* module includes the [http://www.uniprot.org/uniref/ UniRef] data source providing a relational schema for all identity percents (50%, 90% and 100%). The next figure shows the relational schema for the !ProtClust module.
 
 http://jbiowh.googlecode.com/svn/wiki/images/ProtFam.png
 
