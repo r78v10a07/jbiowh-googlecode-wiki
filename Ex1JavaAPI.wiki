@@ -2,7 +2,7 @@
 
 = Search all human proteins using the Java API =
 
-The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/search/FindALLHumProt.java here]
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FindALLHumProt.java here]
 
 Go to a CMD Windows console or a linux console to compile the java code:
 
@@ -19,7 +19,5 @@ java -cp <path-to the-jbiowh-jar-file> FindALLHumProt
 The obtained proteins number is the same that the obtained with the others methods.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex1_11.jpg
-
-
 
 
