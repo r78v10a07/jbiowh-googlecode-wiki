@@ -14,6 +14,8 @@ The *JBioWH's* Desktop Client has a Tab view based GUI. This GUI allow to users 
  
 The *Tabs Menu* gives access to the operation that could be performed over a selected Tab. Also, this menu can be used to open the main available Tabs in the Desktop Client. This Tabs are Home Tab, [SearchTab Search Tab], [ConstrainsTab Constrain Tab] and the [SQLEditor SQL Editor Tab].
 
+The *Schema Tab* shows the active *JBioWH* relational schema and its tables. The Desktop Client can handled multiple relational schema and allows transfer data between them.
+
 http://jbiowh.googlecode.com/svn/wiki/images/3.2.jpg
 
 The *Result* Tab shows the *JBioWH's* objects that are saved during a section. The saved objects can be used through a mouse *Right Click* giving the options of this saved object. 
