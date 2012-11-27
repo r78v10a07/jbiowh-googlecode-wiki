@@ -3,7 +3,7 @@
 Using the same input file that in this [GeneTool_ex1 example], the third column has gene type and the same delimiter.
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.7-SNAPSHOT/jbiowh-2.0.7-SNAPSHOT.jar org.jbiowh.tools.prototypes.gene.FindGenefromProteinGi -v -i input_file.txt  -p 2 -d "\\|" -n 5000
+java -cp /home/roberto/.m2/repository/org/jbiowh/2.1.0-SNAPSHOT/jbiowh-2.1.0-SNAPSHOT.jar org.jbiowh.tools.gene.FindGenefromProteinGi -v -i input_file.txt  -p 2 -d "\\|" -n 5000
 }}}
 
 The standard output is:
