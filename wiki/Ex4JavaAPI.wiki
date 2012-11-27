@@ -2,7 +2,7 @@
 
 = Search all human genes which are linked to asthma drugs using the Java API =
 
-The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/prototypes/search/FindGenefromDrug.java here]
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FindGenefromDrug.java here]
 
 The obtained gene number is the same that in the others methods.
 
