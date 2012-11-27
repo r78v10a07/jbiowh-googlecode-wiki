@@ -13,7 +13,7 @@ The second group are:
 
  * Gene module based on the [http://www.ncbi.nlm.nih.gov/gene/ Gene] and the KEGG Gene data sources
  * Protein module based on the [http://www.uniprot.org/ Uniprot] data source, with both branches SWISSPROT and TREMBL
- * Protein-Protein Interaction module based on the PSI 25 file format. The data sources included are [http://mint.bio.uniroma2.it/mint/Welcome.do MINT], [http://dip.doe-mbi.ucla.edu/dip/Main.cgi DIP], [http://thebiogrid.org/ BioGrid] and [http://www.ebi.ac.uk/intact/ IntAct
+ * Protein-Protein Interaction module based on the PSI 25 file format. The data sources included are [http://mint.bio.uniroma2.it/mint/Welcome.do MINT], [http://dip.doe-mbi.ucla.edu/dip/Main.cgi DIP], [http://thebiogrid.org/ BioGrid] and [http://www.ebi.ac.uk/intact/ IntAct]
  * Protein Clusters module based on the [http://www.uniprot.org/help/uniref UniRef]
  * Drug module based on the [http://www.drugbank.ca/ DrugBank]
  * Pathway module based on the [http://www.genome.jp/kegg/ KEGG] data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
