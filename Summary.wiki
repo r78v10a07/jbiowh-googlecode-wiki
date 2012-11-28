@@ -13,7 +13,7 @@ The [RelationalSchema relational database schema] includes the following data so
 
 The [JavaAPI Java API] includes the parser to extract and insert the biological data from its original data sources file format into the relational database schema. Also, includes the entities and controller classes to use the inserted information on Java programs.
 
-This project is supported by the [http://www.icgeb.trieste.it International Centre for Genetic Engineering and Biotechnology (ICGEB)] under its "Sandwich" !PhD Programme.
+This project is supported by the [http://www.icgeb.trieste.it International Centre for Genetic Engineering and Biotechnology (ICGEB)] under its "Sandwich" PhD Programme.
 
 A free MySQL server is available for testing.
 
