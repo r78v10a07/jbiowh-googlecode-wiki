@@ -6,6 +6,6 @@ The *SQL List Tab* is the GUI to show the result from a SQL sentence executed fr
 
 http://jbiowh.googlecode.com/svn/wiki/images/21.jpg
 
-The filter text bar allows the execution of a quick filter operation over the showed results on the table elements by a quick filter.
+The filter text bar execute of a quick filter operation over the showed results on the table elements.
 
 http://jbiowh.googlecode.com/svn/wiki/images/22.jpg
