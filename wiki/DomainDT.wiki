@@ -1,3 +1,21 @@
 #summary This wiki describe the Domain dataset on the Desktop Tool
 
 = Domain =
+
+The figure shows Search Tab using the PFAM as main dataset.
+
+http://jbiowh.googlecode.com/svn/wiki/images/48.jpg
+
+In this dataset the quick search will be performed over the *PFAM ACC* (PF00248) and *PFAM Id* (Aldo_ket_red) fields including the use of [http://dev.mysql.com/doc/refman/5.0/en/pattern-matching.html SQL regular expressions].
+
+On this !DataSet you are able to use other biological objects as [Constrains Constrains]. The available !DataSet to be used as constrains are: Protein.
+
+The [SearchTab Search Tab] will produce a new [ListTab List Tab], next figure, with the obtained results.
+
+http://jbiowh.googlecode.com/svn/wiki/images/49.jpg
+
+The PFAM entry complete description window
+
+http://jbiowh.googlecode.com/svn/wiki/images/50.jpg
+
+In the !ComboBox the *PFAM's* linked info are be showed.
