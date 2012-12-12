@@ -1,0 +1,39 @@
+#summary This is the Domain config description
+
+= Disease =
+
+This is an example of a *PFAM* !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>Pfam</name>
+    <type>PFAM</type>
+    <version>26.0</version>
+    <homeurl>http://pfam.sanger.ac.uk/</homeurl>
+    <releaseDate>10/24/2012</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\pfam\database_files</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *PFAM* data files should be downloaded from [ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/database_files/ here]. Both files, the *.sql* and *.txt* are used during the installation process. The *.sql* files are used to create temporal tables to load the *.txt* files. Then, the *JBioWH* [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/sqlscripts/mysql/pfam/pfam.sql PFAM script] is used to transform and insert the *PFAM* data to the *JBioWH* relational schema.
+
+On GNU/Linux:
+{{{    
+    mkdir pfam
+    cd pfam
+    wget -np -nH -r --cut-dirs=5 ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/database_files/
+    for a in *.gz
+    do
+       gunzip -v $a
+    done
+}}}
