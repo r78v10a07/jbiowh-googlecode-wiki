@@ -17,6 +17,7 @@
             * [DrugBankRS DrugBank]
             * [PathwayRS KEGG Pathway]
             * [DiseaseRS Disease]
+            * [DomainRS Domain]
         * [JavaAPI Java API]
             * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
         * [ParserTool Parser Tool]
