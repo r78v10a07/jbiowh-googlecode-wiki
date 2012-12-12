@@ -32,6 +32,7 @@
             * [DrugBankCF DrugBank]
             * [PathwayCF KEGG Pathway]
             * [DiseaseCF Disease]
+            * [DomainCF Domain]
         * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
@@ -49,6 +50,7 @@
                 * [DrugBankDT DrugBank]
                 * [PathwayDT KEGG Pathway]
                 * [DiseaseDT Disease]
+                * [DomainDT Domain]
         * Command Line Tools
             * [GeneTool Gene Tools]
                 * [GeneTool_ex1 Retrieve the UniProt sequence in fasta format for a list of ProteinGi]
