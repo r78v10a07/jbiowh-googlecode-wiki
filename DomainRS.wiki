@@ -2,8 +2,8 @@
 
 = Domain =
 
-The Domain module is based on the PFAM data source. The figure shows the Domain module relational schema. 
+The *Domain* module is based on the *PFAM* data source. The figure shows the *Domain* module relational schema. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Pfam.png
 
-The PfamA table is the principal table for this module. This table includes, in the field DataSet_WID, the dataset WID in the DataSet table as a foreign key.
+The *PfamA* table is the principal table for this module. This table includes, in the field *!DataSet_WID*, the dataset *WID* in the *!DataSet* table as a foreign key.
