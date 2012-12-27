@@ -46,7 +46,7 @@ svn checkout https://jbiowh.googlecode.com/svn/trunk/ jbiowh
 Open the _*mysql*_ command line utility. Create the new schema with the command:
 
 <code language="sql">
-CREATE DATABASE biowh CHARACTER SET = utf8 CHARACTER SET = utf8;
+CREATE DATABASE biowh CHARACTER SET = utf8 COLLATE = utf8_bin;
 </code>
 
 You can use other name than _*biowh*_, just remember it for further uses and replace the _*biowh*_ world in the above lines by your database name.
