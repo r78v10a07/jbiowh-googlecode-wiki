@@ -1,6 +1,6 @@
 = Download =
 
-The latest [http://jbiowh.googlecode.com/files/jbiowh-2.1.1-SNAPSHOT.jar jbiowh-2.1.1-SNAPSHOT.jar] stable version. 
+The latest [http://jbiowh.googlecode.com/files/jbiowh-2.1.2-SNAPSHOT.jar jbiowh-2.1.2-SNAPSHOT.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
@@ -17,6 +17,10 @@ The latest [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc] ge
 Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench Project] to visualize and modify the relational schema. 
 
 = Updates =
+
+== Update a relational schema from 2.1.1 to 2.1.2 ==
+
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.1-to-2.1.2.sql this] script to update an existing relational schema from version 2.1.1 to 2.1.2.
 
 == Update a relational schema from 2.0.7 to 2.1.1 ==
 
