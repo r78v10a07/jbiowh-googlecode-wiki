@@ -32,4 +32,20 @@ On GNU/Linux:
     mkdir genomesptt
     cd genomesptt
     wget -r -np -nH --cut-dirs=2 -A *.ptt ftp://ftp.ncbi.nih.gov/genomes/Bacteria/
+    
+    cd ..
+    mkdir genomes_draft
+    cd genomes_draft
+    wget -r -np -nH --cut-dirs=2 -A *.ptt.tgz ftp://ftp.ncbi.nih.gov/genomes/Bacteria_DRAFT/ 
+    for a in *
+    do
+       cd $a
+       ls -1 | grep tgz | while read line
+       do 
+          tar xzf $line
+          rm $line
+       done
+       cd ..
+    done
+    cd ..      
 }}}
