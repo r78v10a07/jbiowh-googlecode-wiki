@@ -29,7 +29,7 @@ Note that each MIF25 data source have its own config file. The first MIF25 !Data
 
 Our system has been tested with the !DataSets: !IntAct, MINT, DIP and !BioGrid.
 
-The !IntAct's data files should be downloaded from [ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip pmidMIF25.zip] directory in the !EBI FTP Site. This file should be uncompressed in a directory. The \*_negative.xml files should be removed. The XML files can be compressed using the gzip utility to save hard disk space. 
+The !IntAct's data files should be downloaded from [ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip pmidMIF25.zip] directory in the !EBI FTP Site. This file should be uncompressed in a directory. The `*`_negative.xml files should be removed. The XML files can be compressed using the gzip utility to save hard disk space. 
 
 On GNU/Linux:
 {{{   
