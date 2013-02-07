@@ -31,7 +31,7 @@ On GNU/Linux:
 {{{    
     mkdir pfam
     cd pfam
-    wget -np -nH -r --cut-dirs=5 ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/database_files/
+    wget -np -nH -r --cut-dirs=5 -R alignments_and_trees.*,adda.*,pfam_annseq.*,pdb_image.*,ncbi_seq.*,metaseq.* ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/database_files/
     for a in *.gz
     do
        gunzip -v $a
