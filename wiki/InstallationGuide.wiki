@@ -66,7 +66,7 @@ use biowh;
 source <path-to-sql-script>/warehouse.sql;
 </code>
   
-== Compile the source code ==
+== Compiling the source code ==
 
 Compile the source code to generate a java jar file.
 
