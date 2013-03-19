@@ -1,6 +1,6 @@
 #summary This is the Example 2 using the Search Tab
 
-= Search all human proteins which are linked to one of the Ontologies in the Ontology List using the Search Tab =
+= Identify all human proteins which are linked to one of the Ontologies in the Ontology List using the Search Tab =
 
 The first step is to obtain the Human Taxonomy Object as in the [Ex1SearchTab Example 1]. After this, the ontology list should be created by a search over the Ontology DataSet.
 
@@ -27,6 +27,4 @@ http://jbiowh.googlecode.com/svn/wiki/images/Ex2_6.jpg
 Finally, the [ListTab List Tab] shows the human proteins which belong to these two ontologies.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex2_7.jpg
-
-
 
