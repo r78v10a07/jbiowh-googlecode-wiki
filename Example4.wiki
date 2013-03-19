@@ -1,6 +1,6 @@
 #summary This is the Example 2
 
-= Search all human genes which are linked to asthma drugs =
+= Identify all human genes which are linked to asthma drugs =
 
 On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to search all human genes which are linked to asthma drugs.
 
