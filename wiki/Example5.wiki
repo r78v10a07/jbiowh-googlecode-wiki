@@ -6,6 +6,10 @@ Creates a Taxonomy family graph from a Taxonomy parent. The java API contains a 
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/taxonomy/FindTaxonomyGraph.java here]
 
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -t <Tax Id>
+</code>
+
 = Details =
   
    * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2&lvl=3&lin=f&keep=1&srchmode=1&unlock Bacteria] kingdom (Tax Id: 2) contains 282705 taxonomy vertexes and 282704 direct edges between them. The graph is created in 211 seconds. The total execution time is 216 seconds.
