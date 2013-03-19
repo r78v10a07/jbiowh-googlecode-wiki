@@ -1,6 +1,6 @@
 #summary This is the Example 2 using the SQL Editor Tab
 
-= Search all human proteins which are linked to one of the Ontologies in the Ontology List using the SQL Editor Tab =
+= Identify all human proteins which are linked to one of the Ontologies in the Ontology List using the SQL Editor Tab =
 
 Go to the SQL Editor as in the [Ex1SQLEditor SQL Example 1] and type the following SQL sentence:
 
