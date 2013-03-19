@@ -1,6 +1,6 @@
 #summary This is the Example 1 using the SQL Editor Tab
 
-= Search all human proteins using the SQL Editor Tab =
+= Identify all human proteins using the SQL Editor Tab =
 
 Click on the *New Query* option on the Tabs menu.
 
