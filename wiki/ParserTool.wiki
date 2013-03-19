@@ -21,8 +21,8 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <th>No. elements</th>
 </tr>
 <tr>
-<td align="right">NCBI Taxonomy</td>
-<td align="right">03/05/13</td>
+<td>NCBI Taxonomy</td>
+<td align="center">03/05/13</td>
 <td align="right">157.0</td>
 <td align="right">546.97</td>
 <td align="right">395</td>
@@ -30,8 +30,8 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <td align="right">2 732 658</td>
 </tr>
 <tr>
-<td align="right">GO Ontology</td>
-<td align="right">03/05/13</td>
+<td>GO Ontology</td>
+<td align="center">03/05/13</td>
 <td align="right">3.7</td>
 <td align="right">70.07</td>
 <td align="right">56</td>
@@ -39,8 +39,8 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <td align="right">468 870</td>
 </tr>
 <tr>
-<td align="right">Gene</td>
-<td align="right">03/05/13</td>
+<td>Gene</td>
+<td align="center">03/05/13</td>
 <td align="right">5 619.0</td>
 <td align="right">14 801.00</td>
 <td align="right">7 252</td>
@@ -48,8 +48,8 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <td align="right">90 459 357</td>
 </tr>
 <tr>
-<td align="right">Complete Genomes</td>
-<td align="right">03/05/13</td>
+<td>Complete Genomes</td>
+<td align="center">03/05/13</td>
 <td align="right">577.0</td>
 <td align="right">2 055.00</td>
 <td align="right">4 658</td>
@@ -57,8 +57,8 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <td align="right">7 195 133</td>
 </tr>
 <tr>
-<td align="right"></td>
-<td align="right"></td>
+<td></td>
+<td align="center"></td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
