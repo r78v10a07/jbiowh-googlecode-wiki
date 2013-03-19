@@ -1,8 +1,14 @@
 #summary This is the Example 3 using the Java API
 
-= Search all human proteins which are linked to all elements on the Ontology list using the Java API =
+= Identify all human proteins which are linked to all elements on the Ontology list using the Java API =
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FindALLHumProtinGOwithConst.java here]
+
+Go to a CMD Windows console or a linux console to execute the java code:
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.FindALLHumProtinGOwithConst
+</code>
 
 The obtained result is the same that in the others methods.
 
