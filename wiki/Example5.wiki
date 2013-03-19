@@ -1,8 +1,8 @@
-#summary Taxonomy graph examples
+#summary Create a Taxonomy family graph
 
 = Introduction =
 
-Creates a Taxonomy graph from a Taxonomy parent. The java API contains a [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/core/datasets/taxonomy/utils/TaxonomyGraph.java TaxonomyGraph] class that create a Taxonomy graph starting from a parent Tax id. This graph is useful to preform queries over entire families.
+Creates a Taxonomy family graph from a Taxonomy parent. The java API contains a [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/core/datasets/taxonomy/utils/TaxonomyGraph.java TaxonomyGraph] class that create a Taxonomy graph starting from a parent Tax id. This graph is useful to preform queries over entire families.
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/taxonomy/FindTaxonomyGraph.java here]
 
