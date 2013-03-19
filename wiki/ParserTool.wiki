@@ -21,48 +21,48 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <th>No. elements</th>
 </tr>
 <tr>
-<td>NCBI Taxonomy</td>
-<td>03/05/13</td>
-<td>157.0</td>
-<td>546.97</td>
-<td>395</td>
-<td>985 849</td>
-<td>2 732 658</td>
+<td align="right">NCBI Taxonomy</td>
+<td align="right">03/05/13</td>
+<td align="right">157.0</td>
+<td align="right">546.97</td>
+<td align="right">395</td>
+<td align="right">985 849</td>
+<td align="right">2 732 658</td>
 </tr>
 <tr>
-<td>GO Ontology</td>
-<td>03/05/13</td>
-<td>3.7</td>
-<td>70.07</td>
-<td>56</td>
-<td>38 794</td>
-<td>468 870</td>
+<td align="right">GO Ontology</td>
+<td align="right">03/05/13</td>
+<td align="right">3.7</td>
+<td align="right">70.07</td>
+<td align="right">56</td>
+<td align="right">38 794</td>
+<td align="right">468 870</td>
 </tr>
 <tr>
-<td>Gene</td>
-<td>03/05/13</td>
-<td>5 619.0</td>
-<td>14 801.00</td>
-<td>7 252</td>
-<td>11 200 928</td>
-<td>90 459 357</td>
+<td align="right">Gene</td>
+<td align="right">03/05/13</td>
+<td align="right">5 619.0</td>
+<td align="right">14 801.00</td>
+<td align="right">7 252</td>
+<td align="right">11 200 928</td>
+<td align="right">90 459 357</td>
 </tr>
 <tr>
-<td>Complete Genomes</td>
-<td>03/05/13</td>
-<td>577.0</td>
-<td>2 055.00</td>
-<td>4 658</td>
-<td>7 192 870</td>
-<td>7 195 133</td>
+<td align="right">Complete Genomes</td>
+<td align="right">03/05/13</td>
+<td align="right">577.0</td>
+<td align="right">2 055.00</td>
+<td align="right">4 658</td>
+<td align="right">7 192 870</td>
+<td align="right">7 195 133</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
 </tr>
 </table>
