@@ -1,12 +1,11 @@
 #summary This is the Example 1
 
-= Search all human proteins =
+= Identify all human proteins =
 
-On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to search the all human proteins.
+On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to identify the all human proteins.
 
 Follow the next links to view the solution to this question:
 
  * [Ex1SearchTab Search Tab]
  * [Ex1SQLEditor SQL Editor Tab]
  * [Ex1JavaAPI Java API]
-
