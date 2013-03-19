@@ -10,7 +10,7 @@ java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.mainload
 
 The specific *XML config* file for each !DataSet will be showed on the !DataSet help Wiki.
 
-The table shows a report for the biological databases used by the JBioWH framework. This example was executed in a computer with two AMD Opteron Processor 240 (1.4 GHz and 1.0 MB of cache) and 4.0 GB of RAM. 
+The table shows a report for the biological databases used by the JBioWH framework. This example was executed in a computer with two [http://www.cpu-world.com/CPUs/K8/AMD-Opteron%20240%20-%20OSADA240CCO5.html AMD Opteron Processor 240] (1.4 GHz and 1.0 MB of cache) and 4.0 GB of RAM. 
 
 <table border="1">
 <tr>
