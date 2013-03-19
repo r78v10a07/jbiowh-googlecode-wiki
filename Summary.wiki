@@ -9,7 +9,7 @@ This framework is designed to provide
   # an extensive desktop tool for a scientist with no programming experience including an advanced SQL editor for scientist with this programming skill, and, 
   # a java API to handle the integrated biological data for further development of Bioinformatics tools.
  
-The [RelationalSchema relational database schema] includes the following data sources types: *Taxonomy*, *Ontology*, *Gene*, *Protein*, *Enzymes*, *Metabolites* (compound and glycan), *Reactions*, *Protein-Protein Interactions*, *Protein clusters*, *Drug-Target interactions*, *Pathways*, *Diseases* and *Domains* provided by public available biological data sources. 
+The [RelationalSchema relational database schema] includes the following data sources types: *Taxonomy*, *Ontology*, *Gene*, *Genomes*, *Protein*, *Enzymes*, *Metabolites* (compound and glycan), *Reactions*, *Protein-Protein Interactions*, *Protein clusters*, *Drug-Target interactions*, *Pathways*, *Diseases* and *Domains* provided by public available biological data sources. 
 
 The [JavaAPI Java API] includes the parser to extract and insert the biological data from its original data sources file format into the relational database schema. Also, includes the entities and controller classes to use the inserted information on Java programs.
 
