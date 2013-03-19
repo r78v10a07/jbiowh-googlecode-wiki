@@ -19,3 +19,5 @@
         * [Ex4JavaAPI Java API]
     # [Example5 Create a Taxonomy family graph]
     # [Example6 Find in a taxonomy family the genes encoding for drug’s target protein that are in the same chromosome at a distance less than a specific number of pair bases]
+    # [Example7 Given a target gene, identify genes encoding for antibiotic targets in its chromosomal neighborhood of +/- 10 genes]
+    # [Example8 Same as example 7, but now we want to get the respective antibiotic target genes from all Streptococci]
