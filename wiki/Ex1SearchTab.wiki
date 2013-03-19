@@ -1,6 +1,6 @@
 #summary This is the Example 1 using the Search Tab
 
-= Search all human proteins using the Search Tab =
+= Identify all human proteins using the Search Tab =
 
 The first step is to find the Human Taxonomy Object.
 
