@@ -75,5 +75,6 @@
                 * [Ex4SearchTab Search Tab]
                 * [Ex4SQLEditor SQL Editor Tab]
                 * [Ex4JavaAPI Java API]
+            * [Example5 Taxonomy graph examples]
 
         
