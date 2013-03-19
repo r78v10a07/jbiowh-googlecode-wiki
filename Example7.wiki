@@ -1,6 +1,8 @@
 = Introduction =
 
-Given a target gene, identify genes encoding for antibiotic targets in its chromosomal neighborhood of +/- 10 genes. As an example, we will use gene [http://www.ncbi.nlm.nih.gov/gene/934804 spr0328] from [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6] which encodes for [http://www.uniprot.org/uniprot/Q8DR60 Endo-alpha-N-acetylgalactosaminidase (Q8DR60)].
+Given a target gene, identify genes encoding for antibiotic targets in its chromosomal neighborhood of +/- 10 genes. 
+
+As an example, we will use gene [http://www.ncbi.nlm.nih.gov/gene/934804 spr0328] from [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6] which encodes for [http://www.uniprot.org/uniprot/Q8DR60 Endo-alpha-N-acetylgalactosaminidase (Q8DR60)].
 
 The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/AntibioticGeneNeighbors.java here]
 
