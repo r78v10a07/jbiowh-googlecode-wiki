@@ -1,6 +1,6 @@
 #summary This is the Example 2 using the Search Tab
 
-= Search all human genes which are linked to asthma drugs using the Search Tab =
+= Identify all human genes which are linked to asthma drugs using the Search Tab =
 
 The first step is to find all drugs related with the asthma disease. Select the !DrugBank  !DataSet on the !ComboBox and type: % asthma % on the quick search text field and click on *Search* button.  
 
@@ -29,6 +29,4 @@ http://jbiowh.googlecode.com/svn/wiki/images/Ex4_6.jpg
 The [ListTab List Tab] will show all genes related with the asthma disease.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex4_7.jpg
-
-
 
