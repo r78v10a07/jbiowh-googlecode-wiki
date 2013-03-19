@@ -1,0 +1,44 @@
+
+= Introduction =
+
+Given a protein, what are the most frequent pathways in its chromosomal neighbors (+/- 3) in bacteria? 
+
+Same as in the [Example8 previous example], the homologue of a protein will be approximated by its !UniRef clusters (100%, 90% or 50% identity). 
+
+To make the query, we have to specify the % identity level. Then the database should retrieve all !UniRef neighbors of the protein, retrieve all of their +/- 3 neighbors, map them to pathways and make a list of pathways, sorted by frequency.
+
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FrecPathGeneNeighbors.java here]
+
+Go to a CMD Windows console or a linux console to execute the java code: 
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.FrecPathGeneNeighbors -n 3 --proteinId=ARGC_YERPE --cluster=90
+</code>
+
+
+= Details =
+
+The result shows that this protein belongs to the [http://www.uniprot.org/uniref/UniRef50_Q9KNT6 UniRef50_Q9KNT6] cluster which includes 209 members from 208 organisms. During the query 349 genes were analyzed resulting in 16 metabolic pathways involved.
+
+The input is the protein [http://www.uniprot.org/uniprot/Q8ZA86 ARGC_YERPE], the number of chromosomal neighbors equal to 3 and the UniRef cluster 90. 
+
+The following list shows the pathways with their occurrence:
+
+   # Metabolic pathways occurrences 339
+   # Arginine and proline metabolism occurrences 280
+   # Biosynthesis of secondary metabolites occurrences 280
+   # Lysine biosynthesis occurrences 132
+   # Alanine, aspartate and glutamate metabolism occurrences 75
+   # Microbial metabolism in diverse environments occurrences 58
+   # Methane metabolism occurrences 58
+   # Pyruvate metabolism occurrences 50
+   # One carbon pool by folate occurrences 10
+   # Vibrio cholerae pathogenic cycle occurrences 6
+   # Two-component system occurrences 1
+   # Butanoate metabolism occurrences 1
+   # Taurine and hypotaurine metabolism occurrences 1
+   # Amino sugar and nucleotide sugar metabolism occurrences 1
+   # beta-Alanine metabolism occurrences 1
+   # Bacterial chemotaxis occurrences 1
+
+The total execution time was  seconds. 
