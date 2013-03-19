@@ -6,6 +6,8 @@ Creates a Taxonomy family graph from a Taxonomy parent. The java API contains a 
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/taxonomy/FindTaxonomyGraph.java here]
 
+Go to a CMD Windows console or a linux console to execute the java code: 
+
 <code language="bash">
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -t <Tax Id>
 </code>
