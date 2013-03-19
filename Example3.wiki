@@ -1,6 +1,6 @@
 #summary This is the Example 3
 
-= Search all human proteins are linked to all elements on the Ontology list =
+= Identify all human proteins are linked to all elements on the Ontology list =
 
 On this example the [DesktopTool Desktop Tool] [SearchTab Search Tab], [SQLEditor SQL Editor Tab] and the [JavaAPI Java API] will be used to search the all human proteins which are linked to all elements on the Ontology list.
 
