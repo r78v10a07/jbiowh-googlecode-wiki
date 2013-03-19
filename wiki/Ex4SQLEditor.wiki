@@ -1,6 +1,6 @@
 #summary This is the Example 4 using the SQL Editor Tab
 
-= Search all human genes which are linked to asthma drugs using the SQL Editor Tab =
+= Identify all human genes which are linked to asthma drugs using the SQL Editor Tab =
 
 Go to the SQL Editor as in the [Ex1SQLEditor SQL Example 1] and type the following SQL sentence:
 
