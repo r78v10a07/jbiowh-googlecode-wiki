@@ -9,7 +9,7 @@ The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/m
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneNeighbors -n 10 -geneId 934804
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneNeighbors -n 10 --geneId 934804
 </code>
 
 
