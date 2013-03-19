@@ -21,7 +21,7 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <th>No. elements</th>
 </tr>
 <tr>
-<td>NCBI Taxonomy</td>
+<td>[TaxonomyCF NCBI Taxonomy]</td>
 <td align="center">03/05/13</td>
 <td align="right">157.0</td>
 <td align="right">546.97</td>
