@@ -9,3 +9,60 @@ java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.mainload
 </code>
 
 The specific *XML config* file for each !DataSet will be showed on the !DataSet help Wiki.
+
+<table border="1">
+<tr>
+<th>DB</th>
+<th>Download Date</th>
+<th>File size (MB)</th>
+<th>MySQL size (MB)</th>
+<th>Load time (2)</th>
+<th>No. main elements</th>
+<th>No. elements</th>
+</tr>
+<tr>
+<td>NCBI Taxonomy</td>
+<td>03/05/13</td>
+<td>157.0</td>
+<td>546.97</td>
+<td>395</td>
+<td>985 849</td>
+<td>2 732 658</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
