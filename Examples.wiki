@@ -18,3 +18,4 @@
         * [Ex4SQLEditor SQL Editor Tab]
         * [Ex4JavaAPI Java API]
     # [Example5 Create a Taxonomy family graph]
+    # [Example6 Find in a taxonomy family the genes encoding for drug’s target protein that are in the same chromosome at a distance less than a specific number of pair bases]
