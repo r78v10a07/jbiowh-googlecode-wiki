@@ -1,0 +1,15 @@
+#summary Taxonomy graph examples
+
+= Introduction =
+
+Creates a Taxonomy graph from a Taxonomy parent. The java API contains a TaxonomyGraph class that create a Taxonomy graph starting from a parent Tax id. This graph is useful to preform queries over entire families.
+
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/taxonomy/FindTaxonomyGraph.java here]
+
+= Details =
+  
+   * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2&lvl=3&lin=f&keep=1&srchmode=1&unlock Bacteria] kingdom (Tax Id: 2) contains 282705 taxonomy vertexes and 282704 direct edges between them. The graph is created in 211 seconds. The total execution time is 216 seconds.
+
+   * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313 Streptococcus pneumoniae] (Tax Id: 1313) contains 303 Taxonomy vertexes and 302 direct edges between them. The graph is created in 6 seconds. The total execution time is 10 seconds.
+
+   * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=32008&lvl=3&lin=f&keep=1&srchmode=1&unlock Burkholderia] (Tax Id: 32008) contains 3785 Taxonomy vertexes and 3784 direct edges between them. The graph is created in 4 seconds. The total execution time is 18 seconds.
