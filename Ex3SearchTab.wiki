@@ -1,6 +1,6 @@
 #summary This is the Example 3 using the Search Tab
 
-= Search all human proteins which are linked to all elements on the Ontology list using the Search Tab =
+= Identify all human proteins which are linked to all elements on the Ontology list using the Search Tab =
 
 The first step is to obtain the Human Taxonomy Object as in the [Ex1SearchTab Example 1]. After this, the ontology list should be saved as in the [Ex2SearchTab Example 2].
 
