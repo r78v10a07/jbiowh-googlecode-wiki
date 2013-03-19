@@ -167,11 +167,11 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <tr>
 <th>Total (GB and Hours)</th>
 <th> </th>
-<th>112.29</th>
-<th>235.47</th>
-<th>124.05</th>
-<th>79 763 053</th>
-<th>1 834 536 616</th>
+<th align="right">112.29</th>
+<th align="right">235.47</th>
+<th align="right">124.05</th>
+<th align="right">79 763 053</th>
+<th align="right">1 834 536 616</th>
 </tr>
 <tr>
 </table>
