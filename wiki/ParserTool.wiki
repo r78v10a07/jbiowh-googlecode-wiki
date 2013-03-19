@@ -173,5 +173,4 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <th align="right">79 763 053</th>
 <th align="right">1 834 536 616</th>
 </tr>
-<tr>
 </table>
