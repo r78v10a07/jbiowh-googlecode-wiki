@@ -1,23 +1,15 @@
 #summary This is the Example 1 using the Java API
 
-= Search all human proteins using the Java API =
+= Identify all human proteins using the Java API =
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FindALLHumProt.java here]
 
-Go to a CMD Windows console or a linux console to compile the java code:
+Go to a CMD Windows console or a linux console to execute the java code:
 
 <code language="bash">
-javac -cp <path-to the-jbiowh-jar-file> FindALLHumProt.java
-</code>
-
-To execute the FindALLHumProt class type this:
-
-<code language="bash">
-java -cp <path-to the-jbiowh-jar-file> FindALLHumProt
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.FindALLHumProt
 </code>
 
 The obtained proteins number is the same that the obtained with the others methods.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex1_11.jpg
-
-
