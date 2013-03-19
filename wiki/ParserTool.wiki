@@ -30,31 +30,31 @@ The specific *XML config* file for each !DataSet will be showed on the !DataSet 
 <td>2 732 658</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>GO Ontology</td>
+<td>03/05/13</td>
+<td>3.7</td>
+<td>70.07</td>
+<td>56</td>
+<td>38 794</td>
+<td>468 870</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Gene</td>
+<td>03/05/13</td>
+<td>5 619.0</td>
+<td>14 801.00</td>
+<td>7 252</td>
+<td>11 200 928</td>
+<td>90 459 357</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Complete Genomes</td>
+<td>03/05/13</td>
+<td>577.0</td>
+<td>2 055.00</td>
+<td>4 658</td>
+<td>7 192 870</td>
+<td>7 195 133</td>
 </tr>
 <tr>
 <td></td>
