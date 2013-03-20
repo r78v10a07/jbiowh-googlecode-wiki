@@ -1,4 +1,4 @@
-= Introduction =
+= Question =
 
 Same as [Example7 example 7], but now we want to get the respective antibiotic target genes from all [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=1301&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococci]. In other words, we first want to get the orthologs of [http://www.ncbi.nlm.nih.gov/gene/934804 spr0328] from all Streptococci, located at their +/- 10 gene neighborhoods and locate the antibiotic target genes. 
 
@@ -12,6 +12,6 @@ Go to a CMD Windows console or a linux console to execute the java code:
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneNeighborTax -v --geneId 934804 --taxId=1301 --cluster=90 -n 10
 </code>
 
-= Details =
+= Result =
 
 JBioWH found 2 genes that are targets of 10 antibiotics drugs. The first gene [http://www.ncbi.nlm.nih.gov/gene/?term=930269 930269] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=170187 Streptococcus pneumoniae TIGR4] and the second gene [http://www.ncbi.nlm.nih.gov/gene/?term=934791 934791] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6]
