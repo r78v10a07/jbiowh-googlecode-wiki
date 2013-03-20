@@ -1,4 +1,4 @@
-= Introduction =
+= Question =
 
 Given a protein, what are the most frequent pathways in its chromosomal neighbors (+/- 3) in bacteria? 
 
