@@ -16,34 +16,34 @@ The latest [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc] ge
 
 Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench Project] to visualize and modify the relational schema. 
 
-= Updates =
+= Upgrades =
 
-== Update a relational schema from 2.1.3 to 3.0.0 ==
+== Upgrade a relational schema from 2.1.3 to 3.0.0 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.3-to-3.0.0.sql this] script to update an existing relational schema from version 2.1.3 to 3.0.0.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.3-to-3.0.0.sql this] script to upgrade an existing relational schema from version 2.1.3 to 3.0.0.
 
 
-== Update a relational schema from 2.1.2 to 2.1.3 ==
+== Upgrade a relational schema from 2.1.2 to 2.1.3 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.2-to-2.1.3.sql this] script to update an existing relational schema from version 2.1.2 to 2.1.3.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.2-to-2.1.3.sql this] script to upgrade an existing relational schema from version 2.1.2 to 2.1.3.
 
-== Update a relational schema from 2.1.1 to 2.1.2 ==
+== Upgrade a relational schema from 2.1.1 to 2.1.2 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.1-to-2.1.2.sql this] script to update an existing relational schema from version 2.1.1 to 2.1.2.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.1.1-to-2.1.2.sql this] script to upgrade an existing relational schema from version 2.1.1 to 2.1.2.
 
-== Update a relational schema from 2.0.7 to 2.1.1 ==
+== Upgrade a relational schema from 2.0.7 to 2.1.1 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.7-to-2.1.1.sql this] script to update an existing relational schema from version 2.0.7 to 2.1.1.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.7-to-2.1.1.sql this] script to upgrade an existing relational schema from version 2.0.7 to 2.1.1.
 
-== Update a relational schema from 2.0.3 to 2.0.7 ==
+== Upgrade a relational schema from 2.0.3 to 2.0.7 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.3-to-2.0.7.sql this] script to update an existing relational schema from version 2.0.3 to 2.0.7.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.3-to-2.0.7.sql this] script to upgrade an existing relational schema from version 2.0.3 to 2.0.7.
 
-== Update a relational schema from 2.0.2 to 2.0.3 ==
+== Upgrade a relational schema from 2.0.2 to 2.0.3 ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.2-to-2.0.3.sql this] script to update an existing relational schema from version 2.0.2 to 2.0.3.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-2.0.2-to-2.0.3.sql this] script to upgrade an existing relational schema from version 2.0.2 to 2.0.3.
 
-Note that the updates are NOT accumulative. Therefore, you have to execute them sequentially.
+Note that the upgrades are NOT accumulative. Therefore, you have to execute them sequentially.
 
 From the MySQL client run:
 
