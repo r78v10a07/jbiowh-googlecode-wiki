@@ -1,6 +1,5 @@
-#summary Create a Taxonomy family graph
 
-= Introduction =
+= Question =
 
 Creates a Taxonomy family graph from a Taxonomy parent. The java API contains a [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/core/datasets/taxonomy/utils/TaxonomyGraph.java TaxonomyGraph] class that create a Taxonomy graph starting from a parent Tax id. This graph is useful to preform queries over entire families.
 
@@ -12,7 +11,7 @@ Go to a CMD Windows console or a linux console to execute the java code:
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -t <Tax Id>
 </code>
 
-= Details =
+= Results =
   
    * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2&lvl=3&lin=f&keep=1&srchmode=1&unlock Bacteria] kingdom (Tax Id: 2) contains 282705 taxonomy vertexes and 282704 direct edges between them. The graph was created in 211 seconds. The total execution time was 216 seconds.
 
