@@ -1,4 +1,4 @@
-= Introduction =
+= Question =
 
 Find in a taxonomy family (taxonomy graph) the genes encoding for drug’s target protein that are in the same chromosome at a distance less than a specific number of pair bases. In this example the API is used to create the Taxonomy graph. Then, for each taxonomy into the family a complete exploration is executed over the genes PTT map to identify the genes that are at a distance less than a specific number of pair bases. For these genes the encoded protein is retrieved and used with the !DrugBank database to check if it is a drug target.
 
@@ -10,7 +10,7 @@ Go to a CMD Windows console or a linux console to execute the java code:
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.gene.GenesDrugsFromTaxonomyFamily -t <Tax Id> -p <window size in pair bases>
 </code>
 
-= Details =
+= Results =
 
     * 204 genes where analyzed for the taxonomy family [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313 Streptococcus pneumoniae] (Tax Id: 1313) formed by 302 taxonomies. We found the genes [http://www.ncbi.nlm.nih.gov/gene/?term=930805 930805] and [http://www.ncbi.nlm.nih.gov/gene/?term=930802 930802] that belongs to the taxonomy [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=170187&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae TIGR4] (Tax Id: 170187) and are at the same chromosome with a distance between them less that 5000 pair bases and encodes for a drug’s target protein. The total execution time was 147 seconds.
 
