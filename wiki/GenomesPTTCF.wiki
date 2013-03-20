@@ -7,7 +7,7 @@ This is an example of a Genomes PTT !DataSet config file
 {{{
 <warehouse>
     <name>Complete Genomes</name>
-    <type>GenomePTT</type>
+    <type>GenePTT</type>
     <version>1.0</version>
     <homeurl>http://www.ncbi.nlm.nih.gov</homeurl>
     <releaseDate>07/19/2010</releaseDate>
