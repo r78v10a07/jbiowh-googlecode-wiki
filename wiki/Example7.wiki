@@ -1,4 +1,4 @@
-= Introduction =
+= Question =
 
 Given a target gene, identify genes encoding for antibiotic targets in its chromosomal neighborhood of +/- 10 genes. 
 
@@ -13,7 +13,7 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneN
 </code>
 
 
-= Details =
+= Results =
 
 The [http://www.ncbi.nlm.nih.gov/gene/934804 spr0328] belongs to the genome [http://www.ncbi.nlm.nih.gov/genome/?term=NC_003098 NC_003098] with 2042 genes. 
  
