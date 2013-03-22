@@ -69,7 +69,7 @@ rm * -rf
 wget -r -np -nH --cut-dirs=6 ftp://mint.bio.uniroma2.it/pub/release/psi/current/psi25/pmids/
 for a in *.zip
 do
-unzip -d ./ $a
+   unzip -d ./ $a
 done
 rm *.zip
 }}}
