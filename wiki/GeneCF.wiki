@@ -45,7 +45,7 @@ do
    fi
 done
 
-for a in mirror/*.gz
+for a in `ls -1 mirror/*.gz`
 do
   name=`basename "$a"`
   if [ ! -e "${name%.gz}" ]
