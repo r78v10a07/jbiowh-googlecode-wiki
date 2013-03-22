@@ -26,3 +26,21 @@ This is an example of a OMIM !DataSet config file
 }}}
 
 The *OMIM* data files have be manually download from [http://www.omim.org/downloads OMIM] web site. The five files provided by OMIM should reside in a same directory uncompressed.
+
+On GNU/Linux:
+
+{{{
+#!/bin/bash
+
+cd "$DATABASE_PATH/omim"
+
+wget -m -np -nH -r --cut-dirs=1 -o wget.log ftp://anonymous@grcf.jhmi.edu/OMIM/
+
+if [ `grep -c "not retrieving" wget.log` -eq 0 ]
+   then
+      rm omim.txt
+      zcat omim.txt.Z > omim.txt
+fi
+
+exit 0
+}}}
