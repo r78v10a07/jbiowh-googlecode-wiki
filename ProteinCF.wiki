@@ -29,8 +29,11 @@ The *Protein* data files should be downloaded from [ftp://ftp.uniprot.org/pub/da
 
 On GNU/Linux:
 {{{    
-    mkdir uniprot
-    cd uniprot
-    wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz
-    wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.xml.gz
+#!/bin/bash
+
+cd "$DATABASE_PATH/uniprot"
+
+wget -m -np -nH --cut-dirs=6 ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.xml.gz
+
+exit 0
 }}}
