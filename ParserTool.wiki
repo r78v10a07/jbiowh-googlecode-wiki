@@ -159,7 +159,7 @@ The table shows a report for the biological databases used by the JBioWH framewo
 </tr>
 <tr>
 <td>[PathwayCF KEGG]</td>
-<td align="center">06/11/12</td>
+<td align="center">06/11/11</td>
 <td align="right">40 668.0</td>
 <td align="right">14 784.00</td>
 <td align="right">54 380</td>
