@@ -25,11 +25,11 @@ This is an example of a Genomes PTT !DataSet config file
 </warehouse>
 }}}
 
-The *GenomesPTT* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/Bacteria/ Bacteria] directory in the NCBI FTP Site. Only the {{{ *.ptt }}} file have be downloaded in this directory.  
+The *GenePTT* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/Bacteria/ Bacteria] directory in the NCBI FTP Site. Only the {{{ *.ptt }}} file have be downloaded in this directory.  
 
 On GNU/Linux:
 
-For the Bacteria genomes: 
+For the Bacteria complete genomes: 
 
 {{{    
 #!/bin/bash
@@ -41,7 +41,7 @@ rsync -av --progress --delete ftp.ncbi.nih.gov::genomes/Bacteria/*/*.ptt ./
 exit 0
 }}}
 
-Since version *2.1.3* the Draft genomes have been inserted on the Genomes PTT module. This genomes are loaded as part of the GenomesPTT module. However, it is loaded like an independent dataset.
+Since version *2.1.3* the Draft genomes have been inserted on the Gene PTT module. This genomes are loaded as part of the GenePTT module. However, it is loaded like an independent dataset.
  
 For the Bacteria draft genomes:
 
