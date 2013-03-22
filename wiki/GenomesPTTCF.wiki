@@ -32,9 +32,13 @@ On GNU/Linux:
 For the Bacteria genomes: 
 
 {{{    
-    mkdir genomesptt
-    cd genomesptt
-    wget -r -np -nH --cut-dirs=2 -A *.ptt ftp://ftp.ncbi.nih.gov/genomes/Bacteria/
+#!/bin/bash
+
+cd $DATABASE_PATH/complete_genomes 
+
+rsync -av --progress --delete ftp.ncbi.nih.gov::genomes/Bacteria/*/*.ptt ./
+
+exit 0
 }}}
 
 Since version *2.1.3* the Draft genomes have been inserted on the Genomes PTT module. This genomes are loaded as part of the GenomesPTT module. However, it is loaded like an independent dataset.
