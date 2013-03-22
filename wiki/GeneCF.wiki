@@ -53,9 +53,9 @@ do
         zcat "$a" > "${name%.gz}"
      else
         zcmp "$a" "${name%.gz}" > /dev/null
-        if [ $? -ne 0 ]
+        if [ "$?" -ne 0 ]
           then 
-             echo Uncompress $name
+             echo "Decompress $name"
              zcat "$a" > "${name%.gz}"
         fi
   fi
