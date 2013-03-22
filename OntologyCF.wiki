@@ -29,7 +29,9 @@ The *Ontology's* data files should be downloaded from [ftp://ftp.geneontology.or
 
 On GNU/Linux:
 {{{   
-    mkdir ontology
-    cd ontology
-    wget ftp://ftp.geneontology.org/pub/go/godatabase/archive/latest-full/go_*-termdb.obo-xml.gz
+#!/bin/bash
+
+cd "$DATABASE_PATH/go"
+
+wget -m -np -nH --cut-dirs=5  ftp://ftp.geneontology.org/pub/go/godatabase/archive/latest-full/go_*-termdb.obo-xml.gz
 }}}
