@@ -1,4 +1,4 @@
-#summary This is the Genomes PTT config description
+#summary This is the GenePTT config description
 
 = Genomes PTT =
 
