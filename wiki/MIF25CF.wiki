@@ -61,15 +61,17 @@ The MINT's data files should be downloaded from [ftp://mint.bio.uniroma2.it/pub/
 
 On GNU/Linux:
 {{{
-   mkdir mint
-   cd mint
-   rm * -rf
-   wget -r -np -nH --cut-dirs=6 ftp://mint.bio.uniroma2.it/pub/release/psi/current/psi25/pmids/
-   for a in *.zip
-   do
-     unzip -d ./ $a
-   done
-   rm *.zip
+#!/bin/bash
+
+cd "$DATABASE_PATH/mint"
+
+rm * -rf
+wget -r -np -nH --cut-dirs=6 ftp://mint.bio.uniroma2.it/pub/release/psi/current/psi25/pmids/
+for a in *.zip
+do
+unzip -d ./ $a
+done
+rm *.zip
 }}}
 
 The !BioGrid's data files should be downloaded manually from [http://thebiogrid.org/ BioGrid Web Site]. Click on the *Download* session, then click on *Current Release* and download the file *BIOGRID-ALL-xxxx.psi25.zip*. The *xxxx* will be the database version. This file should be uncompressed in a directory. 
