@@ -29,8 +29,38 @@ The *Gene* data files should be downloaded from [ftp://ftp.ncbi.nlm.nih.gov/gene
 
 On GNU/Linux:
 {{{    
-    mkdir gene
-    cd gene
-    wget -np -nH --cut-dirs=2 -r -R ASN_*,GENE_INFO,misc ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/
-    gunzip -v *.gz
+#!/bin/bash
+
+cd $DATABASE_PATH/gene
+mkdir -p mirror
+
+rsync -va --progress --delete --exclude=ASN_BINARY --exclude=ASN_OLD/ --exclude=GENE_INFO/ --exclude=misc/ ftp.ncbi.nlm.nih.gov::gene/DATA/ ./mirror/
+
+for a in `ls -1 mirror/* | grep -v ".gz"`; 
+do 
+   name=`basename $a`
+   if [ ! -e "$name" ]
+   then
+      ln $a $name;   
+   fi
+done
+
+for a in mirror/*.gz
+do
+  name=`basename "$a"`
+  if [ ! -e "${name%.gz}" ]
+     then
+        zcat "$a" > "${name%.gz}"
+     else
+        zcmp "$a" "${name%.gz}" > /dev/null
+        if [ $? -ne 0 ]
+          then 
+             echo Uncompress $name
+             zcat "$a" > "${name%.gz}"
+        fi
+  fi
+done
+
+exit 0
+
 }}}
