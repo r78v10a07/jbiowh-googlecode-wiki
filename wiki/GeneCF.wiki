@@ -31,17 +31,17 @@ On GNU/Linux:
 {{{    
 #!/bin/bash
 
-cd $DATABASE_PATH/gene
+cd "$DATABASE_PATH/gene"
 mkdir -p mirror
 
 rsync -va --progress --delete --exclude=ASN_BINARY --exclude=ASN_OLD/ --exclude=GENE_INFO/ --exclude=misc/ ftp.ncbi.nlm.nih.gov::gene/DATA/ ./mirror/
 
 for a in `ls -1 mirror/* | grep -v ".gz"`; 
 do 
-   name=`basename $a`
+   name=`basename "$a"`
    if [ ! -e "$name" ]
    then
-      ln $a $name;   
+      ln "$a" "$name";   
    fi
 done
 
