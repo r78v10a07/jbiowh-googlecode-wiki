@@ -105,23 +105,33 @@ pfamA_ncbi.sql.gz
 pfamA_ncbi.txt.gz
 EOF
 
-rsync -av --delete --delete-excluded --progress --files-from=included-files ftp.sanger.ac.uk::sanger/pub/databases/Pfam/current_release/database_files/ ./mirror/
+if [ -e "rsync.log" ]
+then
+   rm -f rsync.log
+fi
+
+rsync -av --delete --delete-excluded --files-from=included-files --log-file=rsync.log ftp.sanger.ac.uk::sanger/pub/databases/Pfam/current_release/database_files/ ./mirror/
 
 rm included-files
+
+if [ `grep -c ">f" rsync.log` -ne 0 ]
+then
+   grep ">f" rsync.log | awk '{print $5}' | while read line
+   do
+      echo "Decompressing $line"
+      zcat ./mirror/$line > ${line%.gz}
+   done
+fi
+
+rm rsync.log
 
 for a in `ls -1 mirror/*.gz`
 do
   name=`basename "$a"`
   if [ ! -e "${name%.gz}" ]
      then
+        echo "Decompressing $name"
         zcat "$a" > "${name%.gz}"
-     else
-        zcmp "$a" "${name%.gz}" > /dev/null
-        if [ "$?" -ne 0 ]
-          then 
-             echo "Decompress $name"
-             zcat "$a" > "${name%.gz}"
-        fi
   fi
 done
 
