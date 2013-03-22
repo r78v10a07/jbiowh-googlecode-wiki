@@ -29,10 +29,18 @@ The *!DrugBank* data files should be downloaded from [http://www.drugbank.ca/sys
 
 On GNU/Linux:
 {{{    
-    mkdir drugbank
-    cd drugbank
-    wget http://www.drugbank.ca/system/downloads/current/drugbank.xml.zip
-    unzip -d ./ drugbank.xml.zip
-    gzip -v drugbank.xml
-    rm drugbank.xml.zip 
+#!/bin/bash
+
+cd "$DATABASE_PATH/drugbank"
+
+wget -m -np -nH --cut-dirs=3 -o wget.log http://www.drugbank.ca/system/downloads/current/drugbank.xml.zip
+
+if [ `grep -c "not retrieving" wget.log` -eq 0 ]
+   then
+      rm -f drugbank.xml.gz
+      unzip -d ./ drugbank.xml.zip
+      gzip -v drugbank.xml
+fi
+
+exit 0
 }}}
