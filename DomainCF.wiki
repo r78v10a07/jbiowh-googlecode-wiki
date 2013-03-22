@@ -29,11 +29,101 @@ The *PFAM* data files should be downloaded from [ftp://ftp.sanger.ac.uk/pub/data
 
 On GNU/Linux:
 {{{    
-    mkdir pfam
-    cd pfam
-    wget -np -nH -r --cut-dirs=5 -R alignments_and_trees.*,adda.*,pfam_annseq.*,pdb_image.*,ncbi_seq.*,metaseq.* ftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/database_files/
-    for a in *.gz
-    do
-       gunzip -v $a
-    done
+#!/bin/bash
+
+cd "$DATABASE_PATH/pfam/"
+mkdir -p mirror
+
+cat > included-files << EOF
+pfamA_reg_full_insignificant.sql.gz
+pfamA_reg_full_insignificant.txt.gz
+pfamA_reg_full_significant.sql.gz
+pfamA_reg_full_significant.txt.gz
+pfamA_reg_seed.sql.gz
+pfamA_reg_seed.txt.gz
+pfamseq.sql.gz
+pfamseq.txt.gz
+context_pfam_regions.sql.gz
+context_pfam_regions.txt.gz
+pfamB.sql.gz
+pfamB.txt.gz
+pfamB_reg.sql.gz
+pfamB_reg.txt.gz
+other_reg.sql.gz
+other_reg.txt.gz
+pfamseq_disulphide.sql.gz
+pfamseq_disulphide.txt.gz
+markup_key.sql.gz
+markup_key.txt.gz
+pfamseq_markup.sql.gz
+pfamseq_markup.txt.gz
+architecture.sql.gz
+architecture.txt.gz
+pfamA_architecture.sql.gz
+pfamA_architecture.txt.gz
+pfamA_database_links.sql.gz
+pfamA_database_links.txt.gz
+interpro.sql.gz
+interpro.txt.gz
+literature_references.sql.gz
+literature_references.txt.gz
+pfamA_literature_references.sql.gz
+pfamA_literature_references.txt.gz
+pfamA_interactions.sql.gz
+pfamA_interactions.txt.gz
+clans.sql.gz
+clans.txt.gz
+clan_membership.sql.gz
+clan_membership.txt.gz
+clan_architecture.sql.gz
+clan_architecture.txt.gz
+clan_lit_refs.sql.gz
+clan_lit_refs.txt.gz
+clan_database_links.sql.gz
+clan_database_links.txt.gz
+nested_locations.sql.gz
+nested_locations.txt.gz
+ncbi_pfamA_reg.sql.gz
+ncbi_pfamA_reg.txt.gz
+pdb.sql.gz
+pdb.txt.gz
+pdb_pfamA_reg.sql.gz
+pdb_pfamA_reg.txt.gz
+pdb_residue_data.sql.gz
+pdb_residue_data.txt.gz
+complete_proteomes.sql.gz
+complete_proteomes.txt.gz
+proteome_pfamseq.sql.gz
+proteome_pfamseq.txt.gz
+proteome_regions.sql.gz
+proteome_regions.txt.gz
+pfamA.sql.gz
+pfamA.txt.gz
+gene_ontology.sql.gz
+gene_ontology.txt.gz
+pfamA_ncbi.sql.gz
+pfamA_ncbi.txt.gz
+EOF
+
+rsync -av --delete --delete-excluded --progress --files-from=included-files ftp.sanger.ac.uk::sanger/pub/databases/Pfam/current_release/database_files/ ./mirror/
+
+rm included-files
+
+for a in `ls -1 mirror/*.gz`
+do
+  name=`basename "$a"`
+  if [ ! -e "${name%.gz}" ]
+     then
+        zcat "$a" > "${name%.gz}"
+     else
+        zcmp "$a" "${name%.gz}" > /dev/null
+        if [ "$?" -ne 0 ]
+          then 
+             echo "Decompress $name"
+             zcat "$a" > "${name%.gz}"
+        fi
+  fi
+done
+
+exit 0
 }}}
