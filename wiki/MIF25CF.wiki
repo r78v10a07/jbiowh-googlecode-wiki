@@ -33,12 +33,20 @@ The !IntAct's data files should be downloaded from [ftp://ftp.ebi.ac.uk/pub/data
 
 On GNU/Linux:
 {{{   
-    mkdir intact
-    cd intact
-    wget ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip
-    unzip -d ./ pmidMIF25.zip
-    rm -rf *_negative.xml pmidMIF25.zip
-    gzip -v *.xml
+#!/bin/bash
+
+cd "$DATABASE_PATH/intact"
+
+wget -m -np -nH --cut-dirs=5 -o wget.log ftp://ftp.ebi.ac.uk/pub/databases/intact/current/psi25/pmidMIF25.zip
+
+if [ `grep -c "not retrieving" wget.log` -eq 0 ]
+   then
+      rm *.xml
+      unzip -d ./ pmidMIF25.zip
+      rm -rf *_negative.xml
+fi
+
+exit 0
 }}}
 
 
