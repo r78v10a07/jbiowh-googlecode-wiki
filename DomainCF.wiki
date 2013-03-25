@@ -102,7 +102,7 @@ pfamA.txt.gz
 gene_ontology.sql.gz
 gene_ontology.txt.gz
 pfamA_ncbi.sql.gz
-pfamA_ncbi.txt.gz
+pfamA_ncbi.txt
 EOF
 
 if [ -e "rsync.log" ]
@@ -118,8 +118,14 @@ if [ `grep -c ">f" rsync.log` -ne 0 ]
 then
    grep ">f" rsync.log | awk '{print $5}' | while read line
    do
-      echo "Decompressing $line"
-      zcat ./mirror/$line > ${line%.gz}
+      name=`expr "$line" : '.*\(.gz\)'`
+      if [ -z ${name} ]
+      then
+          ln -v ./mirror/$line $line
+      else
+          echo "Decompressing $line"
+          zcat ./mirror/$line > ${line%.gz}
+      fi
    done
 fi
 
