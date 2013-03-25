@@ -119,12 +119,13 @@ then
    grep ">f" rsync.log | awk '{print $5}' | while read line
    do
       name=`expr "$line" : '.*\(.gz\)'`
-      if [ -z ${name} ]
+      if [ -z "${name}" ]
       then
-          ln -v ./mirror/$line $line
+          rm -f "$line"
+          ln -v "./mirror/$line" "$line"
       else
           echo "Decompressing $line"
-          zcat ./mirror/$line > ${line%.gz}
+          zcat "./mirror/$line" > "${line%.gz}"
       fi
    done
 fi
