@@ -12,12 +12,6 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.gene.GenesDrugsFromTaxon
 
 = Results =
 
-    *  genes where analyzed for the taxonomy family [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=562 Escherichia coli] (Tax Id: 562 formed by 2016 taxonomies. We found the genes [http://www.ncbi.nlm.nih.gov/gene/?term=930805 930805] and [http://www.ncbi.nlm.nih.gov/gene/?term=930802 930802] that belongs to the taxonomy [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=170187&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae TIGR4] (Tax Id: 170187) and are at the same chromosome with a distance between them less that 5000 pair bases and encodes for a drug’s target protein. The total execution time was 147 seconds.
-
-<code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.gene.GenesDrugsFromTaxonomyFamily -t 1313 -p 5000
-</code>
-
     * 41576 genes where analyzed for the taxonomy family [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313 Streptococcus pneumoniae] (Tax Id: 1313) formed by 303 taxonomies. We found the genes [http://www.ncbi.nlm.nih.gov/gene/?term=930805 930805] and [http://www.ncbi.nlm.nih.gov/gene/?term=930802 930802] that belongs to the taxonomy [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=170187&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae TIGR4] (Tax Id: 170187) and are at the same chromosome with a distance between them less that 5000 pair bases and encodes for a drug’s target protein. The total execution time was 112 seconds.
 
 <code language="bash">
