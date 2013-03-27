@@ -1,4 +1,3 @@
-
 = Question =
 
 Given two drugs ([http://www.drugbank.ca/drugs/DB00415 DB00415] and [http://www.drugbank.ca/drugs/DB00588 DB00588]) identify the shortest path between them in a graph of drugs, proteins and pathways.
@@ -23,7 +22,9 @@ Then, the [http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm Dijkstra's algori
 
 The path in our graph is:
 
+{{{
 DB00415 <--> PBPA_STRR6 <--> spr01100 <--> AROC_STRR6 <--> DB03247 <--> NOS1_HUMAN <--> hsa01100 <--> PA24A_HUMAN <--> DB00588
+}}}
 
 The total execution time was 71 seconds. 
 
