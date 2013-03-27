@@ -1,0 +1,30 @@
+
+= Question =
+
+Given two drugs ([http://www.drugbank.ca/drugs/DB00415 DB00415] and [http://www.drugbank.ca/drugs/DB00588 DB00588]) identify the shortest path between them in a graph of drugs, proteins and pathways.
+
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugPathwayGraph.java here]
+
+Go to a CMD Windows console or a linux console to execute the java code: 
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraph -d 26 --drug1 DB00415 --drug2 DB00588
+</code>
+
+= Details =
+
+The JBioWH framework includes the class [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/core/utility/graph/BioWHGraph.java BioWHGraph] which build a graph from JBioWH main entity. 
+
+In this example we started the graph from the drug [http://www.drugbank.ca/drugs/DB00415 DB00415] including in the graph the DrugBank, Protein and KEGGPathway entities. 
+
+The graph contains 13 747 vertexes (Drugs, Proteins and KEGG pathways) and was created in 70 seconds. 
+
+Then, the [http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm Dijkstra's algorithm] was used to find the shortest path between the initial drug [http://www.drugbank.ca/drugs/DB00415 DB00415] and the second  drug [http://www.drugbank.ca/drugs/DB00588 DB00588] in 0 seconds.
+
+The path in our graph is:
+
+DB00415 <--> PBPA_STRR6 <--> spr01100 <--> AROC_STRR6 <--> DB03247 <--> NOS1_HUMAN <--> hsa01100 <--> PA24A_HUMAN <--> DB00588
+
+The total execution time was 71 seconds. 
+
+This example was executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
