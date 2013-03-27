@@ -22,3 +22,4 @@
     # [Example7 Given a target gene, identify genes encoding for antibiotic targets in its chromosomal neighborhood of +/- 10 genes]
     # [Example8 Same as example 7, but now we want to get the respective antibiotic target genes from all Streptococci]
     # [Example9 Given a protein, what are the most frequent pathways in its chromosomal neighbors (+/- 3) in bacteria]
+    # [Example10 Given two drugs identify the shortest path between them in a graph of drugs, proteins and pathways]
