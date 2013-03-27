@@ -29,3 +29,5 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.gene.GenesDrugsFromTaxon
 <code language="bash">
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.gene.GenesDrugsFromTaxonomyFamily -t 32008 -p 5000
 </code>
+
+These examples were executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
