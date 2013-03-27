@@ -10,7 +10,7 @@ java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.mainload
 
 The specific *XML config* file for each !DataSet will be showed on the !DataSet help Wiki.
 
-The table shows a report for the biological databases used by the JBioWH framework. This example was executed in a computer with two [http://www.cpu-world.com/CPUs/K8/AMD-Opteron%20240%20-%20OSADA240CCO5.html AMD Opteron Processor 240] (1.4 GHz and 1.0 MB of cache) and 4.0 GB of RAM running OpenSuSE 12.2 (Linux version 3.4.28-2.20-desktop, SMP PREEMPT Tue Jan 29 16:51:37 UTC 2013 (143156b)). 
+The table shows a report for the biological databases used by the JBioWH framework. This example was executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
 
 <table border="1">
 <tr>
@@ -171,8 +171,8 @@ The table shows a report for the biological databases used by the JBioWH framewo
 <th> </th>
 <th align="right">112.29</th>
 <th align="right">235.47</th>
-<th align="right">124.05</th>
-<th align="right">79 763 053</th>
-<th align="right">1 834 536 616</th>
+<th align="right">111.24</th>
+<th align="right">80 508 929</th>
+<th align="right">1 896 005 575</th>
 </tr>
 </table>
