@@ -14,4 +14,6 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneN
 
 = Result =
 
-JBioWH found 2 genes that are targets of 10 antibiotics drugs. The first gene [http://www.ncbi.nlm.nih.gov/gene/?term=930269 930269] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=170187 Streptococcus pneumoniae TIGR4] and the second gene [http://www.ncbi.nlm.nih.gov/gene/?term=934791 934791] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6]
+JBioWH found 2 genes that are targets of 10 antibiotics drugs. The first gene [http://www.ncbi.nlm.nih.gov/gene/?term=930269 930269] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=170187 Streptococcus pneumoniae TIGR4] and the second gene [http://www.ncbi.nlm.nih.gov/gene/?term=934791 934791] belongs to the specie [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6]. The total execution time was 15 seconds.
+
+This example was executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
