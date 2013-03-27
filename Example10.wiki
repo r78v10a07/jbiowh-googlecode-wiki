@@ -20,7 +20,7 @@ The graph contains 13 747 vertexes (Drugs, Proteins and KEGG pathways) and was c
 
 Then, the [http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm Dijkstra's algorithm] was used to find the shortest path between the initial drug [http://www.drugbank.ca/drugs/DB00415 DB00415] and the second  drug [http://www.drugbank.ca/drugs/DB00588 DB00588] in 0 seconds.
 
-The path in our graph is:
+The found path contains 9 vertexes and 8 edges:
 
 {{{
 DB00415 <--> PBPA_STRR6 <--> spr01100 <--> AROC_STRR6 <--> DB03247 <--> NOS1_HUMAN <--> hsa01100 <--> PA24A_HUMAN <--> DB00588
