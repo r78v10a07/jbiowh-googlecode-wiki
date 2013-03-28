@@ -5,7 +5,7 @@
 
 The BioWHGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/utility/graph/BioWHGraph.java code]
 
-This class is used to create a graph from a JBioWH main entity (Taxonomy, Ontology, Gene, GenePTT, Protein, MIF25, UniRefMember, DrugBank, KEGGPathway, KEGGEnzyme, KEGGCompound, KEGGReaction, KEGGGene, KEGGGlycan, OMIM and PfamABioWH). 
+This class is used to create a graph from a JBioWH main entity (Taxonomy, Ontology, Gene, GenePTT, Protein, MIF25, !UniRefMember, !DrugBank, KEGGPathway, KEGGEnzyme, KEGGCompound, KEGGReaction, KEGGGene, KEGGGlycan, OMIM and PfamABioWH). 
 
 The class use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
