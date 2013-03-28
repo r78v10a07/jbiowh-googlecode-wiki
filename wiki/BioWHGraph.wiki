@@ -1,0 +1,16 @@
+#summary The BioWHGraph class
+
+= BioWHGraph =
+
+
+The !BioWHGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/utility/graph/BioWHGraph.java code]
+
+This class is used to create a graph from a JBioWH main entity (Taxonomy, Ontology, Gene, GenePTT, Protein, MIF25, UniRefMember, DrugBank, KEGGPathway, KEGGEnzyme, KEGGCompound, KEGGReaction, KEGGGene, KEGGGlycan, OMIM and PfamABioWH). 
+
+The class use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
+
+The [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html#populate(java.lang.Object) populate] method is used to create the graph from a JBioWH main entity. This method uses the variable [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html#depth depth] which is the limit for recursive iterations. If the depth value is set to {{{-1 }}} the recursive iterations won't be limited.
+
+This class uses the singleton class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html JpaEntitiesSelected] to storage into the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html#getEntities() entities] list the entities classes that will be included on the graph creation process.
+
+See {Example10 Example 10]
