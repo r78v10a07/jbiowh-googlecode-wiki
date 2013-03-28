@@ -2,8 +2,10 @@
 
 This example shows how to retrieve the protein's names or sequences in fasta format using the FindProtein Command Line tool. First, we used the option (-u) to search directly from the command line. We are searching for proteins with !UniProt Id that finish with *_IIV3*, that's means all proteins for the organism *Invertebrate iridescent virus 3* with *Tax Id 345201*  
 
+The !FindProtein class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/protein/FindProtein.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/protein/FindProtein.java code]
+
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.1.0-SNAPSHOT/jbiowh-2.1.0-SNAPSHOT.jar org.jbiowh.tools.protein.FindProtein -v -u "%_IIV3"
+java -cp jbiowh-<version>-SNAPSHOT.jar org.jbiowh.tools.protein.FindProtein -v -u "%_IIV3"
 }}}
 
 The standard output is:
@@ -15,7 +17,7 @@ The *result.txt* file contains the found !UniProt Ids.
 If the option (--fasta) is used with a file name as an argument the !UniProt sequences in fasta format are printed in that file.
 
 {{{
-java -cp /home/roberto/.m2/repository/org/jbiowh/2.0.7-SNAPSHOT/jbiowh-2.0.7-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProtein -v -u "%_IIV3" --fasta iiv3.fasta
+java -cp jbiowh-<version>-SNAPSHOT.jar org.jbiowh.tools.prototypes.protein.FindProtein -v -u "%_IIV3" --fasta iiv3.fasta
 }}}
 
 The standard output is:
