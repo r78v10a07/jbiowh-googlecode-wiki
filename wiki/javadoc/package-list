@@ -13,6 +13,7 @@ org.jbiowh.core.datasets.domain.pfam.jpa.transfer
 org.jbiowh.core.datasets.domain.pfam.parser
 org.jbiowh.core.datasets.domain.pfam.parser.files
 org.jbiowh.core.datasets.domain.pfam.parser.links
+org.jbiowh.core.datasets.domain.pfam.search
 org.jbiowh.core.datasets.drug.drugbank.jpa.controller
 org.jbiowh.core.datasets.drug.drugbank.jpa.entities
 org.jbiowh.core.datasets.drug.drugbank.jpa.transfer
@@ -24,7 +25,7 @@ org.jbiowh.core.datasets.drug.drugbank.parser.xml.tags
 org.jbiowh.core.datasets.drug.drugbank.search
 org.jbiowh.core.datasets.gene.jpa.controller
 org.jbiowh.core.datasets.gene.jpa.entities.gene
-org.jbiowh.core.datasets.gene.jpa.entities.genomes
+org.jbiowh.core.datasets.gene.jpa.entities.geneptt
 org.jbiowh.core.datasets.gene.jpa.transfer
 org.jbiowh.core.datasets.gene.parser
 org.jbiowh.core.datasets.gene.parser.files
@@ -88,6 +89,7 @@ org.jbiowh.core.datasets.taxonomy.jpa.transfer
 org.jbiowh.core.datasets.taxonomy.parser
 org.jbiowh.core.datasets.taxonomy.parser.links
 org.jbiowh.core.datasets.taxonomy.search
+org.jbiowh.core.datasets.taxonomy.utils
 org.jbiowh.core.dbms
 org.jbiowh.core.dbms.mysql
 org.jbiowh.core.dbms.sql
@@ -97,6 +99,7 @@ org.jbiowh.core.logger
 org.jbiowh.core.utility.constrains
 org.jbiowh.core.utility.controller
 org.jbiowh.core.utility.controller.exceptions
+org.jbiowh.core.utility.graph
 org.jbiowh.core.utility.jparelationship
 org.jbiowh.core.utility.jparelationship.graph
 org.jbiowh.core.utility.utils
@@ -119,6 +122,7 @@ org.jbiowh.gui.component.table.model.data
 org.jbiowh.gui.component.tree
 org.jbiowh.gui.datasets
 org.jbiowh.gui.datasets.disease
+org.jbiowh.gui.datasets.domain.pfam
 org.jbiowh.gui.datasets.drug
 org.jbiowh.gui.datasets.gene
 org.jbiowh.gui.datasets.ontology
@@ -135,9 +139,11 @@ org.jbiowh.gui.save
 org.jbiowh.gui.sqltables
 org.jbiowh.gui.sqltables.exception
 org.jbiowh.gui.sqltables.listener
+org.jbiowh.tools.dataset
 org.jbiowh.tools.defaultTools
 org.jbiowh.tools.examples
 org.jbiowh.tools.gene
 org.jbiowh.tools.protein
 org.jbiowh.tools.prototypes.insert
 org.jbiowh.tools.prototypes.temp
+org.jbiowh.tools.taxonomy
