@@ -20,6 +20,7 @@
             * [DomainRS Domain]
         * [JavaAPI Java API]
             * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
+            * [BioWHGraph The class to create and manipulate graph]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
