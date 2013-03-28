@@ -13,4 +13,4 @@ The [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph
 
 This class uses the singleton class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html JpaEntitiesSelected] to storage into the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html#getEntities() entities] list the entities classes that will be included on the graph creation process.
 
-See {Example10 Example 10]
+See [Example10 Example 10]
