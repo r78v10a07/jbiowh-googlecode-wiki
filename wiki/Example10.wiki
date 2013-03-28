@@ -12,7 +12,7 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGrap
 
 = Details =
 
-The JBioWH framework includes the class [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/core/utility/graph/BioWHGraph.java BioWHGraph] which build a graph from JBioWH main entity. 
+The JBioWH framework includes the !BioWHGraph which build a graph from JBioWH main entity. 
 
 In this example we started the graph from the drug [http://www.drugbank.ca/drugs/DB00587 DB00587] including in the graph the !DrugBank, Protein and KEGGPathway entities. 
 
