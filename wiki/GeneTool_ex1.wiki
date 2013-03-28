@@ -12,7 +12,7 @@ Use this columns as input file to search the !UniProt Id for this genes using th
 
 The !ProteinGi in this table is the column 2, (the column count start on 0) using as delimiter the "|" character. This delimiter is a special character, therefore, it have to be double escaped.  
 
-The FindGenefromProteinGi class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/gene/FindGenefromProteinGi.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/gene/FindGenefromProteinGi.java]
+The !FindGenefromProteinGi class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/gene/FindGenefromProteinGi.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/gene/FindGenefromProteinGi.java code]
 
 The command line is:
 
