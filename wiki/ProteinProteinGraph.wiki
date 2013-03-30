@@ -1,4 +1,4 @@
-= ProteinProteinGraph =
+#summary The ProteinProteinGraph class
 
 This class creates a weighted graph with the protein-protein interaction network from a !UniProt accession number using the MIF25 data sources. The MIF25 interaction are used as edges between proteins. The weight of the edge is created from the number of MIF25 interactions reported by the biological data sources. 
 
