@@ -10,7 +10,7 @@ Go to a CMD Windows console or a linux console to execute the java code:
 java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraph -d 10 --drug1 DB00587 --drug2 DB03785
 </code>
 
-= Details =
+= Answer =
 
 The JBioWH framework includes the [BioWHGraph] which build a graph from JBioWH main entity. 
 
