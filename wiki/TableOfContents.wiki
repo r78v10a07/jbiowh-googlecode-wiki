@@ -21,6 +21,7 @@
         * [JavaAPI Java API]
             * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
             * [BioWHGraph BioWHGraph class to create and manipulate graph]
+                * [ProteinProteinGraph ProteinProteinGraph, the Protein-Protein interaction graph]
         * [ParserTool Parser Tool]
             * [ConfigDTD Config DTD]
             * [TaxonomyCF Taxonomy]
