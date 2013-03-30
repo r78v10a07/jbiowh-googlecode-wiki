@@ -100,8 +100,8 @@ org.jbiowh.core.utility.constrains
 org.jbiowh.core.utility.controller
 org.jbiowh.core.utility.controller.exceptions
 org.jbiowh.core.utility.graph
+org.jbiowh.core.utility.graph.edge
 org.jbiowh.core.utility.jparelationship
-org.jbiowh.core.utility.jparelationship.graph
 org.jbiowh.core.utility.utils
 org.jbiowh.gui
 org.jbiowh.gui.actions.jbiowh
