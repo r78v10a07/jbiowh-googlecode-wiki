@@ -1,0 +1,9 @@
+= ProteinProteinGraph =
+
+This class creates a weighted graph with the protein-protein interaction network from a !UniProt accession number using the MIF25 data sources. The MIF25 interaction are used as edges between proteins. The weight of the edge is created from the number of MIF25 interactions reported by the biological data sources. 
+
+This class extends the [BioWHGraph] class and override the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html#populate(org.jbiowh.core.datasets.protein.jpa.entities.Protein,%20int) populate] method for the Protein entity. 
+
+The graph created is a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableUndirectedWeightedGraph.html ListenableUndirectedWeightedGraph].
+
+The ProteinProteinGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/protein/utils/ProteinProteinGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/protein/utils/ProteinProteinGraph.java code]. Also the ProteinProteinEdge class is used and extends the [http://jgrapht.org/javadoc/org/jgrapht/graph/DefaultWeightedEdge.html DefaultWeightedEdge] class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/protein/utils/ProteinProteinEdge.html javadoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/protein/utils/ProteinProteinEdge.java code]
