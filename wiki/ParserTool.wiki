@@ -143,12 +143,12 @@ The table shows a report for the biological databases used by the JBioWH framewo
 </tr>
 <tr>
 <td>[DomainCF PFAM]</td>
-<td align="center">03/12/13</td>
+<td align="center">03/28/13</td>
 <td align="right">31 000.0</td>
 <td align="right">20 501.00</td>
-<td align="right">27 132</td>
-<td align="right">13 672</td>
-<td align="right">154 792 451</td>
+<td align="right">12 668</td>
+<td align="right">14 831</td>
+<td align="right">259 648 666</td>
 </tr>
 <tr>
 <td>[DrugBankCF DrugBank]</td>
