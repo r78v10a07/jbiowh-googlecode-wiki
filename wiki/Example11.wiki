@@ -1,0 +1,34 @@
+= Question =
+
+Creates a weighted graph with the protein-protein interaction network from a !UniProt accession number.
+
+This example use the [ProteinProteinGraph] class which extends the [BioWHGraph] class. 
+
+The class [ProteinProteinGraph] creates a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableUndirectedWeightedGraph.html ListenableUndirectedWeightedGraph] and override the populate method for the Protein entity and uses a method to insert the vertexes and edges.
+
+= Answer =
+
+The Java Code for this example is [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/examples/PPIGraph.java here]
+
+Go to a CMD Windows console or a linux console to execute the java code: 
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.PPIGraph -d 4 --acc1 P27049
+</code>
+
+The graph contains 119 vertexes and was created in 9 seconds.
+
+Also, we developed a simple graphical interface to visualize this path. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
+
+The Java Code for this graphical example is [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/examples/GraphFrame.java here]
+
+Go to a CMD Windows console or a linux console to execute the java code: 
+
+<code language="bash">
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.GraphFrame
+</code> 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Ex11_1.jpg
+
+
+This example was executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
