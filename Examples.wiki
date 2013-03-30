@@ -23,3 +23,4 @@
     # [Example8 Same as example 7, but now we want to get the respective antibiotic target genes from all Streptococci]
     # [Example9 Given a protein, what are the most frequent pathways in its chromosomal neighbors (+/- 3) in bacteria]
     # [Example10 Given two drugs identify the shortest path between them in a graph of drugs, proteins and pathways]
+    # [Example11 Create a Protein-Protein interaction network]
