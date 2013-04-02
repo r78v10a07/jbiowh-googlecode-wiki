@@ -1,0 +1,11 @@
+#summary The TaxonomyGraph class
+
+This class creates a directed graph with Taxonomy hierarchical tree from parent to child. 
+
+This is a recursive class that extends the [BioWHGraph] class and override the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/BioWHGraph.html#populate(java.lang.Object, int) populate] method for any entity object. 
+
+The graph created is a [http://jgrapht.org/javadoc/org/jgrapht/graphListenableDirectedGraph.html ListenableDirectedGraph].
+
+The TaxonomyGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/taxonomy/utils/TaxonomyGraph.html JavaDoc] and [https://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/taxonomy/utils/TaxonomyGraph.java code]. 
+
+See [Example5 example 5] and [Example6 example 6]
