@@ -2,7 +2,7 @@
 
 Creates a weighted graph with the protein-protein interaction network from a !UniProt accession number.
 
-This example use the [ProteinProteinGraph] class which extends the [BioWHGraph] class. 
+This example use the [ProteinProteinGraph] class which extends the [BioWHGraph JBioWHGraph] class. 
 
 The class [ProteinProteinGraph] creates a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableUndirectedWeightedGraph.html ListenableUndirectedWeightedGraph] and override the populate method for the Protein entity and uses a method to insert the vertexes and edges.
 
