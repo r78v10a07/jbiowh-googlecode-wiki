@@ -30,7 +30,7 @@
             * [OntologyCF Ontology]
             * [GeneCF Gene]
             * [GenomesPTTCF Genomes PTT]
-            * [GenBankCF GeneBank]
+            * [GenBankCF GenBank]
             * [ProteinCF Protein]
             * [MIF25CF MIF25]
             * [ProtFamCF Protein Cluster]
