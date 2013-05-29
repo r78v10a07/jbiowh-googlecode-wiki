@@ -31,7 +31,7 @@ This is an example of a !GenBank !DataSet config file to insert the !GenBank rel
 </warehouse>
 }}}
 
-The *GenBank* release files should be downloaded from [ftp://ftp.ncbi.nih.gov/genbank genbank] directory in the NCBI FTP Site. All files ended by *seq.gz* on this directory have to be downloaded.
+The *!GenBank* release files should be downloaded from [ftp://ftp.ncbi.nih.gov/genbank genbank] directory in the NCBI FTP Site. All files ended by *seq.gz* on this directory have to be downloaded.
 
 On GNU/Linux:
 {{{
@@ -50,7 +50,7 @@ For the *GenBank* daily updates:
 {{{
 <warehouse>
     <name>GenBank</name>
-    <type>ftp://ftp.ncbi.nih.gov/genbank/</type>
+    <type>GeneBankUpdate</type>
     <version>195.0</version>
     <homeurl>http://www.ncbi.nlm.nih.gov/genebank</homeurl>
     <releaseDate>05/22/2013</releaseDate>
