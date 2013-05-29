@@ -20,7 +20,7 @@ The graph contains 119 vertexes and was created in 9 seconds.
 
 Also, we developed a simple graphical interface to visualize this path. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
-The Java Code for this graphical example is [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/examples/GraphFrame.java here]
+The Java Code for this graphical example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/GraphFrame.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
