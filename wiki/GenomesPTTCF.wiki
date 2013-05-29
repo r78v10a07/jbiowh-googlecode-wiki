@@ -36,7 +36,7 @@ For the Bacteria complete genomes:
 
 cd $DATABASE_PATH/complete_genomes 
 
-rsync -av --progress --delete ftp.ncbi.nih.gov::genomes/Bacteria/*/*.ptt ./
+rsync -av --progress --delete --include="/*/" --include="*.ptt.tgz" --include="*.rnt.tgz" --exclude="*" ftp.ncbi.nlm.nih.gov::genomes/Bacteria/ ./
 
 exit 0
 }}}
@@ -46,9 +46,9 @@ Since version *2.1.3* the Draft genomes have been inserted on the Gene PTT modul
 For the Bacteria draft genomes:
 
 {{{
-    mkdir genomes_draft
-    cd genomes_draft
-    wget -r -np -nH --cut-dirs=2 -A *.ptt.tgz ftp://ftp.ncbi.nih.gov/genomes/Bacteria_DRAFT/ 
+    mkdir draft_genomes
+    cd draft_genomes
+    rsync -av --include="/*/" --include="*.ptt.tgz" --include="*.rnt.tgz" --exclude="*" ftp.ncbi.nlm.nih.gov::genomes/Bacteria_DRAFT/ ./
     for a in *
     do
        cd $a
