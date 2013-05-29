@@ -11,6 +11,7 @@
             * [TaxonomyRS Taxonomy]
             * [OntologyRS Ontology]
             * [GeneRS Gene]
+            * [GeneBankRS GeneBank]
             * [ProteinRS Protein]
             * [MIF25RS MIF25]
             * [ProtFamRS Protein Cluster]
