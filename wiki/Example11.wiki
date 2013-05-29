@@ -8,7 +8,7 @@ The class [ProteinProteinGraph] creates a [http://jgrapht.org/javadoc/org/jgraph
 
 = Answer =
 
-The Java Code for this example is [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/tools/examples/PPIGraph.java here]
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/PPIGraph.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
