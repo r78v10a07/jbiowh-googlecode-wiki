@@ -45,7 +45,7 @@ rsync -va --progress --delete ftp.ncbi.nlm.nih.gov::genbank/*.seq.gz ./
 }}}
 
 
-For the *GenBank* daily updates:
+For the *!GenBank* daily updates:
 
 {{{
 <warehouse>
