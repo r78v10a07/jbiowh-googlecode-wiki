@@ -1,0 +1,81 @@
+#summary This is the GeneBank config description
+
+= GenBank =
+
+This module has to different kind of config files. First, the config file for the *GenBank* release and the second for the *GenBank* updates. 
+
+This a module with a incremental update for the daily genbank updates. The release and the updates should be in different folders and the insertion of a new release will execute a complete load process.
+
+The *JBioWH* parser can read the compressed files.
+
+This is an example of a !GenBank !DataSet config file to insert the !GenBank release:
+ 
+{{{
+<warehouse>
+    <name>GenBank</name>
+    <type>GeneBank</type>
+    <version>195.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov/genebank</homeurl>
+    <releaseDate>05/22/2013</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\genebank</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *GenBank* release files should be downloaded from [ftp://ftp.ncbi.nih.gov/genbank genbank] directory in the NCBI FTP Site. All files ended by *seq.gz* on this directory have to be downloaded.
+
+On GNU/Linux:
+{{{
+#!/bin/bash
+
+cd "$DATABASE_PATH/genbank"
+mkdir -p mirror
+
+rsync -va --progress --delete ftp.ncbi.nlm.nih.gov::genbank/*.seq.gz ./
+
+}}}
+
+
+For the *GenBank* daily updates:
+
+<warehouse>
+    <name>GenBank</name>
+    <type>ftp://ftp.ncbi.nih.gov/genbank/</type>
+    <version>195.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov/genebank</homeurl>
+    <releaseDate>05/22/2013</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\genebank_updates</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>false</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+
+The updates files should be downloaded from [ftp://ftp.ncbi.nih.gov/genbank/daily-nc/ daily-nc] directory in the NCBI FTP Site. All files ended by *flat.gz* on this directory have to be downloaded.
+
+On GNU/Linux:
+{{{
+#!/bin/bash
+
+cd "$DATABASE_PATH/genbank_updates"
+mkdir -p mirror
+
+rsync -va --progress --delete ftp.ncbi.nlm.nih.gov::genbank/daily-nc/*.flat.gz ./
+
+}}}
+
