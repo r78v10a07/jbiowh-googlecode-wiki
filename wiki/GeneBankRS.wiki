@@ -1,7 +1,7 @@
 #summary This wiki describe the GeneBank module
 
-= GeneBank =
+= !GeneBank =
 
-The *GeneBank* module is base on the [http://www.ncbi.nlm.nih.gov/genbank GeneBank] data source. The next figure shows the relational schema for the *GeneBank* module. This module can handled any database using the [http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html GeneBank] file format
+The *!GeneBank* module is base on the [http://www.ncbi.nlm.nih.gov/genbank GeneBank] data source. The next figure shows the relational schema for the *GeneBank* module. This module can handled any database using the [http://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html GeneBank] file format
 
 http://jbiowh.googlecode.com/svn/wiki/images/GeneBank.png
