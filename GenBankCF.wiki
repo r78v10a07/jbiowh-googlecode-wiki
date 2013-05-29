@@ -1,4 +1,4 @@
-#summary This is the GeneBank config description
+#summary This is the GenBank config description
 
 = !GenBank =
 
