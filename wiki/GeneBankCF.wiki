@@ -1,8 +1,8 @@
 #summary This is the GeneBank config description
 
-= GenBank =
+= !GenBank =
 
-This module has to different kind of config files. First, the config file for the *GenBank* release and the second for the *GenBank* updates. 
+This module has to different kind of config files. First, the config file for the *!GenBank* release and the second for the *!GenBank* updates. 
 
 This a module with a incremental update for the daily genbank updates. The release and the updates should be in different folders and the insertion of a new release will execute a complete load process.
 
@@ -47,6 +47,7 @@ rsync -va --progress --delete ftp.ncbi.nlm.nih.gov::genbank/*.seq.gz ./
 
 For the *GenBank* daily updates:
 
+{{{
 <warehouse>
     <name>GenBank</name>
     <type>ftp://ftp.ncbi.nih.gov/genbank/</type>
@@ -65,6 +66,7 @@ For the *GenBank* daily updates:
     <droptables>false</droptables>
     <runlinks>true</runlinks>
 </warehouse>
+}}}
 
 The updates files should be downloaded from [ftp://ftp.ncbi.nih.gov/genbank/daily-nc/ daily-nc] directory in the NCBI FTP Site. All files ended by *flat.gz* on this directory have to be downloaded.
 
@@ -78,4 +80,3 @@ mkdir -p mirror
 rsync -va --progress --delete ftp.ncbi.nlm.nih.gov::genbank/daily-nc/*.flat.gz ./
 
 }}}
-
