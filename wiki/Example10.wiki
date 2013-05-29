@@ -2,7 +2,7 @@
 
 Given two drugs ([http://www.drugbank.ca/drugs/DB00587 DB00587] and [http://www.drugbank.ca/drugs/DB03785 DB03785]) identify the shortest path between them in a graph of drugs, proteins and pathways.
 
-The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugPathwayGraph.java here]
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugProteinPathwayGraph.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
