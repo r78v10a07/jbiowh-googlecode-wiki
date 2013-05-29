@@ -12,7 +12,8 @@ It is convenient to start discussing the terminology that we will be using conti
  # [TaxonomyRS Taxonomy]: based on the NCBI Taxonomy data source
  # [OntologyRS Ontology]: based on the Gene Ontology (GO) data source
  # [GeneRS Gene]: based on the Gene data source
-    * [GeneBankRS GeneBank format]
+    * NCBI Genomes
+    * [GeneBankRS GeneBank] format 
  # [ProteinRS Protein]: based on the Uniprot data source
  # [MIF25RS MIF25]: based on the MIF25 file format for Protein-Protein Interactions data sources
  # [ProtFamRS Protein Cluster]: based on the !UniRef data source
