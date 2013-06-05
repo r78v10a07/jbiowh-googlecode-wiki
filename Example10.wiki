@@ -20,9 +20,9 @@ The answer provided by JBioWH is that a) the drug has 19 target neighbors would 
 
 Also, this kind of drug-pathway graph can be usefull to identify antibiotics drugs which acts on diferent organisms. The drugs Ceftazidime ([http://www.drugbank.ca/drugs/DB00438 DB00438]) and Cyclacillin ( [http://www.drugbank.ca/drugs/DB01000 DB01000]) are antibiotics drugs which acts on Streptococcus pneumoniae R6 ([http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock 171101]), Escherichia coli str. K-12 substr. MG1655 ([http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=511145&lvl=3&lin=f&keep=1&srchmode=1&unlock 511145]) and Clostridium perfringens str. 13 ([http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=195102&lvl=3&lin=f&keep=1&srchmode=1&unlock 195102]). 
 
-The graph contains 2 407 vertexes (Drugs and KEGG pathways) and was created in 135 seconds. 
+The graph contains 2 398 vertexes (Drugs and KEGG pathways) and was created in 107 seconds. 
 
-The total execution time was 325 seconds. 
+The total execution time was 126 seconds. 
 
 Also, we developed a simple graphical interface to visualize the paths. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
