@@ -1,32 +1,28 @@
 = Question =
 
-Given two drugs ([http://www.drugbank.ca/drugs/DB00587 DB00587] and [http://www.drugbank.ca/drugs/DB03785 DB03785]) identify the shortest path between them in a graph of drugs, proteins and pathways.
+Given a drug ([http://www.drugbank.ca/drugs/DB00739 DB00739] identify a) target neighbors, if they act on the same protein b) pathway neighbors if they act on proteins that belong to the same metabolic pathway or c) distant neighbors, if they act on different pathways and they are antibiotics. This graph has drugs and pathways as vertices and protein as edges.
 
 The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugProteinPathwayGraph.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraph -d 10 --drug1 DB00587 --drug2 DB03785
+java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraph -d 4 --drug1 DB00739 --pattern antibiotic
 </code>
 
 = Answer =
 
-The JBioWH framework includes the [JBioWHGraph JBioWHGraph] which build a graph from JBioWH main entity. 
+The JBioWH framework includes the [DrugPathwayGraph DrugPathwayGraph] which build a graph from JBioWH main entity. 
 
-In this example we started the graph from the drug [http://www.drugbank.ca/drugs/DB00587 DB00587] including in the graph the !DrugBank, Protein and KEGGPathway entities. 
+We take the drug Hetacillin ([http://www.drugbank.ca/drugs/DB00739 DB00739]) as an example. Hetacillin is a beta-lactam that does not have intrinsic antibacterial activity, but is converted by the body to ampicillin, which is active against a variety of organisms. This drug is reported to acts on proteins Penicillin-binding protein 1A (!UniProt Id: PBPA_STRR6) and Penicillin-binding protein 2B (!UniProt Id: PBP2_STRR6) of Streptococcus pneumoniae R6 (!TaxId: 171101). Unfortunately, this drug is not related to other proteins, according with the information provided by the biological databases, and, therefore, to other organisms. Additionally, the aforementioned proteins are parts of the Peptidoglycan biosynthesis (KEGG: spr00550) of the Streptococcus pneumoniae R6 (!TaxId: 171101). 
 
-The graph contains 4 610 vertexes (Drugs, Proteins and KEGG pathways) and was created in 28 seconds. 
+The answer provided by JBioWH is that a) the drug has 19 target neighbors would act on the same protein target, b) has 38 pathway neighbors and c) the drug has 35 nearest distant neighbor which are identified as antibiotics. 
 
-Then, the [http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm Dijkstra's algorithm] was used to find the shortest path between the initial drug [http://www.drugbank.ca/drugs/DB00587 DB00587] and the second  drug [http://www.drugbank.ca/drugs/DB00587 DB00587] in 0 seconds.
+Also, this kind of drug-pathway graph can be usefull to identify antibiotics drugs which acts on diferent organisms. The drugs Ceftazidime ([http://www.drugbank.ca/drugs/DB00438 DB00438]) and Cyclacillin ( [http://www.drugbank.ca/drugs/DB01000 DB01000]) are antibiotics drugs which acts on Streptococcus pneumoniae R6 (!TaxId: 171101), Escherichia coli str. K-12 substr. MG1655 (!Taxid: 511145) and Clostridium perfringens str. 13 (!Taxid: 195102). 
 
-The found path contains 9 vertexes and 8 edges:
+The graph contains 2 407 vertexes (Drugs and KEGG pathways) and was created in 135 seconds. 
 
-{{{
-DB00587 <--> CLTR1_HUMAN <--> hsa04020 <--> KCC2A_HUMAN <--> DB04447 <--> HMDH_HUMAN <--> DB01992 <--> MVAA_PSEMV <--> DB03785
-}}}
-
-The total execution time was 29 seconds. 
+The total execution time was 325 seconds. 
 
 Also, we developed a simple graphical interface to visualize this path. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
