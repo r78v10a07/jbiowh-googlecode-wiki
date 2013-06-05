@@ -1,0 +1,11 @@
+#summary The DrugPathwayGraph class
+
+The !DrugPathwayGraph class creates an undirected and weighted graph of drugs-pathways. This graph uses the proteins as edges creating the relationship between drugs and pathways.  The edges are weighted depending on how many times each relationship (drug-pathway) is created by different proteins.
+
+This class extends the [JBioWHGraph JBioWHGraph] class and override the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html#populate(org.jbiowh.core.datasets.drug.drugbank.jpa.entities.DrugBank,%20int) populate(DrugBank o, int varDepth)] method for the !DrugBank entity and the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html#populate(org.jbiowh.core.datasets.pathway.kegg.jpa.entities.pathway.KEGGPathway,%20int) populate(KEGGPathway o, int varDepth)] method for the !KEGGPathway entity. 
+
+The graph created is a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableUndirectedWeightedGraph.html ListenableUndirectedWeightedGraph].
+
+The !DrugPathwayGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/drug/drugbank/util/DrugPathwayGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/drug/drugbank/util/DrugPathwayGraph.java code]. 
+
+See [Example10 example 10]
