@@ -18,9 +18,9 @@ Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql
 
 = SQL scripts to upgrade the relational schema =
 
-== Upgrade a relational schema from 3.0.2 to 3.1.2 ==
+== Upgrade a relational schema from 3.0.2 to 3.1.x ==
 
-Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-3.0.2-to-3.1.0.sql this] script to upgrade an existing relational schema from version 3.0.2 to 3.1.0.
+Download [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/updates/warehouse-3.0.2-to-3.1.0.sql this] script to upgrade an existing relational schema from version 3.0.2 to 3.1.x.
 
 == Upgrade a relational schema from 3.0.0 to 3.0.2 ==
 
