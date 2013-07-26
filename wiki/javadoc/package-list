@@ -38,6 +38,7 @@ org.jbiowh.core.datasets.gene.genebank.parser
 org.jbiowh.core.datasets.gene.genebank.parser.files
 org.jbiowh.core.datasets.gene.genebank.parser.links
 org.jbiowh.core.datasets.gene.genebank.search
+org.jbiowh.core.datasets.gene.genebank.utils
 org.jbiowh.core.datasets.gene.genome.jpa.controller
 org.jbiowh.core.datasets.gene.genome.jpa.entities
 org.jbiowh.core.datasets.gene.genome.jpa.transfer
@@ -158,6 +159,7 @@ org.jbiowh.gui.sqltables.listener
 org.jbiowh.tools.dataset
 org.jbiowh.tools.defaultTools
 org.jbiowh.tools.examples
+org.jbiowh.tools.fileformats
 org.jbiowh.tools.gene
 org.jbiowh.tools.genebank
 org.jbiowh.tools.protein
