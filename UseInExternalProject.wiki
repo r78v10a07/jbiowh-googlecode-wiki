@@ -4,3 +4,245 @@
 This tutorial explain how to integrate in your own JPA model the JBioWH relational schema. This is a useful approach which can be used to create new relationships between your database and the JBioWH database at the JPA level.
 
 = Details =
+
+The external project is a database to storage [http://en.wikipedia.org/wiki/Operon operons]. A operon is a functioning unit of genomic DNA containing a cluster of genes under the control of a single regulatory signal or promoter. In a database language this object will be represented by two tables, the *Operon* and the *!OperonData* as show the figure:
+
+http://jbiowh.googlecode.com/svn/wiki/images/Operon.png
+
+The *Operon* table will storage the chromosome's name, a Boolean flag to know if it is a full operon or not according with an external criterion and the name of the file from which the operon were extracted.
+
+Each operon is formed by a set of genes. The *!OperonData* table is used to storage the genes information. This table has the ProteinGi (id of the protecin encoded by the gene), the strand, starting position in the chromosome, end position in the chromosome, the gene symbol, a annotation field and the HMM type.
+
+The *Operon* table has a relationship One-to-Many with the *!OperonData* table, i.e. one operon have many genes. 
+
+The external JPA project has one entity: *Operon* and one embeddable class *!OperonData*.
+
+== JPA Entities ==
+
+*Operon* entity:
+
+{{{
+@Entity
+@Table(name = "Operon")
+@XmlRootElement
+@NamedQueries({
+    @NamedQuery(name = "Operon.findAll", query = "SELECT o FROM Operon o"),
+    @NamedQuery(name = "Operon.findByWid", query = "SELECT o FROM Operon o WHERE o.wid = :wid"),
+    @NamedQuery(name = "Operon.findByChromosome", query = "SELECT o FROM Operon o WHERE o.chromosome = :chromosome"),
+    @NamedQuery(name = "Operon.findByFullOperon", query = "SELECT o FROM Operon o WHERE o.fullOperon = :fullOperon")})
+public class Operon implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "WID")
+    private Long wid;
+    @Basic(optional = false)
+    @Column(name = "Chromosome")
+    private String chromosome;
+    @Column(name = "FullOperon")
+    private Boolean fullOperon;
+    @Column(name = "File")
+    private String file;
+    @ElementCollection
+    @CollectionTable(
+            name = "OperonData",
+            joinColumns =
+            @JoinColumn(name = "Operon_WID"))
+    private Collection<OperonData> operonDatas;
+
+    ...
+    <Getter and setter methods>
+    ...
+    <HashCode and Equasl methods>
+}
+}}}
+
+The embeddable class *!OperonData*:
+
+{{{
+@Embeddable
+public class OperonData implements Serializable {
+
+    @Basic(optional = false)
+    @Column(name = "ProteinGi")
+    private Long proteinGi;
+    @Basic(optional = false)
+    @Column(name = "Strand")
+    private String strand;
+    @Basic(optional = false)
+    @Column(name = "pFrom")
+    private long pFrom;
+    @Basic(optional = false)
+    @Column(name = "pTo")
+    private long pTo;
+    @Column(name = "GeneSymbol")
+    private String geneSymbol;
+    @Column(name = "Annotation")
+    private String annotation;
+    @Basic(optional = false)
+    @Column(name = "HMM")
+    private String hmm;
+
+    ...
+    <Getter and setter methods>
+    ...
+    <HashCode and Equasl methods>
+}
+}}}
+
+The *Operon* entity uses the field *Operon_WID* in the *!OperonData* table to create the relationship between both tables. Here, the {{{Collection<OperonData> operonDatas}}} will have the genes belonging to the specific operon.
+
+== The Persistence Unit ==
+
+In the external project will be a [http://wiki.eclipse.org/EclipseLink/UserGuide/JPA/Basic_JPA_Development/Configuration Persistence Unit] like this:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JOperon" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.joperon.jpa.entities.Operon</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+    </properties>
+  </persistence-unit>
+</persistence>
+}}} 
+
+In this Persistence Unit the database and connection properties don't need to be present. They will be overwritten in the application.
+
+= Integrating with the JBioWH database =
+
+At this moment, the Operon database is accessible from the JPA model. However, our research project will need access to external data that is not available in our simple Operon database, for example, the UniProt Id and protein name related to each gene.
+
+The *Operon* and the *JBioWH* databases can be linked using the *!OperonData*  and the *GenePTT* tables. These tables include the *ProteinGi* for each gene. This id is unique in the NCBI databases and can be used to link our two databases. 
+
+== Modifying the embeddable class *!OperonData* ==
+
+To create the One-To-One relationship between the *!OperonData*  and the *GenePTT* table one field have to be added to the embeddable class *!OperonData* like this:
+
+{{{
+@Embeddable
+public class OperonData implements Serializable {
+
+    @Basic(optional = false)
+    @Column(name = "ProteinGi")
+    private Long proteinGi;
+    @Basic(optional = false)
+    @Column(name = "Strand")
+    private String strand;
+    @Basic(optional = false)
+    @Column(name = "pFrom")
+    private long pFrom;
+    @Basic(optional = false)
+    @Column(name = "pTo")
+    private long pTo;
+    @Column(name = "GeneSymbol")
+    private String geneSymbol;
+    @Column(name = "Annotation")
+    private String annotation;
+    @Basic(optional = false)
+    @Column(name = "HMM")
+    private String hmm;
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "ProteinGi", insertable = false, unique = false, nullable = false, updatable = false)
+    private GenePTT genePTT;
+
+    ...
+    <Getter and setter methods>
+    ...
+    <HashCode and Equasl methods>
+}
+}}}
+     
+At this moment, the GenePTT entity, that belongs to the JBioWH framework, will be accessible and linked to our operon JPA model.
+
+== Adding a new Persistence Unit ==
+
+An additional problem is arising. We have two JPA models related but in different databases. To solve this problem the EclipseLink library has the [http://wiki.eclipse.org/EclipseLink/UserGuide/JPA/Advanced_JPA_Development/Composite_Persistence_Units Composite Persistence Unit]. This Composite Persistence Unit will solve our problem.
+
+The additional persistence unit will be like this:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="CompositePu" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jar-file>/home/roberto/.m2/repository/org/jbiowh/3.1.4-SNAPSHOT/jbiowh-3.1.4-SNAPSHOT.jar</jar-file>
+        <jar-file>/home/roberto/.m2/repository/org/jOperon/1.0-SNAPSHOT/jOperon-1.0-SNAPSHOT.jar</jar-file>
+        <properties>
+            <property name="eclipselink.composite-unit" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+}}} 
+
+In this composite unit the JARs with the Persistence Units mentioned above have to be declared and the *eclipselink.composite-unit* value set to *true*.
+
+In this new java project the JBioWH and the JOperon JARs files are added as dependencies.
+
+== The final step ==
+
+The connection method to setup the connections with the databases is:
+
+{{{
+private EntityManagerFactory emf;
+
+public void run() {
+        try {
+            Map props1 = new HashMap();
+            props1.put("javax.persistence.jdbc.user", "user1");
+            props1.put("javax.persistence.jdbc.password", "password1");
+            props1.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
+            props1.put("javax.persistence.jdbc.url", "jdbc:mysql://host1:port1/jbiowh");
+
+            Map props2 = new HashMap();
+            props2.put("javax.persistence.jdbc.user", "user2");
+            props2.put("javax.persistence.jdbc.password", "password2");
+            props2.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
+            props2.put("javax.persistence.jdbc.url", "jdbc:mysql://host2:port2/OperonDB");
+            props2.put("eclipselink.composite-unit.member", "true");
+
+            Map memberProps = new HashMap();
+            memberProps.put("JBioWH", props1);
+            memberProps.put("JOperon", props2);
+
+            Map props = new HashMap();
+            props.put("eclipselink.composite-unit.properties", memberProps);
+
+            emf = Persistence.createEntityManagerFactory("CompositePu", props);
+        } catch (javax.persistence.PersistenceException ex) {
+            ex.printStackTrace();
+        }
+    }
+}}} 
+
+Then, the entities relationship can be used with full transparency.
+
+{{{
+    OperonJpaController controller = new OperonJpaController(emf);
+    List<Operon> operons = controller.findOperonEntities();
+    if (!operons.isEmpty()) {
+        for (Operon o : operons) {
+            if (o.getOperonDatas() != null && !o.getOperonDatas().isEmpty()) {
+                for (OperonData d : o.getOperonDatas()) {
+                    System.out.print(o.getChromosome() +"t");
+                    if (d.getGenePTT() != null && d.getGenePTT().getProtein() != null) {         
+
+                       System.out.print(d.getGenePTT().getProtein().getProteinNameDirected() + "\t");
+                    } else {
+                        System.out.print("\t");
+                    }
+                    System.out.println("");
+                }
+            }
+        }
+    }
+}}}
+ 
+= Conclusion =
+
+This tutorial offer a brief explanation of how to integrate the JBioWH JPA model and database to an external project. This approach will offer full transparency between entities using different databases.
+  
