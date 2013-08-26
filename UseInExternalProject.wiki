@@ -224,22 +224,30 @@ public void run() {
 Then, the entities relationship can be used with full transparency.
 
 {{{
-    OperonJpaController controller = new OperonJpaController(emf);
-    List<Operon> operons = controller.findOperonEntities();
-    if (!operons.isEmpty()) {
-        for (Operon o : operons) {
-            if (o.getOperonDatas() != null && !o.getOperonDatas().isEmpty()) {
-                for (OperonData d : o.getOperonDatas()) {
-                    System.out.print(o.getChromosome() +"t");
-                    if (d.getGenePTT() != null && d.getGenePTT().getProtein() != null) {         
-
-                       System.out.print(d.getGenePTT().getProtein().getProteinNameDirected() + "\t");
-                    } else {
-                        System.out.print("\t");
+    public void FindProteinName() {
+        EntityManager em = emf.createEntityManager();
+        try {
+            CriteriaQuery cq = em.getCriteriaBuilder().createQuery();
+            cq.select(cq.from(Operon.class));
+            Query q = em.createQuery(cq);
+            List<Operon> operons = q.getResultList();
+            if (!operons.isEmpty()) {
+                for (Operon o : operons) {
+                    if (o.getOperonDatas() != null && !o.getOperonDatas().isEmpty()) {
+                        for (OperonData d : o.getOperonDatas()) {
+                            System.out.print(o.getChromosome() + "t");
+                            if (d.getGenePTT() != null && d.getGenePTT().getProtein() != null) {
+                                System.out.print(d.getGenePTT().getProtein().getProteinNameDirected() + "\t");
+                            } else {
+                                System.out.print("\t");
+                            }
+                            System.out.println("");
+                        }
                     }
-                    System.out.println("");
                 }
             }
+        } finally {
+            em.close();
         }
     }
 }}}
