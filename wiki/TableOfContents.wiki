@@ -65,4 +65,4 @@
                 * [FindProtein_ex1 Find proteins from the command line with a SQL regular expression]
                 * [FindProtein_ex2 Retrieve the proteome for a Taxonomy or a Taxonomy list]
         * [Examples]
-        * [External use of JBioWH UseInExternalProject]
+        * [UseInExternalProject How to use JBioWH entities in external Project]
