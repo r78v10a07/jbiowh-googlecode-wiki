@@ -1,6 +1,6 @@
 #summary How to integrate in your own JPA model the JBioWH relational schema
 = Introduction =
 
-This tutorial explain how to integrate in your own JPA model the JBioWH relational schema. This is a useful approach which ca be used to create new relationships between your database and the JBioWH database at the JPA level.
+This tutorial explain how to integrate in your own JPA model the JBioWH relational schema. This is a useful approach which can be used to create new relationships between your database and the JBioWH database at the JPA level.
 
 = Details =
