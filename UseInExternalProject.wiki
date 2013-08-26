@@ -1,17 +1,18 @@
 #summary How to integrate in your own JPA model the JBioWH relational schema
+
 = Introduction =
 
-This tutorial explain how to integrate in your own JPA model the JBioWH relational schema. This is a useful approach which can be used to create new relationships between your database and the JBioWH database at the JPA level.
+This tutorial explain how to integrate the JBioWH relational schema to an external JPA model. This is a useful approach which can be used to create new relationships between external databases and the JBioWH database at the JPA level.
 
 = Details =
 
-The external project is a database to storage [http://en.wikipedia.org/wiki/Operon operons]. A operon is a functioning unit of genomic DNA containing a cluster of genes under the control of a single regulatory signal or promoter. In a database language this object will be represented by two tables, the *Operon* and the *!OperonData* as show the figure:
+The external project used in this example is a database designed to storage [http://en.wikipedia.org/wiki/Operon operons]. A operon is a functioning unit of genomic DNA containing a cluster of genes under the control of a single regulatory signal or promoter. In a database language this object will be represented by two tables, the *Operon* and the *!OperonData* as show the figure:
 
 http://jbiowh.googlecode.com/svn/wiki/images/Operon.png
 
 The *Operon* table will storage the chromosome's name, a Boolean flag to know if it is a full operon or not according with an external criterion and the name of the file from which the operon were extracted.
 
-Each operon is formed by a set of genes. The *!OperonData* table is used to storage the genes information. This table has the ProteinGi (id of the protecin encoded by the gene), the strand, starting position in the chromosome, end position in the chromosome, the gene symbol, a annotation field and the HMM type.
+Each operon is formed by a set of genes having a One-to-Many relationship. The *!OperonData* table is used to storage the genes information. This table has the ProteinGi (id of the protein encoded by the gene), the strand, starting position in the chromosome, end position in the chromosome, the gene symbol, a annotation field and the HMM type.
 
 The *Operon* table has a relationship One-to-Many with the *!OperonData* table, i.e. one operon have many genes. 
 
@@ -146,6 +147,7 @@ public class OperonData implements Serializable {
     @Basic(optional = false)
     @Column(name = "HMM")
     private String hmm;
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "ProteinGi", insertable = false, unique = false, nullable = false, updatable = false)
     private GenePTT genePTT;
@@ -159,11 +161,11 @@ public class OperonData implements Serializable {
      
 At this moment, the GenePTT entity, that belongs to the JBioWH framework, will be accessible and linked to our operon JPA model.
 
-== Adding a new Persistence Unit ==
+== Creating a new Java project with a Composite Persistence Unit ==
 
 An additional problem is arising. We have two JPA models related but in different databases. To solve this problem the EclipseLink library has the [http://wiki.eclipse.org/EclipseLink/UserGuide/JPA/Advanced_JPA_Development/Composite_Persistence_Units Composite Persistence Unit]. This Composite Persistence Unit will solve our problem.
 
-The additional persistence unit will be like this:
+An additional persistence unit will be created in a new Java project:
 
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -185,34 +187,34 @@ In this new java project the JBioWH and the JOperon JARs files are added as depe
 
 == The final step ==
 
-The connection method to setup the connections with the databases is:
+The new Java project will have a connection method to setup the connections with the databases using the Composite Persistence Unit:
 
 {{{
 private EntityManagerFactory emf;
 
 public void run() {
         try {
-            Map props1 = new HashMap();
-            props1.put("javax.persistence.jdbc.user", "user1");
-            props1.put("javax.persistence.jdbc.password", "password1");
-            props1.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
-            props1.put("javax.persistence.jdbc.url", "jdbc:mysql://host1:port1/jbiowh");
+            Map jBioWHConnProps = new HashMap();
+            jBioWHConnProps.put("javax.persistence.jdbc.user", "user1");
+            jBioWHConnProps.put("javax.persistence.jdbc.password", "password1");
+            jBioWHConnProps.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
+            jBioWHConnProps.put("javax.persistence.jdbc.url", "jdbc:mysql://host1:port1/jbiowh");
 
-            Map props2 = new HashMap();
-            props2.put("javax.persistence.jdbc.user", "user2");
-            props2.put("javax.persistence.jdbc.password", "password2");
-            props2.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
-            props2.put("javax.persistence.jdbc.url", "jdbc:mysql://host2:port2/OperonDB");
+            Map jOperonConnProps = new HashMap();
+            jOperonConnProps.put("javax.persistence.jdbc.user", "user2");
+            jOperonConnProps.put("javax.persistence.jdbc.password", "password2");
+            jOperonConnProps.put("javax.persistence.jdbc.driver", "com.mysql.jdbc.Driver");
+            jOperonConnProps.put("javax.persistence.jdbc.url", "jdbc:mysql://host2:port2/OperonDB");
             props2.put("eclipselink.composite-unit.member", "true");
 
             Map memberProps = new HashMap();
-            memberProps.put("JBioWH", props1);
-            memberProps.put("JOperon", props2);
+            memberProps.put("JBioWH", jBioWHConnProps);
+            memberProps.put("JOperon", jOperonConnProps);
 
-            Map props = new HashMap();
-            props.put("eclipselink.composite-unit.properties", memberProps);
+            Map compositeProps = new HashMap();
+            compositeProps.put("eclipselink.composite-unit.properties", memberProps);
 
-            emf = Persistence.createEntityManagerFactory("CompositePu", props);
+            emf = Persistence.createEntityManagerFactory("CompositePu", compositeProps);
         } catch (javax.persistence.PersistenceException ex) {
             ex.printStackTrace();
         }
