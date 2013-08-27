@@ -54,9 +54,9 @@ public class Operon implements Serializable {
     private Collection<OperonData> operonDatas;
 
     ...
-    <Getter and setter methods>
+    <Getter and Setter methods>
     ...
-    <HashCode and Equasl methods>
+    <HashCode and Equals methods>
 }
 }}}
 
@@ -87,9 +87,9 @@ public class OperonData implements Serializable {
     private String hmm;
 
     ...
-    <Getter and setter methods>
+    <Getter and Setter methods>
     ...
-    <HashCode and Equasl methods>
+    <HashCode and Equals methods>
 }
 }}}
 
@@ -153,9 +153,9 @@ public class OperonData implements Serializable {
     private GenePTT genePTT;
 
     ...
-    <Getter and setter methods>
+    <Getter and Setter methods>
     ...
-    <HashCode and Equasl methods>
+    <HashCode and Equals methods>
 }
 }}}
      
