@@ -1,0 +1,13 @@
+#summary This page shows how to use the MS XML parser
+
+= Introduction =
+
+This tools parse the XML results from MS experiments and extract the proteins identified to be used in the *JBioWH* framework.
+
+The parser includes the MS XML formats from [http://www.ebi.ac.uk/pride/ Proteomics Identifications Database] and [http://www.thegpm.org/bioml/ BioML].
+
+= Details =
+
+First, open the MS XM parser dialog under the MS Tool menu
+
+http://jbiowh.googlecode.com/svn/wiki/images/ms_1.png
