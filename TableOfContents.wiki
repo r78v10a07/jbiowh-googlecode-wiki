@@ -57,6 +57,8 @@
                 * [PathwayDT KEGG Pathway]
                 * [DiseaseDT Disease]
                 * [DomainDT Domain]
+            * Tools
+                * [MSXMLParser MS XML parser]
         * Command Line Tools
             * [GeneTool Gene Tools]
                 * [GeneTool_ex1 Retrieve the UniProt sequence in fasta format for a list of ProteinGi]
