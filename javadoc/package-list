@@ -113,14 +113,19 @@ org.jbiowh.core.logger
 org.jbiowh.core.utility.constrains
 org.jbiowh.core.utility.controller
 org.jbiowh.core.utility.controller.exceptions
+org.jbiowh.core.utility.fileformats.bioml.xml
 org.jbiowh.core.utility.fileformats.fasta
+org.jbiowh.core.utility.fileformats.pride.xml
 org.jbiowh.core.utility.graph
 org.jbiowh.core.utility.graph.edge
 org.jbiowh.core.utility.jparelationship
+org.jbiowh.core.utility.msms
+org.jbiowh.core.utility.msms.modules
 org.jbiowh.core.utility.utils
 org.jbiowh.gui
 org.jbiowh.gui.actions.jbiowh
 org.jbiowh.gui.actions.tabbedpanel
+org.jbiowh.gui.component.dialog
 org.jbiowh.gui.component.dialog.progress
 org.jbiowh.gui.component.file
 org.jbiowh.gui.component.graph
@@ -162,6 +167,7 @@ org.jbiowh.tools.examples
 org.jbiowh.tools.fileformats
 org.jbiowh.tools.gene
 org.jbiowh.tools.genebank
+org.jbiowh.tools.msms
 org.jbiowh.tools.protein
 org.jbiowh.tools.prototypes.insert
 org.jbiowh.tools.prototypes.temp
