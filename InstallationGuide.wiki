@@ -5,16 +5,16 @@
  
 Please, check the [SystemRequirements System requirements] before pass to the installation process.
 
-== Executing the JBioWH JAR file ==
+== Executing the JBioWH Parser file ==
 
-Download the latest version from the [DownloadWiki download page].
+Download the JBioWH Parser and Desktop client latest version from the [DownloadWiki download page].
 
 === Windows ===
 
 Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder where you have the JBioWH JAR downloaded version.
 
 {{{
-java -jar jbiowh-<version>-SNAPSHOT.jar
+java -jar jbiowh-desktop-<version>.jar
 }}}
 
 === Linux ===
@@ -22,24 +22,12 @@ java -jar jbiowh-<version>-SNAPSHOT.jar
 Use the Linux terminal and type the following sentence to execute the *JBioWH Desktop Client*
 
 {{{
-java -jar jbiowh-<version>-SNAPSHOT.jar
+java -jar jbiowh-desktop-<version>.jar
 }}}
 
 == Downloading the source code =
 
-=== Windows ===
-
-To download the *JBioWH* source code use [http://www.tortoisesvn.net/ TortoiseSVN]. If you are behind a proxy you have to configure the TortoiseSVN network settings before use it to checkout the *JBioWH* source code.  
-
-Create a folder named _*jbiowh*_, then right click on it and select the Tortoise SVN option _*SVN Checkout...*_. After that, type the *JBioWH* svn project address https://jbiowh.googlecode.com/svn/trunk/ and click on _*OK*_. This procedure will download the out-to-date *JBioWH* source code.
-
-=== Linux ===
-
-To download the *JBioWH* source code use the SVN command line. 
-
-<code language="bash">
-svn checkout https://jbiowh.googlecode.com/svn/trunk/ jbiowh
-</code>
+Go to [http://code.google.com/p/jbiowh/wiki/Source?tm=4 source] page
 
 == Create tables on the MySQL DBMS ==
 
@@ -53,11 +41,11 @@ You can use other name than _*biowh*_, just remember it for further uses and rep
 
 The SQL script with the relational schema can be extracted from the JAR file of from the source directory downloaded from the SVN server. 
 
-From the JAR file extract the JAR file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
+Extract the jbiowh-dbms-<version>.jar file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
 
-From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_ or download from [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
+From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_ or download from [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-Additionally, we provide the [http://jbiowh.googlecode.com/svn/trunk/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench] project file. 
+Additionally, we provide the [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench] project file. 
 
 Load the relational schema typing the following command:
 
@@ -72,22 +60,38 @@ Compile the source code to generate a java jar file.
 
 === Windows ===
 
-Use the CMD to navigate to the _*jbiowh*_ folder. If you copy the _*jbiowh*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
+Use the CMD to navigate to the _*jbiowh-<API>*_ folder. If you copy the _*jbiowh-<API>*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
 
 {{{
 C:
-cd jbiowh
+cd jbiowh-core
+mvn clean package
+cd ../jbiowh-dbms
+mvn clean package
+cd ../jbiowh-persistence
+mvn clean package
+cd ../jbiowh-parser
+mvn clean package
+cd ../jbiowh-desktop
 mvn clean package
 }}}
 
 === Linux ===
 
-Use the the terminal on Linux to navigate to the _*jbiowh*_ folder. 
+Use the the terminal on Linux to navigate to the _*jbiowh-<API>*_ folder. 
 
 Type the following command line: 
 <code language="bash">
-cd ~/jbiowh
+cd jbiowh-core
+mvn clean package
+cd ../jbiowh-dbms
+mvn clean package
+cd ../jbiowh-persistence
+mvn clean package
+cd ../jbiowh-parser
+mvn clean package
+cd ../jbiowh-desktop
 mvn clean package
 </code>
 
-After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar files _*{{{jbiowh-<version>-SNAPSHOT.jar}}}*_ and _*{{{jbiowh-<version>-SNAPSHOT-jar-with-dependencies.jar}}}*_.
+After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar files _*{{{jbiowh-<API>-<version>.jar}}}*_ and _*{{{jbiowh-<Parser|Desktop>-<version>-jar-with-dependencies.jar}}}*_.
