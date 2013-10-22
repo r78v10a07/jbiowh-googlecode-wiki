@@ -9,14 +9,16 @@ The project release two JAR files with the main *JBioWH's* applications:
 == *JBioWH Parser* ==
 Latest [https://jbiowh.googlecode.com/files/jbiowh-parser-5.0.0.jar jbiowh-parser-5.0.0.jar] stable version. 
 
-== *JBioWH Desktop Client* ==
-Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-5.0.0.jar jbiowh-desktop-5.0.0.jar] stable version.
-
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
 The MySQL script to create the relational database is [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
-Older versions [http://code.google.com/p/jbiowh/downloads/list here]. 
+
+== *JBioWH Desktop Client* ==
+Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-5.0.0.jar jbiowh-desktop-5.0.0.jar] stable version.
+
+== Older versions ==
+Click [http://code.google.com/p/jbiowh/downloads/list here]. 
 
 == !JavaDoc ==
 
