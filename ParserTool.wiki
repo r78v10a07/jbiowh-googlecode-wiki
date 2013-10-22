@@ -7,7 +7,7 @@ The *Parser Tool* is a console based application to load the !DataSet into the [
 The !DataSetLoader class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/mainloader/DataSetLoader.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/mainloader/DataSetLoader.java code]
 
 <code language="bash">
-java -classpath jbiowh-<version>-SNAPSHOT.jar  org.jbiowh.core.datasets.mainloader.DataSetLoader -i <path-to-the-dataset-config-file>
+java -jar jbiowh-parser-<version>.jar -i <path-to-the-dataset-config-file>
 </code>
 
 The specific *XML config* file for each !DataSet will be showed on the !DataSet help Wiki.
