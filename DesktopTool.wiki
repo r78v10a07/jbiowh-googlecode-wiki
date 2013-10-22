@@ -2,7 +2,23 @@
 
 = Introduction = 
 
-To execute the Desctop Client view this [InstallationGuide page].
+Download the JBioWH esktop client latest version from the [DownloadWiki download page].
+
+=== Windows ===
+
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Desktop Client* in the folder where you have the JBioWH JAR downloaded version.
+
+{{{
+java -jar jbiowh-desktop-<version>.jar
+}}}
+
+=== Linux ===
+
+Use the Linux terminal and type the following sentence to execute the *JBioWH Desktop Client*
+
+{{{
+java -jar jbiowh-desktop-<version>.jar
+}}}
 
 The *JBioWH's* Desktop Client shows the dataset list inserted into the relational database. Also, the user is able to view the amount of data inserted in the tables belonged to each dataset. The figures show the login dialog which connects the Desktop Client to the DBMS, !MySQL server in this case, and,after a successful logging, the main windows shows the inserted datasets.
 
