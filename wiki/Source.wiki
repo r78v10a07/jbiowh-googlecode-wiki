@@ -1,5 +1,4 @@
-*Command-line access*
-
+==Command-line access==
 
 Use this command to anonymously check out the latest project source code:
 
@@ -27,4 +26,37 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-parser jbiowh-parser
 *JBioWH Desktop API:*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
+}}}
+
+== Maven repo ==
+
+*Dependencies*
+{{{
+<dependency>
+   <groupId>org</groupId>
+   <artifactId>jbiowh-core</artifactId>
+   <version>5.0.0</version>
+</dependency>
+<dependency>
+   <groupId>org</groupId>
+   <artifactId>jbiowh-dbms</artifactId>
+   <version>5.0.0</version>
+</dependency>
+<dependency>
+   <groupId>org</groupId>
+   <artifactId>jbiowh-persistence</artifactId>
+   <version>5.0.0</version>
+</dependency>
+}}}
+
+Please, check the {{{<version>5.0.0</version>}}} available for each API.
+
+*Maven public repository*
+{{{
+<repository>
+   <id>jbiowh-repo</id>
+   <url>http://net.icgeb.org/~roberto/m2repo/</url>
+   <layout>default</layout>
+   <name>Repository for JBioWH Framework</name>
+</repository>
 }}}
