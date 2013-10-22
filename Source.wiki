@@ -1,5 +1,10 @@
 #sidebar none
 
+[http://code.google.com/p/jbiowh/source/browse/ Browse] 
+[http://code.google.com/p/jbiowh/source/list Changes] 
+[http://code.google.com/p/jbiowh/issues/entry?show=review&former=sourcelist Request code review]
+---------------------------------
+
 ==Command-line access==
 
 Use this command to anonymously check out the latest project source code:
