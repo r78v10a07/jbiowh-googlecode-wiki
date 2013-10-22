@@ -78,7 +78,7 @@ mvn clean package
 
 === Linux ===
 
-Use the the terminal on Linux to navigate to the _*jbiowh-<API>*_ folder. 
+Use the the terminal on Linux to navigate to the _*{{{jbiowh-<API>}}}*_ folder. 
 
 Type the following command line: 
 <code language="bash">
