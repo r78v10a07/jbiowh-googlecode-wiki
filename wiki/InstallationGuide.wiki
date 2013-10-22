@@ -94,4 +94,4 @@ cd ../jbiowh-desktop
 mvn clean package
 </code>
 
-After the compilation process you will have a folder named _*target*_ on the _*jbiowh*_ folder with the generated jar files _*{{{jbiowh-<API>-<version>.jar}}}*_ and _*{{{jbiowh-<Parser|Desktop>-<version>-jar-with-dependencies.jar}}}*_.
+After the compilation process you will have a folder named _*target*_ on the _*{{{jbiowh-<API>}}}*_ folder with the generated jar files _*{{{jbiowh-<API>-<version>.jar}}}*_ and _*{{{jbiowh-<parser|desktop>-<version>-jar-with-dependencies.jar}}}*_.
