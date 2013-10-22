@@ -2,7 +2,11 @@
 
 = Download =
 
-The latest [http://jbiowh.googlecode.com/files/jbiowh-4.0.2-SNAPSHOT.jar jbiowh-4.0.2-SNAPSHOT.jar] stable version. 
+After version 5.0.0 the *JBioWH* framework where divided by three basic API (*jbiowh-core*, *jbiowh-dbms* and *jbiowh-persistence*). This API should be accessed through the [Source source] page using the SVN or the Maven external repo.
+
+The project release two JAR files with the main *JBioWH's* applications:
+
+The JBioWH Parser latest [https://jbiowh.googlecode.com/files/jbiowh-parser-5.0.0.jar jbiowh-parser-5.0.0.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
