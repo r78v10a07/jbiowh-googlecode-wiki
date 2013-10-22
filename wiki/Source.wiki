@@ -1,0 +1,30 @@
+*Command-line access*
+
+
+Use this command to anonymously check out the latest project source code:
+
+*JBioWH Core API:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-core jbiowh-core
+}}}
+
+*JBioWH DBMS API:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-dbms jbiowh-dbms
+}}}
+
+*JBioWH Persistence API:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-persistence jbiowh-persistence
+}}}
+
+
+*JBioWH Parser API:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-parser jbiowh-parser
+}}}
+
+*JBioWH Desktop API:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
+}}}
