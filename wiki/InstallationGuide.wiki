@@ -41,7 +41,7 @@ You can use other name than _*biowh*_, just remember it for further uses and rep
 
 The SQL script with the relational schema can be extracted from the JAR file of from the source directory downloaded from the SVN server. 
 
-Extract the jbiowh-dbms-<version>.jar file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
+Extract the {{{jbiowh-dbms-<version>.jar}}} file to a folder using, on windows, WinRAR or WinZIP, and on Linux using the unzip tool. The SQL script is inside the folder _*schema/mysql/*_. 
 
 From the source code the SQL script is inside the folder _*src/main/resources/schema/mysql*_ or download from [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/warehouse.sql warehouse.sql]
 
