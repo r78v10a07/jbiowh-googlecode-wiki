@@ -5,7 +5,7 @@
  
 Please, check the [SystemRequirements System requirements] before pass to the installation process.
 
-== Executing the JBioWH Parser file ==
+== Executing the JBioWH Desktop Client file ==
 
 Download the JBioWH Parser and Desktop client latest version from the [DownloadWiki download page].
 
