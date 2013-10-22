@@ -1,3 +1,4 @@
+#sidebar none
 
 ==Command-line access==
 
