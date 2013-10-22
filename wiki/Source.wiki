@@ -56,7 +56,7 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
 </dependency>
 }}}
 
-Please, check the {{{<version>5.0.0</version>}}} available for each API.
+Please, check the version ({{{<version>5.0.0</version>}}}) available for each API.
 
 *Maven public repository*
 {{{
