@@ -7,7 +7,7 @@ Please, check the [SystemRequirements System requirements] before pass to the in
 
 == Executing the JBioWH Desktop Client file ==
 
-Download the JBioWH Parser and Desktop client latest version from the [DownloadWiki download page].
+Download the JBioWH Desktop client latest version from the [DownloadWiki download page].
 
 === Windows ===
 
@@ -24,6 +24,27 @@ Use the Linux terminal and type the following sentence to execute the *JBioWH De
 {{{
 java -jar jbiowh-desktop-<version>.jar
 }}}
+
+== Executing the JBioWH Parser file ==
+
+Download the JBioWH Parser latest version from the [DownloadWiki download page].
+
+=== Windows ===
+
+Use the Windows Command Tool (CMD) and type the following sentence to execute the *JBioWH Parser* in the folder where you have the JBioWH JAR downloaded version.
+
+{{{
+java -jar jbiowh-parser-<version>.jar -i dataset-config.xml
+}}}
+
+=== Linux ===
+
+Use the Linux terminal and type the following sentence to execute the *JBioWH Parser*
+
+{{{
+java -jar jbiowh-parser-<version>.jar -i dataset-config.xml
+}}}
+
 
 == Downloading the source code =
 
