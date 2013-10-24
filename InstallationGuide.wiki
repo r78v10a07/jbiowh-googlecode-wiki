@@ -81,7 +81,7 @@ Compile the source code to generate a java jar file.
 
 === Windows ===
 
-Use the CMD to navigate to the _*jbiowh-<API>*_ folder. If you copy the _*jbiowh-<API>*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
+Use the CMD to navigate to the _*{{{jbiowh-<API>}}}*_ folder. If you copy the _*{{{jbiowh-<API>}}}*_ on _*C:*_ directory you should type on your CMD to compile the *JBioWH* source code:
 
 {{{
 C:
