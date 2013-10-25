@@ -45,6 +45,14 @@ Use the Linux terminal and type the following sentence to execute the *JBioWH Pa
 java -jar jbiowh-parser-<version>.jar -i dataset-config.xml
 }}}
 
+=== Clean a relational schema for a specific module ===
+
+To clean the relational schema for a specific module you have to run the JBioWH Parser with the {{{-c}}} option. This will truncate all tables for the module.
+
+{{{
+java -jar jbiowh-parser-<version>.jar -i dataset-config.xml -c
+}}}
+
 
 == Downloading the source code =
 
