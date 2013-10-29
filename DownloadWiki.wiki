@@ -2,7 +2,9 @@
 
 = Download =
 
+<font color="red">
 After version 5.0.0 the *JBioWH* framework where divided by three basic API (*jbiowh-core*, *jbiowh-dbms* and *jbiowh-persistence*). This API should be accessed through the [http://code.google.com/p/jbiowh/wiki/Source?tm=4 source] page using the SVN or the Maven external repo.
+</font>
 
 The project release two JAR files with the main *JBioWH's* applications:
 
