@@ -60,7 +60,8 @@
             * Tools                
                 * [MSXMLParser MS XML parser]
         * Command Line Tools
-            * [DataSetReport DataSet report]
+            * [DataSetReport DataSet Report]
+            * [PrintTaxonomyTree Print the Taxonomy Tree]
             * [GeneTool Gene Tools]
                 * [GeneTool_ex1 Retrieve the UniProt sequence in fasta format for a list of ProteinGi]
                 * [GeneTool_ex2 Retrieve the chromosome information included in the PTT table plus the UniProt sequence]
