@@ -1,0 +1,40 @@
+
+= Print the Taxonomy tree =
+
+This command line tool can be used to retrieve the number of child in a Taxonomy tree. The program can create the graph for multiple Taxonomies. 
+
+It should be running from the terminal like:
+
+{{{
+java -cp jbiowh-tools-5.0.3-jar-with-dependencies.jar org.jbiowhtools.taxonomy.PrintTaxonomyTree --url jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh --user biowh --passwd mypass -t "2157,9606,12884,10239,28384,12908"
+}}}
+
+The result is:
+
+{{{
+Taxonomy parent: other sequences (TaxId: 28384)	number of childs: 7024
+Taxonomy parent: Viroids (TaxId: 12884)	number of childs: 93
+Taxonomy parent: Homo sapiens (TaxId: 9606)	number of childs: 3
+Taxonomy parent: Archaea (TaxId: 2157)	number of childs: 7570
+Taxonomy parent: unclassified sequences (TaxId: 12908)	number of childs: 677
+Taxonomy parent: Viruses (TaxId: 10239)	number of childs: 111077
+Total elapsed time: 136 s
+}}}
+
+The available options are:
+
+{{{
+java -cp jbiowh-tools-5.0.3-jar-with-dependencies.jar org.jbiowhtools.taxonomy.PrintTaxonomyTree -h
+Arguments:
+        -t Taxonomy list to split the sample (default: "2157,2,9606,12884,10239,28384,12908")
+
+
+Default arguments:
+        -h Print this help
+        -v verbose
+        -f File name to print the result (default: result.txt)
+        --driver Java MySQl driver (default: com.mysql.jdbc.Driver)
+        --url Database JDBC Url (default: jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh)
+        --user DB user (default: biowh)
+        --passwd DB password (default: mypass)
+}}}
