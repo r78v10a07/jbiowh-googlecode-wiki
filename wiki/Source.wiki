@@ -42,21 +42,21 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-core</artifactId>
-   <version>5.0.0</version>
+   <version>5.0.2</version>
 </dependency>
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-dbms</artifactId>
-   <version>5.0.0</version>
+   <version>5.0.2</version>
 </dependency>
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-persistence</artifactId>
-   <version>5.0.0</version>
+   <version>5.0.2</version>
 </dependency>
 }}}
 
-Please, check the version ({{{<version>5.0.0</version>}}}) available for each API.
+Please, check the version ({{{<version>5.0.2</version>}}}) available for each API.
 
 *Maven public repository*
 {{{
