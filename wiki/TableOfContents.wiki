@@ -57,10 +57,10 @@
                 * [PathwayDT KEGG Pathway]
                 * [DiseaseDT Disease]
                 * [DomainDT Domain]
-            * Tools
-                * [DataSetReport DataSet report] 
+            * Tools                
                 * [MSXMLParser MS XML parser]
         * Command Line Tools
+            * [DataSetReport DataSet report]
             * [GeneTool Gene Tools]
                 * [GeneTool_ex1 Retrieve the UniProt sequence in fasta format for a list of ProteinGi]
                 * [GeneTool_ex2 Retrieve the chromosome information included in the PTT table plus the UniProt sequence]
