@@ -1,0 +1,65 @@
+= DataSet Report tool =
+
+This command line tool can be used to retrieve the global info for a specific dataset.
+
+It should be running from the terminal like:
+
+{{{
+java -cp jbiowh-tools-5.0.3-jar-with-dependencies.jar org.jbiowhtools.dataset.DataSetReport -n Ontology --url jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh --user biowh --passwd mypass 
+}}}
+
+The result is:
+
+{{{
+DataSet: GO Ontolgy
+        Load date: Fri Aug 09 09:21:15 CEST 2013
+        Load time: 17
+Ontology        39548
+Ontology_has_OntologySubset     9912
+Ontology_has_OntologySynonym    90194
+Ontology_has_OntologyXRef       110388
+OntologyAlternativeId   1692
+OntologyIsA     61985
+OntologyPMID    9818
+OntologyRelation        12813
+OntologySubset  15
+OntologySynonym 88687
+OntologyToConsider      1535
+OntologyWIDIsATemp      0
+OntologyWIDOntologySubset       0
+OntologyWIDRelationTemp 0
+OntologyWIDSynonymTemp  0
+OntologyWIDToConsiderTemp       0
+OntologyWIDXRefTemp     0
+OntologyXRef    54427
+Total: 481014
+}}}
+
+The available options are:
+
+{{{
+java -cp jbiowh-tools-5.0.3-jar-with-dependencies.jar org.jbiowhtools.dataset.DataSetReport - h
+Arguments:
+        -n Name of the dataset type
+        Taxonomy
+        Ontology
+        Gene
+        GenePTT
+        Protein
+        MIF25
+        ProtsFam
+        Drug
+        Pathway
+        OMIM
+        PFAM
+
+
+Default arguments:
+        -h Print this help
+        -v verbose
+        -f File name to print the result (default: result.txt)
+        --driver Java MySQl driver (default: com.mysql.jdbc.Driver)
+        --url Database JDBC Url (default: jdbc:mysql://hydrax.icgeb.trieste.it:3307/biowh)
+        --user DB user (default: biowh)
+        --passwd DB password (default: mypass)
+}}}
