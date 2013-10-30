@@ -1,7 +1,6 @@
-
 = Print the Taxonomy tree =
 
-This command line tool can be used to retrieve the number of child in a Taxonomy tree. The program can create the graph for multiple Taxonomies. 
+This command line tool can be used to retrieve the number of child in a Taxonomy tree. The program can create the graph for multiple Taxonomies. See [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/taxonomy/PrintTaxonomyTree.java source code]
 
 It should be running from the terminal like:
 
