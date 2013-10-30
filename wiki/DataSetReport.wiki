@@ -1,6 +1,6 @@
 = !DataSet Report tool =
 
-This command line tool can be used to retrieve the global info for a specific dataset.
+This command line tool can be used to retrieve the global info for a specific dataset. See [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/dataset/DataSetReport.java source code]
 
 It should be running from the terminal like:
 
