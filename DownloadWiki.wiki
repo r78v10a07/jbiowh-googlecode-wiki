@@ -9,7 +9,7 @@ After version 5.0.0 the *JBioWH* framework where divided by three basic API (*jb
 The project release two JAR files with the main *JBioWH's* applications:
 
 == *JBioWH Parser* ==
-Latest [https://jbiowh.googlecode.com/files/jbiowh-parser-5.0.2.jar jbiowh-parser-5.0.2.jar] stable version. 
+Latest [https://jbiowh.googlecode.com/files/jbiowh-parser-5.0.3.jar jbiowh-parser-5.0.3.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
@@ -17,7 +17,7 @@ The MySQL script to create the relational database is [http://jbiowh.googlecode.
 
 
 == *JBioWH Desktop Client* ==
-Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-5.0.2.jar jbiowh-desktop-5.0.2.jar] stable version.
+Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-5.0.3.jar jbiowh-desktop-5.0.3.jar] stable version.
 
 == Older versions ==
 Click [http://code.google.com/p/jbiowh/downloads/list here]. 
@@ -32,9 +32,9 @@ Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema
 
 = SQL scripts to upgrade the relational schema =
 
-== Upgrade a relational schema from 3.1.2 to 5.0.2 ==
+== Upgrade a relational schema from 3.1.2 to 5.0.3 ==
 
-Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/updates/warehouse-3.1.2-to-3.1.3.sql this] script to upgrade an existing relational schema from version 3.1.2 to 5.0.2.
+Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/updates/warehouse-3.1.2-to-3.1.3.sql this] script to upgrade an existing relational schema from version 3.1.2 to 5.0.3.
 
 == Upgrade a relational schema from 3.0.2 to 3.1.2 ==
 
