@@ -34,7 +34,7 @@ On GNU/Linux:
 
 cd "$DATABASE_PATH/omim"
 
-wget -m -np -nH -r --cut-dirs=1 -o wget.log ftp://anonymous@grcf.jhmi.edu/OMIM/
+wget -m -np -nH -r --cut-dirs=1 -o wget.log ftp://ftp.omim.org/OMIM/
 
 if [ `grep -c "not retrieving" wget.log` -eq 0 ]
    then
