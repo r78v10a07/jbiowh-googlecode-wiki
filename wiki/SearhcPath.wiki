@@ -1,0 +1,9 @@
+= Search path on the Webservices URL =
+
+In all datasets modules available on the !WebServices there are a path named *search* which gives access to the *JBioWHSearch* interface. This  *JBioWHSearch* interface is implemented by all *{{{Search<DataSet>}}}* classes (ex. SearchTaxonomy, SearchOntology, etc.). 
+
+With this path the users can search over the available fields for each datasets using the wildcard character (`%`) like in the *MySQL* DBMS. The `%` character have to be encoded in the HTML URL using the `%25`.
+
+For example, the URL to search all taxonomies starting with the word "Homo" is:
+
+<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25</a>
