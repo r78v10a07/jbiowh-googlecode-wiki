@@ -36,25 +36,25 @@ Get the Unparsed citations by Id (this Id is the internal JBioWH WID that change
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/unparse
 </a>
 
-Get the Taxonomy by TaxId:
+Get the Taxonomy by !TaxId:
 
 <a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006" target="_blank">
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9606
 </a>
 
-Get the synonyms by TaxId:
+Get the synonyms by !TaxId:
 
 <a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym" target="_blank">
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym
 </a>
 
-Get the PMID by TaxId:
+Get the PMID by !TaxId:
 
 <a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/282817365/pmid" target="_blank">
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/pmid
 </a>
 
-Get the Unparsed citations by TaxId:
+Get the Unparsed citations by !TaxId:
 
 <a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/282817365/unparse" target="_blank">
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/unparse
