@@ -1,7 +1,9 @@
 #labels Featured
 = JBioWH !WebServices =
 
-The *JBioWH* webservices source code is available [Source here]. See an example running [http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/]
+The *JBioWH* webservices source code is available [Source here]. 
+
+See an example running [http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/]
 
 Compile it with Maven:
 
