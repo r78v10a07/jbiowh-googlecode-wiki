@@ -60,7 +60,7 @@ Get the Unparsed citations by TaxId:
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/unparse
 </a>
 
-Search Taxonomies by string using % (search all "Homo*"):
+Search Taxonomies by string using % (search all "Homo`*`"):
 
 <a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">
     http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25
