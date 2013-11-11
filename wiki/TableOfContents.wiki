@@ -60,6 +60,9 @@
             * Tools                
                 * [MSXMLParser MS XML parser]
         * [WebServices JBioWH WebServices]
+                * [SearhcPath Search path]
+                * [TaxonomyWS Taxonomy]
+                * [OntologyWS Ontology]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
