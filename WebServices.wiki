@@ -1,0 +1,52 @@
+= JBioWH !WebServices =
+
+The *JBioWH* webservices source code is available [Source here].
+
+Compile it with Maven:
+
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices jbiowh-webservices
+cd jbiowh-webservices
+mvn package
+}}}
+
+Before deploying the WAR file remove the version number.
+
+{{{
+  mv target/jbiowh-webservices-<version>.war target/jbiowh-webservices.war
+}}}
+
+Creates the config file:
+{{{
+mkdir /etc/jbiowh
+cd /etc/jbiowh
+joe jbiowh-webservices.xml
+}}}
+
+Add this lines:
+
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webservice>
+    <!-- Tomcat server name and port -->
+    <server>localhost:8080</server>
+    <!-- MySQL driver class -->
+    <driver>com.mysql.jdbc.Driver</driver>
+    <!-- MySQL jdbc URL -->
+    <url>jdbc:mysql://hydrax.icgeb.trieste.it:3307/</url>
+    <!-- JBioWH database name -->
+    <database>biowh</database>
+    <!-- MySQL user -->
+    <dbuser>biowh</dbuser>
+    <!-- MySQL password -->
+    <dbpassword>mypass</dbpassword>
+</webservice>
+}}}
+
+
+Deploy on your Tomcat server the {{{jbiowh-webservices.war}}} file and go to your browser and type:
+
+{{{
+http://localhost:8080/jbiowh-webservices/
+}}}
