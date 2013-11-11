@@ -25,14 +25,19 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-persistence jbiowh-persiste
 }}}
 
 
-*JBioWH Parser API:*
+*JBioWH Parser Tool:*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-parser jbiowh-parser
 }}}
 
-*JBioWH Desktop API:*
+*JBioWH Desktop Client:*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
+}}}
+
+*JBioWH Webservices:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices jbiowh-webservices
 }}}
 
 == Maven repo ==
