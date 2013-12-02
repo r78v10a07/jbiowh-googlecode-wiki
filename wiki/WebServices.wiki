@@ -15,14 +15,6 @@ cd jbiowh-core
 mvn package installl
 }}}
 
-Compile *{{{jbiowh-dbms}}}*
-
-{{{
-svn checkout http://jbiowh.googlecode.com/svn/jbiowh-core jbiowh-dbms
-cd jbiowh-dbms
-mvn package installl
-}}}
-
 Compile *{{{jbiowh-persistence}}}*
 
 {{{
