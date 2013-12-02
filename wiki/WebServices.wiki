@@ -12,7 +12,7 @@ Compile *{{{jbiowh-core}}}*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-core jbiowh-core
 cd jbiowh-core
-mvn package installl
+mvn package install
 }}}
 
 Compile *{{{jbiowh-persistence}}}*
@@ -20,7 +20,7 @@ Compile *{{{jbiowh-persistence}}}*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-persistence jbiowh-persistence
 cd jbiowh-persistence
-mvn package installl
+mvn package install
 }}}
 
 Compile *{{{jbiowh-webservices}}}*
@@ -28,7 +28,7 @@ Compile *{{{jbiowh-webservices}}}*
 {{{
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices jbiowh-webservices
 cd jbiowh-webservices
-mvn package
+mvn package install
 }}}
 
 Before deploying the WAR file remove the version number.
