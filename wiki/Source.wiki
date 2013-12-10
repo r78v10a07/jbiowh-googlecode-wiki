@@ -10,9 +10,17 @@
 Use this command to anonymously check out the latest project source code:
 
 <font color="red">
-Note that the source code is on the beta version 6.0.0 and it changes frequently. Use revision r776 to retrieve the 5.0.3 source code.
-
+<ul>
+<li>
+Note that the source code is on the beta version 6.0.0 and it changes frequently. 
+</li>
+<li>
+Use revision r776 to retrieve the 5.0.3 source code.
+</li>
+<li>
 Add the -r 776 option to the following command lines to retrieve that revision.	
+</li>
+</ul>
 </font>
 
 *JBioWH Core API:*
