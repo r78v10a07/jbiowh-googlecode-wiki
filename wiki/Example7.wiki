@@ -4,12 +4,12 @@ Given a target gene, identify genes encoding for antibiotic targets in its chrom
 
 As an example, we will use gene [http://www.ncbi.nlm.nih.gov/gene/934804 spr0328] (!GeneId: 934804) from [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=171101&lvl=3&lin=f&keep=1&srchmode=1&unlock Streptococcus pneumoniae R6] which encodes for [http://www.uniprot.org/uniprot/Q8DR60 Endo-alpha-N-acetylgalactosaminidase (Q8DR60)].
 
-The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/AntibioticGeneNeighbors.java here]
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/AntibioticGeneNeighbors.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneNeighbors -n 10 --geneId 934804
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.AntibioticGeneNeighbors -v -n 10 --geneId 934804
 </code>
 
 
