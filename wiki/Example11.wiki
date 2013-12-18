@@ -20,12 +20,12 @@ The graph contains 119 vertexes and was created in 9 seconds.
 
 Also, we developed a simple graphical interface to visualize this path. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
-The Java Code for this graphical example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/GraphFrame.java here]
+The Java Code for this graphical example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/ProteinProteinGraphFrame.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.GraphFrame
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.ProteinProteinGraphFrame
 </code> 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex11_1.jpg
