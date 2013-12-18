@@ -12,13 +12,13 @@ Use this command to anonymously check out the latest project source code:
 <font color="red">
 <ul>
 <li>
-Note that the source code is on the beta version 6.0.0 and it changes frequently. 
+Note that the SVN source code is on the beta version 6.0.1 and it changes frequently. 
 </li>
 <li>
-Use revision r776 to retrieve the 5.0.3 source code.
+Use revision r836 to retrieve the 6.0.0 source code.
 </li>
 <li>
-Add the -r 776 option to the following command lines to retrieve that revision.	
+Add the -r 836 option to the following command lines to retrieve that revision.	
 </li>
 </ul>
 </font>
@@ -61,21 +61,21 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices jbiowh-webservi
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-core</artifactId>
-   <version>5.0.3</version>
+   <version>6.0.0</version>
 </dependency>
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-dbms</artifactId>
-   <version>5.0.3</version>
+   <version>6.0.0</version>
 </dependency>
 <dependency>
    <groupId>org</groupId>
    <artifactId>jbiowh-persistence</artifactId>
-   <version>5.0.3</version>
+   <version>6.0.0</version>
 </dependency>
 }}}
 
-Please, check the version ({{{<version>5.0.2</version>}}}) available for each API.
+Please, check the version ({{{<version>6.0.0</version>}}}) available for each API.
 
 *Maven public repository*
 {{{
