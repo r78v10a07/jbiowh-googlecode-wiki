@@ -7,7 +7,7 @@ The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools
 Go to a CMD Windows console or a linux console to execute the java code:
 
 <code language="bash">
-java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FindALLHumProt
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FindALLHumProt -v
 </code>
 
 The obtained proteins number is the same that the obtained with the others methods.
