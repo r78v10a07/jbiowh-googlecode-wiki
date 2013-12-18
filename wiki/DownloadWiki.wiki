@@ -28,13 +28,13 @@ Click [http://code.google.com/p/jbiowh/downloads/list here].
 
 == !JavaDoc ==
 
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-core/index.html jbiowh-core]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-dbms/index.html jbiowh-dbms]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/index.html jbiowh-persistence]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-parser/index.html jbiowh-parser]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-desktop/index.html jbiowh-desktop]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-tools/index.html jbiowh-tools]
-* [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-webservices/index.html jbiowh-webservices]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-core/index.html jbiowh-core]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-dbms/index.html jbiowh-dbms]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/index.html jbiowh-persistence]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-parser/index.html jbiowh-parser]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-desktop/index.html jbiowh-desktop]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-tools/index.html jbiowh-tools]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-webservices/index.html jbiowh-webservices]
 
 == MySQL Workbench Project ==
 
