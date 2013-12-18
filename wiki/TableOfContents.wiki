@@ -19,6 +19,8 @@
             * [PathwayRS KEGG Pathway]
             * [DiseaseRS Disease]
             * [DomainRS Domain]
+            * Protein Groups
+               * [PirsfRS Pirsf]
         * [JavaAPI Java API]
             * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
             * [JBioWHGraph JBioWHGraph class to create and manipulate graph]
@@ -39,6 +41,8 @@
             * [PathwayCF KEGG Pathway]
             * [DiseaseCF Disease]
             * [DomainCF Domain]
+            * Protein Groups
+               * [PirsfCF Pirsf]
         * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
