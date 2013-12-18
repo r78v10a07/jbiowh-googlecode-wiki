@@ -1,6 +1,6 @@
 #summary The JBioWHGraph class
 
-The JBioWHGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/utility/graph/JBioWHGraph.java code]
+The JBioWHGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/graph/JBioWHGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/jbiowh-persistence/src/main/java/org/jbiowhpersistence/utils/graph/JBioWHGraph.java code]
 
 JBioWH also  includes a global class called JBioWHGraph which can be used to create complex graphs from queries.  The graph created by this class is a set of vertices that are the biological objects (Taxonomy, Genes, Proteins, etc.) and a set of edges that are the relationship between them.  The graph is created using a recursive algorithm following the JPA relationship between the entities. This approach permits the creation of directed or undirected graphs, including weighted edges, depending on the relationship between the vertices. In addition, the class provides a set of methods to retrieve some of the most common properties of the graph such as node connectivities, size and diameter of a graph, etc., and it also allows operations like shortest path identification.  
 
@@ -9,8 +9,8 @@ The JBioWHGraph class can be extended by the users  to create different kind of 
 
 The class use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
-The [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html#populate(java.lang.Object) populate] method is used to create the graph from a JBioWH main entity. This method uses the variable [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html#depth depth] which is the limit for recursive iterations. If the depth value is set to {{{-1 }}} the recursive iterations won't be limited.
+The [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/graph/JBioWHGraph.html#populate(java.lang.Object) populate] method is used to create the graph from a JBioWH main entity. This method uses the variable [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/graph/JBioWHGraph.html#depth depth] which is the limit for recursive iterations. If the depth value is set to {{{-1 }}} the recursive iterations won't be limited.
 
-This class uses the singleton class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html JpaEntitiesSelected] to storage into the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/jparelationship/JpaEntitiesSelected.html#getEntities() entities] list the entities classes that will be included on the graph creation process.
+This class uses the singleton class [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/jparelationship/JpaEntitiesSelected.html JpaEntitiesSelected] to storage into the [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/jparelationship/JpaEntitiesSelected.html#getEntities() entities] list the entities classes that will be included on the graph creation process.
 
 See [Example10 Example 10]
