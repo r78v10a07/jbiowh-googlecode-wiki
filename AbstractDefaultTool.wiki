@@ -18,6 +18,6 @@ This class includes some default options that will be available for the Java Mai
 
 The class includes methods to open and close the connection with a JBioWH Database. Also, methods to print in the result file and in the standard output.  
 
-View [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/tools/defaultTools/AbstractDefaultTool.html JavaDoc] for this class.
+View [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-core//org/jbiowhcore/utility/AbstractDefaultTool.html JavaDoc] for this class.
 
-View [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/defaultTools/AbstractDefaultTool.java Java file] for this class
+View [http://jbiowh.googlecode.com/svn/jbiowh-core/src/main/java/org/jbiowhcore/utility/AbstractDefaultTool.java Java file] for this class
