@@ -4,12 +4,12 @@ Same as [Example7 example 7], but now we want to get the respective antibiotic t
 
 JBioWH will first need to locate orthologs, and currently it can only use the !UniRef clusters, as an approximation. Say we want to look at more than 90% identical proteins, and we will have to specify this as an input.
 
-The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/AntibioticGeneNeighborTax.java here]
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/AntibioticGeneNeighborTax.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.AntibioticGeneNeighborTax -v --geneId 934804 --taxId=1301 --cluster=90 -n 10
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.AntibioticGeneNeighborTax -v --geneId 934804 --taxId=1301 --cluster=90 -n 10
 </code>
 
 = Result =
