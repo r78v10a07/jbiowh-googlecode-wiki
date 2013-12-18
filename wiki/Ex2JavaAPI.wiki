@@ -3,6 +3,7 @@
 = Identify all human proteins which are linked to one of the Ontologies in the Ontology List using the  Java API =
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FindALLHumProtinGO.java here]
+
 Go to a CMD Windows console or a linux console to execute the java code:
 
 <code language="bash">
