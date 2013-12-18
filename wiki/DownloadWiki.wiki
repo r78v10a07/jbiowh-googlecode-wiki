@@ -17,8 +17,7 @@ The MySQL script to create the relational database is [http://jbiowh.googlecode.
 
 
 == *JBioWH Desktop Client* ==
-Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-6.0.0.jar jbiowh-
-desktop-6.0.0.jar] stable version.
+Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-6.0.0.jar jbiowh-desktop-6.0.0.jar] stable version.
 
 == *JBioWH Tools* ==
 Latest [http://jbiowh.googlecode.com/files/jbiowh-tools-6.0.0.jar jbiowh-tools-6.0.0.jar] stable version.
