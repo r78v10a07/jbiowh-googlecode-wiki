@@ -1,0 +1,28 @@
+#summary This is the Taxonomy config description
+
+= PirSF =
+
+This is an example of a PirSF !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>PirSF</name>
+    <type>PIRSF</type>
+    <version>1.0</version>
+    <homeurl>http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml</homeurl>
+    <releaseDate>12/11/2013</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\PIRSF</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *PirSF* data files should be downloaded from [ftp://ftp.pir.georgetown.edu/databases/pirsf/pirsfinfo.dat pirsfinfo.dat] in the pir FTP Site. 
