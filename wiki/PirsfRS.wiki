@@ -1,0 +1,7 @@
+#summary This wiki describe the PirSF module on the Relational Schema
+
+= Domain =
+
+The *PirSF* module is based on the *PirSF* data source. The figure shows the *Domain* module relational schema. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/Pirsf.png
