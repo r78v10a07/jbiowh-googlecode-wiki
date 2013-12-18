@@ -6,12 +6,12 @@ Same as in the [Example8 previous example], the homologue of a protein will be a
 
 To make the query, we have to specify the % identity level. Then the database should retrieve all !UniRef neighbors of the protein, retrieve all of their +/- 3 neighbors, map them to pathways and make a list of pathways, sorted by frequency.
 
-The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/FrecPathGeneNeighbors.java here]
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FrecPathGeneNeighbors.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.FrecPathGeneNeighbors -n 3 --proteinId=ARGC_YERPE --cluster=90
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FrecPathGeneNeighbors -v -n 3 --proteinId=ARGC_YERPE --cluster=90
 </code>
 
 
