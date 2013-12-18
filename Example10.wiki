@@ -2,12 +2,12 @@
 
 Given a drug identify a) target neighbors, if they act on the same protein b) pathway neighbors if they act on proteins that belong to the same metabolic pathway or c) distant neighbors, if they act on different pathways and they are antibiotics. This graph has drugs and pathways as vertices and protein as edges.
 
-The Java Code for this example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugProteinPathwayGraph.java here]
+The Java Code for this example is [https://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/DrugProteinPathwayGraph.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraph -d 4 --drug1 DB00739 --pattern antibiotic
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.DrugProteinPathwayGraph -v -d 4 --drug1 DB00739 --pattern antibiotic
 </code>
 
 = Answer =
@@ -26,12 +26,12 @@ The total execution time was 126 seconds.
 
 Also, we developed a simple graphical interface to visualize the paths. The JBioWH framework use the [http://jgrapht.org/ Jgrapht] and [http://www.jgraph.com/ JGraph] java libraries to handled and visualize the graphs.
 
-The Java Code for this graphical example is [https://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/examples/DrugPathwayGraphFrame.java here]
+The Java Code for this graphical example is [https://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/DrugPathwayGraphFrame.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.examples.DrugPathwayGraphFrame
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.DrugPathwayGraphFrame
 </code> 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex10_1.jpg
