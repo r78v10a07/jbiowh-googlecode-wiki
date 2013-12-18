@@ -6,6 +6,6 @@ This is a recursive class that extends the [JBioWHGraph JBioWHGraph] class and o
 
 The graph created is a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableDirectedGraph.html ListenableDirectedGraph].
 
-The !TaxonomyGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/datasets/taxonomy/utils/TaxonomyGraph.html JavaDoc] and [https://code.google.com/p/jbiowh/source/browse/jbiowh-persistence/src/main/java/org/jbiowhpersistence/datasets/taxonomy/utils/TaxonomyGraph.java code]. 
+The !TaxonomyGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/datasets/taxonomy/util/TaxonomyGraph.html JavaDoc] and [https://code.google.com/p/jbiowh/source/browse/jbiowh-persistence/src/main/java/org/jbiowhpersistence/datasets/taxonomy/utils/TaxonomyGraph.java code]. 
 
 See [Example5 example 5] and [Example6 example 6]
