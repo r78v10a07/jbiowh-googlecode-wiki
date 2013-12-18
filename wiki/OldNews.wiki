@@ -1,5 +1,11 @@
 = News =
 
+== New *JBioWH* webservice source code available ==
+
+Added on: Nov, 16, 2013.
+
+See implementation details [WebServices here] and the running service [http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/ here]
+
 == New *JBioWH* framework API ==
 
 Added on: Oct, 24, 2013.
