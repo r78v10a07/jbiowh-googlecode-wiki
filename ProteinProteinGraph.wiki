@@ -2,10 +2,10 @@
 
 This class creates a weighted graph with the protein-protein interaction network from a !UniProt accession number using the MIF25 data sources. The MIF25 interaction are used as edges between proteins. The interaction’s weights are created from the numbers of reports in different experiments of the same interaction.  
 
-This class extends the [JBioWHGraph JBioWHGraph] class and override the [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/utility/graph/JBioWHGraph.html#populate(org.jbiowh.core.datasets.protein.jpa.entities.Protein,%20int) populate] method for the Protein entity. 
+This class extends the [JBioWHGraph JBioWHGraph] class and override the [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/utils/graph/JBioWHGraph.html#populate(org.jbiowh.core.datasets.protein.jpa.entities.Protein,%20int) populate] method for the Protein entity. 
 
 The graph created is a [http://jgrapht.org/javadoc/org/jgrapht/graph/ListenableUndirectedWeightedGraph.html ListenableUndirectedWeightedGraph].
 
-The ProteinProteinGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/org/jbiowh/core/datasets/protein/utils/ProteinProteinGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/protein/utils/ProteinProteinGraph.java code]. 
+The ProteinProteinGraph class [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/org/jbiowhpersistence/datasets/protein/utils/ProteinProteinGraph.html JavaDoc] and [http://code.google.com/p/jbiowh/source/browse/trunk/src/main/java/org/jbiowh/core/datasets/protein/utils/ProteinProteinGraph.java code]. 
 
 See [Example11 example 11]
