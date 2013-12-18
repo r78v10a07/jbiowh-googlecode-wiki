@@ -2,12 +2,12 @@
 
 Creates a Taxonomy family graph from a Taxonomy parent. The java API contains a [TaxonomyGraph] class that create a Taxonomy graph starting from a parent Tax id. This graph is useful to preform queries over entire families.
 
-The Java Code for this example is [http://jbiowh.googlecode.com/svn/trunk/src/main/java/org/jbiowh/tools/taxonomy/FindTaxonomyGraph.java here]
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/taxonomy/FindTaxonomyGraph.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -t <Tax Id>
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.taxonomy.FindTaxonomyGraph -t <Tax Id>
 </code>
 
 = Results =
@@ -15,20 +15,20 @@ java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGra
    * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=2&lvl=3&lin=f&keep=1&srchmode=1&unlock Bacteria] kingdom (Tax Id: 2) contains 283 371 taxonomy vertexes and 283 370 direct edges between them. The graph was created in 121 seconds. The total execution time was 123 seconds.
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -v -t 2
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.taxonomy.FindTaxonomyGraph -v -t 2
 </code>
 
    * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313 Streptococcus pneumoniae] (Tax Id: 1313) contains 303 Taxonomy vertexes and 302 direct edges between them. The graph was created in 2 seconds. The total execution time was 3 seconds.
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -v -t 1313
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.taxonomy.FindTaxonomyGraph -v -t 1313
 </code>
 
 
    * The graph for the [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=32008&lvl=3&lin=f&keep=1&srchmode=1&unlock Burkholderia] (Tax Id: 32008) contains 3790 Taxonomy vertexes and 3789 direct edges between them. The graph was created in 4 seconds. The total execution time was 5 seconds.
 
 <code language="bash">
-java -cp <path-to the-jbiowh-jar-file> org.jbiowh.tools.taxonomy.FindTaxonomyGraph -v -t 32008
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.taxonomy.FindTaxonomyGraph -v -t 32008
 </code>
 
 These examples were executed in a computer with two [http://www.cpu-world.com/CPUs/Xeon/Intel-Xeon%20E3-1220.html Intel Xeon CPU E31220] (3.10 GHz and 8.0 MB of cache) and 4.0 GB of RAM running Fedora 15 (Linux version 2.6.43.8-1.fc15.x86_64, Red Hat 4.6.3-2, SMP Mon Jun 4 20:33:44 UTC 2012). 
