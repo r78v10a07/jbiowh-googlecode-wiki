@@ -7,7 +7,15 @@ The java *API* is implemented using the [http://www.oracle.com/technetwork/java/
 
 Finally, the java API was designed using the Java Pattern Design concepts (Gamma et al., 1995). Theses concepts standardize the java code by the use of design patterns for external developers involved on object-oriented software design. 
 
-  *  [http://jbiowh.googlecode.com/svn/wiki/javadoc/index.html JavaDoc]
+== !JavaDoc ==
+
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-core/index.html jbiowh-core]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-dbms/index.html jbiowh-dbms]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-persistence/index.html jbiowh-persistence]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-parser/index.html jbiowh-parser]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-desktop/index.html jbiowh-desktop]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-tools/index.html jbiowh-tools]
+ * [http://jbiowh.googlecode.com/svn/wiki/javadoc/jbiowh-webservices/index.html jbiowh-webservices]
 
 = References = 
 Gamma,E. et al. (1995) Design Patterns: Elements of Reusable Object-Oriented Software Addison-Wesley.
