@@ -44,7 +44,7 @@ Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema
 
 == Upgrade a relational schema from 5.0.3 to 6.0.0 ==
 
-This upgrade is not possible. The database have to be reload from scratch.
+This upgrade is not possible. The database have to be reload from scratch, including the relational schema (MySQL tables).
 
 == Upgrade a relational schema from 3.1.2 to 5.0.3 ==
 
