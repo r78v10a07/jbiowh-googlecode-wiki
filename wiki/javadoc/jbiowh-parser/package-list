@@ -43,6 +43,11 @@ org.jbiowhparser.datasets.protein
 org.jbiowhparser.datasets.protein.links
 org.jbiowhparser.datasets.protein.xml
 org.jbiowhparser.datasets.protein.xml.tags
+org.jbiowhparser.datasets.protgroup.cog
+org.jbiowhparser.datasets.protgroup.cog.files
+org.jbiowhparser.datasets.protgroup.cog.links
+org.jbiowhparser.datasets.protgroup.orthoxml
+org.jbiowhparser.datasets.protgroup.orthoxml.files
 org.jbiowhparser.datasets.protgroup.pirsf
 org.jbiowhparser.datasets.protgroup.pirsf.links
 org.jbiowhparser.datasets.taxonomy

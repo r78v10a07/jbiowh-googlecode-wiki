@@ -5,6 +5,7 @@ org.jbiowhcore.utility.constrains
 org.jbiowhcore.utility.fileformats.bioml.xml
 org.jbiowhcore.utility.fileformats.blast.xml
 org.jbiowhcore.utility.fileformats.fasta
+org.jbiowhcore.utility.fileformats.orthoxml
 org.jbiowhcore.utility.fileformats.pride.xml
 org.jbiowhcore.utility.fileformats.sql
 org.jbiowhcore.utility.graph

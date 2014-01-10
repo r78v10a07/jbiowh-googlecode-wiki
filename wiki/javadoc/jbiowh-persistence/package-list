@@ -29,6 +29,7 @@ org.jbiowhpersistence.datasets.gene.genebank.entities
 org.jbiowhpersistence.datasets.gene.genebank.search
 org.jbiowhpersistence.datasets.gene.genebank.transfer
 org.jbiowhpersistence.datasets.gene.genebank.util
+org.jbiowhpersistence.datasets.gene.genebank.util.geneassigment
 org.jbiowhpersistence.datasets.gene.genome
 org.jbiowhpersistence.datasets.gene.genome.controller
 org.jbiowhpersistence.datasets.gene.genome.entities
@@ -66,6 +67,16 @@ org.jbiowhpersistence.datasets.protein.search
 org.jbiowhpersistence.datasets.protein.transfer
 org.jbiowhpersistence.datasets.protein.util
 org.jbiowhpersistence.datasets.protein.xml
+org.jbiowhpersistence.datasets.protgroup.cog
+org.jbiowhpersistence.datasets.protgroup.cog.controller
+org.jbiowhpersistence.datasets.protgroup.cog.entities
+org.jbiowhpersistence.datasets.protgroup.cog.search
+org.jbiowhpersistence.datasets.protgroup.cog.transfer
+org.jbiowhpersistence.datasets.protgroup.orthoxml
+org.jbiowhpersistence.datasets.protgroup.orthoxml.controller
+org.jbiowhpersistence.datasets.protgroup.orthoxml.entities
+org.jbiowhpersistence.datasets.protgroup.orthoxml.search
+org.jbiowhpersistence.datasets.protgroup.orthoxml.transfer
 org.jbiowhpersistence.datasets.protgroup.pirsf
 org.jbiowhpersistence.datasets.protgroup.pirsf.controller
 org.jbiowhpersistence.datasets.protgroup.pirsf.entities

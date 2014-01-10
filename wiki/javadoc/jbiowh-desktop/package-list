@@ -32,6 +32,8 @@ org.jbiowhdesktop.datasets.pathway.glycan
 org.jbiowhdesktop.datasets.pathway.reaction
 org.jbiowhdesktop.datasets.protein
 org.jbiowhdesktop.datasets.protfam
+org.jbiowhdesktop.datasets.protgroup.cog
+org.jbiowhdesktop.datasets.protgroup.orthoxml
 org.jbiowhdesktop.datasets.protgroup.pirsf
 org.jbiowhdesktop.datasets.taxonomy
 org.jbiowhdesktop.save
