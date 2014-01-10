@@ -1,5 +1,17 @@
 = News =
 
+== New JBioWH framework major release (Number 6.0.0). ==
+
+Added on: Dec, 18, 2013.
+
+The relational schema was changed to reduce the data size. The use of the the primary and foreign key have been improved in the relational schema and in the Java Persistence Model.
+
+The database have to be reload from scratch because it is no possible to create a SQL script due to the changes. 
+
+The [http://pir.georgetown.edu/pirwww/dbinfo/pirsf.shtml PIRSF] database was added to the framework. 
+
+New JAR file [http://jbiowh.googlecode.com/files/jbiowh-tools-6.0.0.jar jbiowh-tools-6.0.0.jar] is available into the [DownloadWiki Download] page. This JAR file includes the examples and some tools available using the JBioWH API.
+
 == New *JBioWH* webservice source code available ==
 
 Added on: Nov, 16, 2013.
