@@ -1,0 +1,7 @@
+#summary This wiki describe the COG module on the Relational Schema
+
+= Domain =
+
+The *COG* module is based on the [http://www.ncbi.nlm.nih.gov/COG/ COG] data source. The figure shows the *COG* module relational schema. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/COG.png
