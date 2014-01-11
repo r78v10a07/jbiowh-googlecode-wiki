@@ -1,0 +1,7 @@
+#summary This wiki describe the OrthoXML module on the Relational Schema
+
+= Domain =
+
+The *OrthoXML* module is based on the [http://orthoxml.org OrthoXML] based data sources. The figure shows the *OrthoXML* module relational schema. 
+
+http://jbiowh.googlecode.com/svn/wiki/images/OrthoXML.png
