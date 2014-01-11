@@ -1,8 +1,8 @@
 #summary This wiki describe the Domain module on the Relational Schema
 
-= Domain =
+= !ProtFam =
 
-The *Domain* module is based on the *PFAM* data source. The figure shows the *Domain* module relational schema. 
+The *!ProtFam* module is based on the *PFAM* data source. The figure shows the *!ProtFam* module relational schema. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/Pfam.png
 
