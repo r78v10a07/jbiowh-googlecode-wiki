@@ -1,6 +1,6 @@
 #summary This is the Domain config description
 
-= Disease =
+= !ProtFam =
 
 This is an example of a *PFAM* !DataSet config file 
  
