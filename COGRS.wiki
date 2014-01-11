@@ -5,3 +5,5 @@
 The *COG* module is based on the [http://www.ncbi.nlm.nih.gov/COG/ COG] data source. The figure shows the *COG* module relational schema. 
 
 http://jbiowh.googlecode.com/svn/wiki/images/COG.png
+
+This module is based on the NCBI COG and KOG databases. Also, the [http://eggnog.embl.de eggNOG] database can be inserted by this module.
