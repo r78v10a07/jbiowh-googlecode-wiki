@@ -21,6 +21,8 @@
             * [DomainRS Domain]
             * Protein Groups
                * [PirsfRS Pirsf]
+               * [COGRS COG]
+               * [OrthXMLRS OrthoXML]
         * [JavaAPI Java API]
             * [AbstractDefaultTool Abstract Class for JBioWH Java Main classes]
             * [JBioWHGraph JBioWHGraph class to create and manipulate graph]
@@ -43,6 +45,8 @@
             * [DomainCF Domain]
             * Protein Groups
                * [PirsfCF Pirsf]
+               * [COGCF COG]
+               * [OrthoXMLCF OrthoXML]
         * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
