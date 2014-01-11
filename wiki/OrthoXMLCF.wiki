@@ -1,0 +1,30 @@
+#summary This is the OrthoXML config description
+
+= OrthoXML =
+
+This module can handled all databases using the OrthoXML file format.
+
+This is an example of the [http://omabrowser.org OMA] !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>OMA</name>
+    <type>OrthoXML</type>
+    <version>July-2013</version>
+    <homeurl>http://omabrowser.org</homeurl>
+    <releaseDate>07/00/2014</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\OMA</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *OMA* data files should be downloaded from [http://omabrowser.org/All/oma-groups.orthoXML.xml.gz orthoXML.xml.gz] in the OMA web Site. 
