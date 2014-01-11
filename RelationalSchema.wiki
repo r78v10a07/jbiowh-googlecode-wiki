@@ -18,7 +18,8 @@ The second group are:
  * Drug module based on the [http://www.drugbank.ca/ DrugBank]
  * Pathway module based on the [http://www.genome.jp/kegg/ KEGG] data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
  * Disease module based on the [http://www.omim.org/ OMIM] data source and is linked to the Gene module. 
- * Domain module based on the [http://pfam.sanger.ac.uk/ PFAM] data source
+ * ProtFam module based on the [http://pfam.sanger.ac.uk/ PFAM] data source
+ * Protein groups module based on the following data sources with their on small modules. [http://pir.georgetown.edu/pirwww/search/pirsfscan.shtml Pirsf], [http://www.ncbi.nlm.nih.gov/COG NCBI COG] (also includes the [http://eggnog.embl.de eggNOG] database), [http://orthoxml.org OrthoXML] (the [http://omabrowser.org OMA] database as an example) data sources 
 
 All biological objects are linked together giving the possibility to create complex queries through the inserted data.
 
