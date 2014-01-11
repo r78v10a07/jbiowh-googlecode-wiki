@@ -1,0 +1,29 @@
+#summary This is the COG config description
+
+= COG =
+
+This is an example of a COG !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>COG</name>
+    <type>COG</type>
+    <version>3.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov/COG/</homeurl>
+    <releaseDate>12/19/2013</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>D:\Developer\Biowarehouse\databases\COG</directory>
+    <temporal>C:\Users\rvera\Documents\temp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *COG* and *KOG* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/pub/COG/ COG] directory in the NCBI FTP Site.
+ 
