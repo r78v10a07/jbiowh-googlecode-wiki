@@ -21,6 +21,7 @@ It is convenient to start discussing the terminology that we will be using conti
  # [PathwayRS Pathway]: based on KEGG data source with all its internal data types as KEGG Compound, Glycan, Reaction, Enzyme, Gene and Pathway.
  # [DiseaseRS Disease]: based on OMIM data source
  # [DomainRS Domain]: based on PFAM data source
+ # Protein groups: based on ([PrisfCF Pirsf], [COGCF COG], [OrthoXMLCF OrthoXML]) data sources 
 
 The *JBioWH* contain a [ParserTool Parser Tool] which is used to insert into the database all these data sources.  The [ParserTool Parser Tool] uses a java factory class choosing the correct parser class to process the data source. View the [ParserFactory Parser Factory] for more detail on how to insert a data source into the database.
 
