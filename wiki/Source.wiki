@@ -12,13 +12,13 @@ Use this command to anonymously check out the latest project source code:
 <font color="red">
 <ul>
 <li>
-Note that the SVN source code is on the beta version 6.0.1 and it changes frequently. 
+Note that the SVN source code is on the beta version 6.0.2 and it changes frequently. 
 </li>
 <li>
-Use revision r836 to retrieve the 6.0.0 source code.
+Use revision r873 to retrieve the 6.0.1 source code.
 </li>
 <li>
-Add the -r 836 option to the following command lines to retrieve that revision.	
+Add the -r 873 option to the following command lines to retrieve that revision.	
 </li>
 </ul>
 </font>
