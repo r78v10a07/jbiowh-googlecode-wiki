@@ -54,6 +54,11 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-desktop jbiowh-desktop
 svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices jbiowh-webservices
 }}}
 
+*JBioWH Webservices Client:*
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices-client jbiowh-webservices-client
+}}}
+
 == Maven repo ==
 
 *Dependencies*
