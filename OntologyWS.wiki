@@ -24,48 +24,6 @@ Get Ontologies by GO ID (the % wilcard (%25) is available):
     http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25
 </a>
 
-Get the Alternative Id by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid
-</a>
-
-Get the IsA by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa
-</a>
-
-Get the PMID by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid
-</a>
-
-Get the Relations by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation
-</a>
-
-Get the Synonyms by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym
-</a>
-
-Get the ToConsider by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider
-</a>
-
-Get the Xref by GO Id (this Id is the internal JBioWH WID that change in all DB):
-
-<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref" target="_blank">
-    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref
-</a>
-
 Search the Ontologies by string (Search over the fields: GO ID, name, definition, comment, synonym, alternative id, in this order. Use %25 for the wildcard):
 
 <a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/search/%25human%25" target="_blank">
