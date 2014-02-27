@@ -1,0 +1,22 @@
+#summary This is the Example 1 using the JBioWH Webservices
+
+= Identify all human proteins using the JBioWH Webservices =
+
+This can be done directly using the Webservices HTTP URL
+
+[http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9606/protein]
+
+Using the {{{jbiowh-webservices-client}}} API:
+
+{{{
+/**
+ * Taxonomy Webservices Client
+ */
+TaxonomyClient tClient = new TaxonomyClient();
+
+Proteins ps = tClient.findProteinByTaxId_XML("9606");
+
+System.out.print("There are " + ps.getProteins().size() + " human proteins");
+
+tClient.close();
+}}}
