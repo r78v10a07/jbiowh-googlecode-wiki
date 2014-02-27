@@ -1,4 +1,4 @@
-= AbstractClientFacade =
+= !AbstractClientFacade =
 
 The class [http://code.google.com/p/jbiowh/source/browse/jbiowh-webservices-client/src/main/java/org/jbiowh/webservices/client/datasets/AbstractClientFacade.java AbstractClientFacade] is an abstract class to be used by the JBioWH Webservices client classes.
 
