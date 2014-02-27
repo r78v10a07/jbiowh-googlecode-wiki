@@ -29,3 +29,29 @@ Search Taxonomies by string using % (search all "Homo`*`"):
 <a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">
     http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25
 </a>
+
+== External data Links == 
+
+=== GeneInfo ===
+
+Get Genes by Id (this Id is the internal JBioWH WID that change in all DB):
+
+    <a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1600118/geneinfo" target="_blank">
+       http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1600118/geneinfo</a>
+
+Get Genes by Tax Id (Example Tax id: 670, Vibrio parahaemolyticus):
+
+    <a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9906/geneinfo" target="_blank">
+       http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9906/geneinfo</a>
+
+=== Protein ===
+
+Get Proteins by Id (this Id is the internal JBioWH WID that change in all DB):
+
+    <a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1600118/protein" target="_blank">
+       http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1600118/protein</a>
+
+Get Genes by Tax Id (Example Tax id: 670, Vibrio parahaemolyticus):
+
+    <a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9906/protein" target="_blank">
+      http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9906/protein</a>
