@@ -2,13 +2,12 @@
 
 = Identify all human genes which are linked to asthma drugs using the JBioWH Webservices =
 
-The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FindGenefromDrugUsingWebService.java here]
+The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FindGenefromDrugUsingWebServices.java here]
 
 Go to a CMD Windows console or a linux console to execute the java code: 
 
 <code language="bash">
-java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FindGenefromDrugUsingWebService -v
+java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FindGenefromDrugUsingWebServices -v
 </code>
 
 The obtained gene number is the same that in the others methods.
-
