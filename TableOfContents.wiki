@@ -80,6 +80,7 @@
                 * [DrugBankWS DrugBank]
                 * [PirsfWS Pirsf]
             * Client
+                * [AbstractWSC AbstractClientFacade]
                 * [DataSetWSC DataSet]
                 * [TaxonomyWSC Taxonomy]
                 * [OntologyWSC Ontology]
