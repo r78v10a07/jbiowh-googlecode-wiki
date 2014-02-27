@@ -6,4 +6,4 @@ With this path the users can search over the available fields for each datasets 
 
 For example, the URL to search all taxonomies starting with the word "Homo" is:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25</a>
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25</a>
