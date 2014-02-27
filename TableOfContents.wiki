@@ -75,6 +75,7 @@
                 * [GeneWS Gene]
                 * [GenePTTWS GenePTT]
                 * [OMIMWS OMIM]
+                * [ProteinWS Protein]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
