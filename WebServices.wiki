@@ -3,7 +3,7 @@
 
 The *JBioWH* webservices source code is available [Source here]. 
 
-See an example running [http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/]
+See an example running [http://net.icgeb.org/jbiowh-webservices/]
 
 ==Compile it with Maven==
 
