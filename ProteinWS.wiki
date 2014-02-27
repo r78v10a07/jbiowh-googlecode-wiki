@@ -1,0 +1,73 @@
+=Protein=
+
+Get the number of Proteins available:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/count]
+
+Get Protein by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719]
+
+Get from/to Protein by range:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/1/3]
+
+Get Proteins by Name ({{{040R_*}}}):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/040R_%25]
+
+Get Proteins by Accession ({{{Q197A*}}}):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/accession/Q197A%25]
+
+Search Proteins by string using % (Search over the fields: name, EC, accession number and complete name in this order. Use %25 for the wildcard):
+
+    Name ({{{040R_*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/protein/search/040R_%25]
+    EC ({{{3.*.*.89}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/protein/search/3.%25.%25.89]
+    Accession Number ({{{Q197A*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/protein/search/Q197A%25]
+    Complete Name ({{{Uncharacterized*protein*Gp24*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/protein/search/Uncharacterized%25protein%25Gp24%25
+
+==External data links==
+===!GeneInfo===
+Get !GeneInfos by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/geneinfo]
+
+Get !GeneInfos by Protein Name ({{{040R_*}}}):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/040R_%25/geneinfo]
+
+===!DrugBank===
+Get !DrugBanks by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/drugbank]
+
+Get !DrugBanks by Protein Name (THRB_HUMAN):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/THRB_HUMAN/drugbank]
+
+Get !DrugBanks as carriers by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/drugbankascarriers]
+
+Get !DrugBanks as carriers by Protein Name (FABPL_HUMAN):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/FABPL_HUMAN/drugbankascarriers]
+
+Get !DrugBanks as transporters by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/drugbankastransporters]
+
+Get !DrugBanks as transporters by Protein Name (LAT1_HUMAN):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/LAT1_HUMAN/drugbankastransporters]
+
+Get !DrugBanks as enzyme by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/drugbankasenzyme]
+
+Get !DrugBanks as enzyme by Protein Name (CP17A_HUMAN):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/CP17A_HUMAN/drugbankasenzyme]
+
+Get all !DrugBanks by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/alldrugbank]
+
+Get all !DrugBanks by Protein Name (CP17A_HUMAN):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/CP17A_HUMAN/alldrugbank]
+
+===PirSF===
+Get PirSFs by Protein id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/902311719/pirsf]
+
+Get PirSFs by Protein Name ({{{040R_*}}}):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/protein/name/ILVB_ARATH/pirsf]
