@@ -16,5 +16,3 @@ java -cp <path-to the-jbiowhtool-jar-file> org.jbiowhtools.examples.FindALLHumPr
 The obtained result is the same that in the others methods.
 
 http://jbiowh.googlecode.com/svn/wiki/images/Ex3_10.jpg
-
-*Note:* use the GO Id GO:0019904 and GO:0051220 with the same procedure and the result shows that the 1433B_HUMAN protein is linked to these GO terms. 
