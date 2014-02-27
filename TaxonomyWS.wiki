@@ -32,7 +32,7 @@ Search Taxonomies by string using % (search all "Homo`*`"):
 
 == External data Links == 
 
-=== GeneInfo ===
+=== !GeneInfo ===
 
 Get Genes by Id (this Id is the internal JBioWH WID that change in all DB):
 
