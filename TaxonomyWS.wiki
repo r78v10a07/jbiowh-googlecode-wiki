@@ -1,4 +1,4 @@
-= Taxonomy module =
+= Taxonomy  =
 
 Get the number of Taxonomies available:
 
