@@ -77,6 +77,7 @@
                 * [OMIMWS OMIM]
                 * [ProteinWS Protein]
                 * [DrugBankWS DrugBank]
+                * [PrisfWS Pirsf]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
