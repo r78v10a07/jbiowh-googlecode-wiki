@@ -2,7 +2,7 @@
 
 = Identify all human proteins which are linked to all elements on the Ontology list using the JBioWH Webservices =
 
-Here we are searching for human proteins who are related to all of the Ontology groups: {{{GO:0009100,GO:0009101}}}  
+Here we are searching for human proteins who are related to all of the Ontology groups: {{{GO:0002480,GO:0060337}}}  
 
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FindALLHumProtinGOwithConstUsingWebServices.java here]
