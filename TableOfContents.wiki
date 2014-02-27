@@ -67,7 +67,8 @@
                 * [DomainDT Domain]
             * Tools                
                 * [MSXMLParser MS XML parser]
-        * [WebServices JBioWH WebServices]                
+        * [WebServices JBioWH WebServices] 
+            * Modules                
                 * [SearhcPath Search path]
                 * [DataSetWS DataSet]
                 * [TaxonomyWS Taxonomy]
@@ -78,6 +79,16 @@
                 * [ProteinWS Protein]
                 * [DrugBankWS DrugBank]
                 * [PirsfWS Pirsf]
+            * Client
+                * [DataSetWSC DataSet]
+                * [TaxonomyWSC Taxonomy]
+                * [OntologyWSC Ontology]
+                * [GeneWSC Gene]
+                * [GenePTTWSC GenePTT]
+                * [OMIMWSC OMIM]
+                * [ProteinWSC Protein]
+                * [DrugBankWSC DrugBank]
+                * [PirsfWSC Pirsf]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
