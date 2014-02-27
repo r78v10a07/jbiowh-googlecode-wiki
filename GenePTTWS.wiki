@@ -1,5 +1,4 @@
-=GenePTT access=
-
+=GenePTT =
 Get the number of GenePTT available:
     [http://net.icgeb.org/jbiowh-webservices/webservices/geneptt/count]
 
