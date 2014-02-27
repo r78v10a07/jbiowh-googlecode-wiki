@@ -81,15 +81,7 @@
                 * [PirsfWS Pirsf]
             * Client
                 * [AbstractWSC AbstractClientFacade]
-                * [DataSetWSC DataSet]
-                * [TaxonomyWSC Taxonomy]
-                * [OntologyWSC Ontology]
-                * [GeneWSC Gene]
-                * [GenePTTWSC GenePTT]
-                * [OMIMWSC OMIM]
-                * [ProteinWSC Protein]
-                * [DrugBankWSC DrugBank]
-                * [PirsfWSC Pirsf]
+                * [ClientsWSC Clients]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
