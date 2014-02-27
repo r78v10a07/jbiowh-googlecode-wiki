@@ -1,0 +1,77 @@
+=Gene access=
+
+Get the number of Genes available:
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/count]
+
+Get one Gene by Id (this Id is the internal JBioWH WID that change in all DB):
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/2629815]
+
+Get from/to Genes by range:
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/1/3]
+
+Get Gene by Gene Id:
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/geneid/2947819]
+
+Search Genes by string using % (Search over the fields: Gene ID, ProteinGi, RNANucleotideGi, GenomicNucleotideGi, Gene symbol, locustag, Protein Accession, RNANucleotide Accession, GenomicNucleotide Accession, in this order. Use %25 for the wildcard):
+
+    Gene ID:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/670]
+
+    ProteinGi:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/75490457]
+
+    RNANucleotideGi:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/14331105]
+
+    GenomicNucleotideGi:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/160700492]
+
+    Gene symbol:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/aacC]
+
+    Locustag:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/pLeuDn_05]
+
+    Protein Accession:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/NP_047184]
+
+    RNANucleotide Accession:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/AJ288984]
+
+    GenomicNucleotide Accession:
+
+       [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/EU137666]
+
+
+==External data links==
+===Protein===
+
+Get the Proteins by Id (this Id is the internal JBioWH WID that change in all DB):
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/2629815/protein]
+
+Get the Proteins by Gene Id:
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/geneid/2947819/protein]
+
+===OMIM===
+
+Get the OMIMs by Id (this Id is the internal JBioWH WID that change in all DB):
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/2629815/omim]
+
+Get the OMIMs by Gene Id:
+
+    [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/geneid/57514/omim]
