@@ -2,7 +2,7 @@
 
 = Identify all human proteins which are linked to one of the Ontologies in the Ontology List using the  Java API =
 
-Here we are searching for human proteins who belongs at least to one of the Ontology groups: {{{GO:0009100,GO:0009101}}}  
+Here we are searching for human proteins who are related at least to one of the Ontology groups: {{{GO:0009100,GO:0009101}}}  
 
 The Java Code for this example is [http://jbiowh.googlecode.com/svn/jbiowh-tools/src/main/java/org/jbiowhtools/examples/FindALLHumProtinGO.java here]
 
