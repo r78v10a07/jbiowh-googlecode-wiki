@@ -71,3 +71,17 @@ Deploy on your Tomcat server the {{{jbiowh-webservices.war}}} file and go to you
 {{{
 http://localhost:8080/jbiowh-webservices/
 }}}
+
+== JBioWH Webservices Client ==
+
+=== Source code===
+
+Compile *{{{jbiowh-webservices-client}}}*
+
+{{{
+svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices-client jbiowh-webservices-client
+cd jbiowh-webservices-client
+mvn package install
+}}}
+
+This package provides REST client classes and its Test Units to retrieve data from the JBioWH Webservices
