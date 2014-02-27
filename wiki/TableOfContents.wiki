@@ -72,6 +72,7 @@
                 * [DataSetWS DataSet]
                 * [TaxonomyWS Taxonomy]
                 * [OntologyWS Ontology]
+                * [GeneWS Gene]
         * Command Line Tools
             * [DataSetReport DataSet Report]
             * [PrintTaxonomyTree Print the Taxonomy Tree]
