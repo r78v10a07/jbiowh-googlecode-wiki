@@ -1,0 +1,22 @@
+= AbstractClientFacade =
+
+The class [http://code.google.com/p/jbiowh/source/browse/jbiowh-webservices-client/src/main/java/org/jbiowh/webservices/client/datasets/AbstractClientFacade.java AbstractClientFacade] is an abstract class to be used by the JBioWH Webservices client classes.
+
+It provides to methods:
+
+ *  The general search client method: 
+   {{{
+    public <T> T findBySearch_XML(Class<T> responseType, String id) throws ClientErrorException {
+        WebTarget resource = webTarget;
+        resource = resource.path(java.text.MessageFormat.format("search/{0}", new Object[]{id}));
+        return resource.request(javax.ws.rs.core.MediaType.APPLICATION_XML).get(responseType);
+    }
+   }}}
+ * The general count method:
+   {{{
+    public Integer count_XML() throws ClientErrorException {
+        WebTarget resource = webTarget;
+        resource = resource.path("count");
+        return resource.request("text/plain").get(Integer.class);
+    }
+   }}}
