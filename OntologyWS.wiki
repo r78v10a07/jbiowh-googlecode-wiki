@@ -32,7 +32,7 @@ Search the Ontologies by string (Search over the fields: GO ID, name, definition
 
 ==External data links==
 
-===GeneInfo===
+===!GeneInfo===
 
 Get the Genes by Id (this Id is the internal JBioWH WID that change in all DB):
 
