@@ -1,5 +1,4 @@
-=Gene access=
-
+=Gene =
 Get the number of Genes available:
 
     [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/count]
