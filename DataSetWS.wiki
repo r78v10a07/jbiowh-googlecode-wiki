@@ -1,4 +1,4 @@
-= !DataSet module =
+= !DataSet  =
 
 Get the number of !DataSet available:
 
