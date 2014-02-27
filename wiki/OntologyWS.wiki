@@ -1,4 +1,4 @@
-= Ontology module =
+= Ontology  =
 
 Get the number of Ontologies available:
 
