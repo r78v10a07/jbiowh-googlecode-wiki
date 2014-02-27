@@ -2,114 +2,114 @@
 
 Get the number of Ontologies available:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/count" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/count
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/count" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/count
 </a>
 
 Get one Ontology by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819
 </a>
 
 Get from/to Ontologies by range:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/1/3">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/1/3
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/1/3">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/1/3
 </a>
 
 Get the Alternative Id by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/altid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/altid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/altid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/altid
 </a>
 
 Get the IsA by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/isa" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/isa
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/isa" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/isa
 </a>
 
 Get the PMID by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/pmid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/pmid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/pmid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/pmid
 </a>
 
 Get the Relations by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/relation" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/relation
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/relation" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/relation
 </a>
 
 Get the Synonyms by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/synonym" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/synonym
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/synonym" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/synonym
 </a>
 
 Get the ToConsider by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/toconsider" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/toconsider
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/toconsider" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/toconsider
 </a>
 
 Get the Xref by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/xref" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/2069819/xref
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/xref" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/2069819/xref
 </a>
 
 Get Ontologies by GO ID (the % wilcard (%25) is available):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25
 </a>
 
 Get the Alternative Id by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/altid
 </a>
 
 Get the IsA by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/isa
 </a>
 
 Get the PMID by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/pmid
 </a>
 
 Get the Relations by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/relation
 </a>
 
 Get the Synonyms by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/synonym
 </a>
 
 Get the ToConsider by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/toconsider
 </a>
 
 Get the Xref by GO Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/goid/GO:00000%25/xref
 </a>
 
 Search the Ontologies by string (Search over the fields: GO ID, name, definition, comment, synonym, alternative id, in this order. Use %25 for the wildcard):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/search/%25human%25" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/ontology/search/%25human%25
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/ontology/search/%25human%25" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/ontology/search/%25human%25
 </a>
