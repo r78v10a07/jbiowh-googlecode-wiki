@@ -1,0 +1,30 @@
+=PirSF=
+
+Get the number of Pirsf available:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/count]
+
+Get Pirsf by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/736824737]
+
+Get from/to Pirsf by range:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/1/3]
+
+Get from/to Pirsf by PirSFNumber:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/pirsfnumber/PIRSF038885]
+
+Search Pirsf groups by string using % (Search over the fields: PirSFNumber, name and accession number in this order. Use %25 for the wildcard):
+
+    PirSFNumber ({{{PIRSF03888*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/search/PIRSF03888%25]
+    Name ({{{cytochrome*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/search/cytochrome%25]
+    Accession Number (A0A174):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/search/A0A174]
+
+==External data links==
+===Protein===
+Get the Proteins by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/736824737/protein]
+
+Get the Proteins by PirSF name Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/pirsf/pirsfnumber/PIRSF000002/protein]
