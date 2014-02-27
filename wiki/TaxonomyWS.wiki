@@ -2,66 +2,66 @@
 
 Get the number of Taxonomies available:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/count" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/count
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/count" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/count
 </a>
 
 Get one Taxonomy by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522
 </a>
 
 Get from/to Taxonomies by range:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1/3" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1/3
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1/3" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1/3
 </a>
 
 Get the synonyms by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/synonym" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/synonym
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/synonym" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/synonym
 </a>
 
 Get the PMID by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/pmid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/pmid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/pmid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/pmid
 </a>
 
 Get the Unparsed citations by Id (this Id is the internal JBioWH WID that change in all DB):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/unparse" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/1825522/unparse
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/unparse" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/1825522/unparse
 </a>
 
 Get the Taxonomy by !TaxId:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9606
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9006" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9606
 </a>
 
 Get the synonyms by !TaxId:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9006/synonym
 </a>
 
 Get the PMID by !TaxId:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/282817365/pmid" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/pmid
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/282817365/pmid" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9006/pmid
 </a>
 
 Get the Unparsed citations by !TaxId:
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/282817365/unparse" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/taxid/9006/unparse
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/282817365/unparse" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/taxid/9006/unparse
 </a>
 
 Search Taxonomies by string using % (search all "Homo`*`"):
 
-<a href="http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">
-    http://hydrax.icgeb.trieste.it:8080/jbiowh-webservices/webservices/taxonomy/search/homo%25
+<a href="http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25" target="_blank">
+    http://net.icgeb.org/jbiowh-webservices/webservices/taxonomy/search/homo%25
 </a>
