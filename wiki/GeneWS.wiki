@@ -22,7 +22,7 @@ Search Genes by string using % (Search over the fields: Gene ID, ProteinGi, RNAN
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/670]
 
-    ProteinGi:
+    !ProteinGi:
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/75490457]
 
@@ -30,7 +30,7 @@ Search Genes by string using % (Search over the fields: Gene ID, ProteinGi, RNAN
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/14331105]
 
-    GenomicNucleotideGi:
+    !GenomicNucleotideGi:
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/160700492]
 
@@ -50,7 +50,7 @@ Search Genes by string using % (Search over the fields: Gene ID, ProteinGi, RNAN
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/AJ288984]
 
-    GenomicNucleotide Accession:
+    !GenomicNucleotide Accession:
 
        [http://net.icgeb.org/jbiowh-webservices/webservices/geneinfo/search/EU137666]
 
