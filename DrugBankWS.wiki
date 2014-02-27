@@ -1,0 +1,57 @@
+=!DrugBank=
+
+Get the number of !DrugBanks available:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/count]
+
+Get one !DrugBank by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650]
+
+Get from/to !DrugBanks by range:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/1/3]
+
+Get !DrugBank by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB00009]
+
+Search !DrugBanks by string using % (Search over the fields: !DrugBank ID, CAS number, name and indication in this order. Use %25 for the wildcard):
+
+    !DrugBank ID ({{{DB0000*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/search/DB0000%25]
+    CAS number ({{{*-60-*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/search/%25-60-%25]
+    Indication ({{{*asthma*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/search/%25asthma%25]
+    Name ({{{Prop*}}}):
+       [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/search/prop%25]
+
+
+==External data links==
+===Protein===
+Get the Protein by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650/protein]
+
+Get the Protein by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB00004/protein]
+
+Get the Protein as Carriers by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650/proteinascarriers]
+
+Get the Protein as Carriers by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB08231/proteinascarriers]
+
+Get the Protein as enzyme by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650/proteinasenzyme]
+
+Get the Protein as enzyme by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB00130/proteinasenzyme]
+
+Get the Protein as transporters by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650/proteinastransporters]
+
+Get the Protein as transporters by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB00451/proteinastransporters]
+
+Get the all Proteins by Id (this Id is the internal JBioWH WID that change in all DB):
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/96043650/allprotein]
+
+Get the all Proteins by !DrugBank Id:
+    [http://net.icgeb.org/jbiowh-webservices/webservices/drugbank/id/DB00394/allprotein]
