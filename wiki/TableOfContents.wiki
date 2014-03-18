@@ -47,6 +47,7 @@
                * [PirsfCF Pirsf]
                * [COGCF COG]
                * [OrthoXMLCF OrthoXML]
+               * [NCBIProtClustCF NCBI Protein Cluster]
         * [DesktopTool Desktop Client]
             * Tabs
                 * [SearchTab Search Tab]
