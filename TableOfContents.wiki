@@ -38,7 +38,7 @@
             * [GenBankCF GenBank]
             * [ProteinCF Protein]
             * [MIF25CF MIF25]
-            * [ProtFamCF Protein Cluster]
+            * [ProtFamCF Protein Families]
             * [DrugBankCF DrugBank]
             * [PathwayCF KEGG Pathway]
             * [DiseaseCF Disease]
