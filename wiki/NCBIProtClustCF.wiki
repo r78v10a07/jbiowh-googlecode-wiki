@@ -1,0 +1,32 @@
+#summary This is the NCBI Protein Cluster config description
+
+= NCBI Protein Cluster =
+
+This is an example of a NCBI Protein Cluster !DataSet config file 
+ 
+{{{
+<warehouse>
+    <name>NCBI ProteinCluster</name>
+    <type>NCBIProtClust</type>
+    <version>1.0</version>
+    <homeurl>http://www.ncbi.nlm.nih.gov</homeurl>
+    <releaseDate>01/14/2014</releaseDate>
+    <database>DBMS-name</database>
+    <dbuser>DBMS-user</dbuser>
+    <dbpassword>DBMS-passwd</dbpassword>
+    <directory>/gfs/data1/databases/CLUSTERS/CURRENT/</directory>
+    <temporal>/localhome/tmp</temporal>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <url>jdbc:mysql://localhost:3306/</url>
+    <xsdfiledef></xsdfiledef>
+    <verbose>info</verbose>
+    <droptables>true</droptables>
+    <runlinks>true</runlinks>
+</warehouse>
+}}}
+
+The *NCBI Protein Cluster* data files should be downloaded from [ftp://ftp.ncbi.nih.gov/genomes/CLUSTERS/CURRENT/ NCBI FTP site].
+
+{{{
+  wget -r -c -np -nH ftp://ftp.ncbi.nih.gov/genomes/CLUSTERS/CURRENT/
+}}}
