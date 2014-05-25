@@ -18,7 +18,7 @@
             * [DrugBankRS DrugBank]
             * [PathwayRS KEGG Pathway]
             * [DiseaseRS Disease]
-            * [DomainRS ProtFam]
+            * [DomainRS Protein Domain]
             * Protein Groups
                * [PirsfRS Pirsf]
                * [COGRS COG]
@@ -42,7 +42,7 @@
             * [DrugBankCF DrugBank]
             * [PathwayCF KEGG Pathway]
             * [DiseaseCF Disease]
-            * [DomainCF ProtFam]
+            * [DomainCF ProteinDomain]
             * Protein Groups
                * [PirsfCF Pirsf]
                * [COGCF COG]
