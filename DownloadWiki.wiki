@@ -20,7 +20,7 @@ The MySQL script to create the relational database is [http://jbiowh.googlecode.
 Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-desktop/6.1.0/jbiowh-desktop-6.1.0-jar-with-dependencies.jar jbiowh-desktop-6.1.0-jar-with-dependencies.jar] stable version.
 
 == *JBioWH Tools* ==
-Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-tools/6.1.0/jbiowh-tools-6.1.0-jar-with-dependencies.jar] stable version.
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-tools/6.1.0/jbiowh-tools-6.1.0-jar-with-dependencies.jar jbiowh-tools-6.1.0-jar-with-dependencies.jar] stable version.
 
 
 == Older versions ==
