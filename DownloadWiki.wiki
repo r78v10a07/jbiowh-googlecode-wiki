@@ -9,7 +9,7 @@ After version 5.0.0 the *JBioWH* framework where divided by three basic API (*jb
 The project release two JAR files with the main *JBioWH's* applications:
 
 == *JBioWH Parser* ==
-Latest [https://jbiowh.googlecode.com/files/jbiowh-parser-6.0.1.jar jbiowh-parser-6.0.1.jar] stable version. 
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-parser/6.1.0/jbiowh-parser-6.1.0-jar-with-dependencies.jar jbiowh-parser-6.1.0-jar-with-dependencies.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
@@ -17,10 +17,10 @@ The MySQL script to create the relational database is [http://jbiowh.googlecode.
 
 
 == *JBioWH Desktop Client* ==
-Latest [http://jbiowh.googlecode.com/files/jbiowh-desktop-6.0.1.jar jbiowh-desktop-6.0.1.jar] stable version.
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-desktop/6.1.0/jbiowh-desktop-6.1.0-jar-with-dependencies.jar jbiowh-desktop-6.1.0-jar-with-dependencies.jar] stable version.
 
 == *JBioWH Tools* ==
-Latest [http://jbiowh.googlecode.com/files/jbiowh-tools-6.0.1.jar jbiowh-tools-6.0.1.jar] stable version.
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-tools/6.1.0/jbiowh-tools-6.1.0-jar-with-dependencies.jar] stable version.
 
 
 == Older versions ==
@@ -41,6 +41,10 @@ Click [http://code.google.com/p/jbiowh/downloads/list here].
 Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/MySQLWorkBench/warehouse.mwb MySQL Workbench Project] to visualize and modify the relational schema. 
 
 = SQL scripts to upgrade the relational schema =
+
+== Upgrade a relational schema from 6.0.1 to 6.1.0 ==
+
+Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/updates/warehouse-6.0.1-to-6.1.0.sql this] script to upgrade an existing relational schema from version 6.0.1 to 6.1.0.
 
 == Upgrade a relational schema from 5.0.3 to 6.0.0 ==
 
