@@ -1,5 +1,12 @@
 = News =
 
+== New JBioWH framework release (Number 6.0.1). ==
+
+Added on: Jan, 10, 2014.
+
+The [http://www.ncbi.nlm.nih.gov/COG COG], [http://eggnog.embl.de/version_4.0.beta eggNOG] and [http://orthoxml.org OrthoXML based]  databases were added to the framework. 
+
+
 == New JBioWH framework major release (Number 6.0.0). ==
 
 Added on: Dec, 18, 2013.
