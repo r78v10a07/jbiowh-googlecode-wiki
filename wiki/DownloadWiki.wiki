@@ -42,6 +42,10 @@ Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema
 
 = SQL scripts to upgrade the relational schema =
 
+== Upgrade a relational schema from 6.1.0 to 6.1.1 ==
+
+Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/updates/warehouse-6.1.0-to-6.1.1.sql this] script to upgrade an existing relational schema from version 6.1.0 to 6.1.1.
+
 == Upgrade a relational schema from 6.0.1 to 6.1.0 ==
 
 Download [http://jbiowh.googlecode.com/svn/jbiowh-dbms/src/main/resources/schema/mysql/updates/warehouse-6.0.1-to-6.1.0.sql this] script to upgrade an existing relational schema from version 6.0.1 to 6.1.0.
