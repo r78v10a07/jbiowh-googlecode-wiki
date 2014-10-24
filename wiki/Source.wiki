@@ -15,10 +15,10 @@ Use this command to anonymously check out the latest project source code:
 Note that the SVN source code is on the beta version 6.1.2 and it changes frequently. 
 </li>
 <li>
-Use revision r1009 to retrieve the 6.1.1 source code.
+Use revision r1013 to retrieve the 6.1.1 source code.
 </li>
 <li>
-Add the -r 1009 option to the following command lines to retrieve that revision.	
+Add the -r 1013 option to the following command lines to retrieve that revision.	
 </li>
 </ul>
 </font>
