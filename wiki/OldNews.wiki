@@ -1,5 +1,13 @@
 = News =
 
+== New JBioWH framework release (Number 6.1.0). ==
+
+Added on: May, 28, 2014.
+
+There are some refactoring on the classes. See the diff [https://code.google.com/p/jbiowh/source/list here] 
+
+The [https://www.ncbi.nlm.nih.gov/proteinclusters NCBI Protein Cluster] database was added to the framework.
+
 == New JBioWH framework release (Number 6.0.1). ==
 
 Added on: Jan, 10, 2014.
