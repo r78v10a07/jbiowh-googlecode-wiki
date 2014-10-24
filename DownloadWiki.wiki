@@ -9,7 +9,7 @@ After version 5.0.0 the *JBioWH* framework where divided by three basic API (*jb
 The project release two JAR files with the main *JBioWH's* applications:
 
 == *JBioWH Parser* ==
-Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-parser/6.1.0/jbiowh-parser-6.1.0-jar-with-dependencies.jar jbiowh-parser-6.1.0-jar-with-dependencies.jar] stable version. 
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-parser/6.1.1/jbiowh-parser-6.1.1-jar-with-dependencies.jar jbiowh-parser-6.1.1-jar-with-dependencies.jar] stable version. 
 
 Check the [SystemRequirements System requirements] and the [InstallationGuide Installation Guide] before use it.
 
@@ -17,10 +17,10 @@ The MySQL script to create the relational database is [http://jbiowh.googlecode.
 
 
 == *JBioWH Desktop Client* ==
-Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-desktop/6.1.0/jbiowh-desktop-6.1.0-jar-with-dependencies.jar jbiowh-desktop-6.1.0-jar-with-dependencies.jar] stable version.
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-desktop/6.1.1/jbiowh-desktop-6.1.1-jar-with-dependencies.jar jbiowh-desktop-6.1.1-jar-with-dependencies.jar] stable version.
 
 == *JBioWH Tools* ==
-Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-tools/6.1.0/jbiowh-tools-6.1.0-jar-with-dependencies.jar jbiowh-tools-6.1.0-jar-with-dependencies.jar] stable version.
+Latest [http://net.icgeb.org/~roberto/m2repo/org/jbiowh-tools/6.1.1/jbiowh-tools-6.1.1-jar-with-dependencies.jar jbiowh-tools-6.1.1-jar-with-dependencies.jar] stable version.
 
 
 == Older versions ==
