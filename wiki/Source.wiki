@@ -80,7 +80,7 @@ svn checkout http://jbiowh.googlecode.com/svn/jbiowh-webservices-client jbiowh-w
 </dependency>
 }}}
 
-Please, check the version ({{{<version>6.1.0</version>}}}) available for each API.
+Please, check the version ({{{<version>6.1.1</version>}}}) available for each API.
 
 *Maven public repository*
 {{{
