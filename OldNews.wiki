@@ -1,5 +1,11 @@
 = News =
 
+== New JBioWH framework release (Number 6.1.1). ==
+
+Added on: Oct, 24, 2014.
+
+Updating Drugbank module 
+
 == New JBioWH framework release (Number 6.1.0). ==
 
 Added on: May, 28, 2014.
