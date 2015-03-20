@@ -1,4 +1,4 @@
-#summary Summary description about the JBioWH framework
+#Summary description about the JBioWH framework
 
 The _*Java Biological Warehouse*_ (*JBioWH*) is a mature computational system which provides a framework for biological data integration and management. The system is based in a relational schema to integrate the most important public biological data sources into a [RelationalSchema relational schema] and a [JavaAPI Java API] to support rapid bioinformatics application development. Also, we developed a [DesktopTool Desktop Tool] which contains an extended search interface and a [SQLEditor SQL Editor Tab] to interact with the database. 
 
@@ -15,7 +15,7 @@ The [JavaAPI Java API] includes the parser to extract and insert the biological 
 
 Read this [UseInExternalProject tutorial ] to integrate in your own JPA model the *JBioWH* relational schema. 
 
-This project is supported by the [http://www.icgeb.trieste.it International Centre for Genetic Engineering and Biotechnology (ICGEB)] under its "Sandwich" PhD Programme.
+This project is supported by the <a href="http://www.icgeb.trieste.it">International Centre for Genetic Engineering and Biotechnology (ICGEB)</a> under its "Sandwich" PhD Programme.
 
 A free MySQL server is available for testing.
 
@@ -28,7 +28,7 @@ Password: mypass
 
 The following figure shows the relationship between the JBioWH modules.
 
-<img src="https://raw.githubusercontent.com/r78v10a07/jbiowh-googlecode-wiki/master/images/EntitiesRelationship.png"
+<img src="https://raw.githubusercontent.com/r78v10a07/jbiowh-googlecode-wiki/master/images/EntitiesRelationship.png" />
 
 The table shows a report for the biological databases used by the JBioWH framework. This example was executed in a computer with two [http://www.cpu-world.com/CPUs/K8/AMD-Opteron%20240%20-%20OSADA240CCO5.html AMD Opteron Processor 240] (1.4 GHz and 1.0 MB of cache) and 4.0 GB of RAM running OpenSuSE 12.2 (Linux version 3.4.28-2.20-desktop, SMP PREEMPT Tue Jan 29 16:51:37 UTC 2013 (143156b)). 
 
