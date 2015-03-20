@@ -8,7 +8,7 @@ This approach is useful if the query includes several logical *AND* or *OR* oper
 
 The *Constrains* table shows the inserted biological objects list by its object types. On this table *Right Click* on a selected constrain gives the available operation over this constrain.
 
-https://raw.githubusercontent.com/r78v10a07/jbiowh-googlecode-wiki/master/images/14.jpg
+<img src="https://raw.githubusercontent.com/r78v10a07/jbiowh-googlecode-wiki/master/images/14.jpg" />
 
 The first table column shows the Constrain type. It could be *Single* type which refers to a single object, *Multiple* type which refers to an object list or *Constrain* type which refers to another constrain. The *Operation* column gives the possibility to choose the operation to be used. 
 
